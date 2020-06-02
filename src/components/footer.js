@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import footerStyles from './footer.module.css'
+
+
 const Footer = () => (
-<footer id="footer">
+<footer id="footer" className={footerStyles.Footer}>
   <div className="content">
     <div className="inner">
       <section className="about">

@@ -32,7 +32,7 @@ class Hero extends React.Component {
                 <header>
                   <h2>LEDPac is committed to eradicating COVID-19.</h2>
                   <p>
-                    Sed magna in pharetra ultricies dolor sit consequat magna.
+                    Research and development on patented disinfectant Ultra Violet LED lights.
                   </p>
                 </header>
                 <ul className={homeStyles.actions}>
