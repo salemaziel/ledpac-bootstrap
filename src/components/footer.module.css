@@ -1,3 +1,47 @@
+.videoBackground {
+    background: #000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -99;
+  }
+  
+  .videoBackground::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  .videoForeground,
+  .videoBackground iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    .videoForeground {
+      height: 300%;
+      top: -100%;
+    }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    .videoForeground {
+      width: 300%;
+      left: -100%;
+    }
+  }
+
 .Footer {
    /* background-image: url(http://localhost:8000/static/overlay-6cbe7ef….png), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url(http://localhost:8000/static/banner-e1d1882….jpg); */
     background-position: center center;
@@ -288,6 +332,14 @@ li.envelope::before {
                 padding-left: 0;
                 width: 50%;
             }
+
+p.copyright {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 8em 0;
+    text-align: center;
+    background-color: black;
+}
 
         @media screen and (max-width: 1280px) {
 

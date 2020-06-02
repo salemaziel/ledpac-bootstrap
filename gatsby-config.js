@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Basic Bootstrap Starter`,
-    description: `A simple Gatsby starter leveraging react-bootstrap and little else.`,
+    title: `LEDPac LED Lighting Solutions`,
+    description: `LEDPac LED Lighting Solutions of Escondido, CA`,
     author: `@mik3y`,
   },
   plugins: [
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-basic-bootstrap`,
-        short_name: `starter`,
+        name: `LEDPac LED Lighting Solutions`,
+        short_name: `LEDPac`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/Logo-dark.png`, // This path is relative to the root of the site.
       },
     },
 
