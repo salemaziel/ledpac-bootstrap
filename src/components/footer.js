@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import YouTube from "react-youtube";
 
 
 import footerStyles from "./footer.module.css";

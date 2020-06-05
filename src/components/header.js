@@ -10,6 +10,7 @@ import { LogoLight } from '../images/index'
 const Header = () => (
   <>
     <header /*id="header" */ className={headerStyles.Header}>
+      <div className="NoMobile">
       <h1>
         <Link to="/">
         <img src={LogoLight} alt="LEDPac logo" width={175} />
@@ -42,6 +43,8 @@ const Header = () => (
           </li>
         </ul>
       </nav>
+      </div>
+
     </header>
 
     {/*<Navbar bg="dark" variant="dark" expand="lg">

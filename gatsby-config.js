@@ -21,8 +21,8 @@ module.exports = {
         name: `LEDPac LED Lighting Solutions`,
         short_name: `LEDPac`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000000`,
+        theme_color: `#ff0000`,
         display: `minimal-ui`,
         icon: `src/images/Logo-dark.png`, // This path is relative to the root of the site.
       },

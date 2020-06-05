@@ -2617,9 +2617,6 @@ input, select, textarea {
 				-ms-flex: auto;
 			}
 
-				.posts .post .content > :last-child {
-					margin-bottom: 0;
-				}
 
 		.posts > * {
 			margin: 0 0 4em 0;
@@ -2635,9 +2632,7 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
-		.posts > :nth-last-child(1), .posts > :nth-last-child(2) {
-			margin-bottom: 0;
-		}
+
 
 		@media screen and (max-width: 980px) {
 
@@ -2655,9 +2650,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.posts > :last-child {
-				margin-bottom: 0 ;
-			}
 
 		}
 

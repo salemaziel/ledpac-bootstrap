@@ -18,3 +18,93 @@ a {
 a:hover{
     color: inherit;
 }
+
+.NoDesktop {
+    display: none;
+}
+
+.NoMobile {
+    display: block;
+}
+
+
+@media screen and (min-width: 2400px) {
+
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 780px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 360px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
