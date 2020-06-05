@@ -213,7 +213,7 @@ li.envelope::before {
     background-size: auto, cover, cover;
     background-attachment: fixed, fixed, fixed;
     background-repeat: repeat, no-repeat, no-repeat;
-    /*background-color: rgba(21, 27, 33, 0.6);*/
+    background-color: rgba(21, 27, 33, 0.6);
     background-color: transparent;
     color: #ffffff;
 }

@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		/*background: #fff;*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +116,8 @@ input, select, textarea {
 /* Typography */
 
 	body {
-		background-color: #fff;
+		/*background-color: #fff;*/
+		background-color: transparent;
 		color: #5e6875;
 	}
 
@@ -1987,7 +1988,7 @@ input, select, textarea {
 			}
 
 /* Form */
-
+/*
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -2002,6 +2003,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
+	input[type="textarea"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2047,6 +2050,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
+	input[type="textarea"],
 	select {
 		height: 2.75em;
 	}
@@ -2147,6 +2152,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
+	input[type="textarea"],
 	select,
 	textarea {
 		background-color: rgba(144, 144, 144, 0.075);
@@ -2214,7 +2221,7 @@ input, select, textarea {
 	.formerize-placeholder {
 		color: #7e8895 !important;
 	}
-
+*/
 /* Icon */
 
 	.icon {
@@ -4208,7 +4215,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
 		background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");*/
-		background-image: url('../images/banner1.png');
+		/*background-image: url('../images/banner1.png');*/
 		background-position: center center;
 		background-size: cover;
 		background-attachment: fixed, fixed, fixed;
@@ -4441,8 +4448,7 @@ input, select, textarea {
 		background-size: auto, cover, cover;
 		background-attachment: fixed, fixed, fixed;
 		background-repeat: repeat, no-repeat, no-repeat;
-		/*background-color: rgba(21, 27, 33, 0.6);*/
-		background-color: transparent;
+		background-color: rgba(21, 27, 33, 0.6);
 		color: #ffffff;
 	}
 

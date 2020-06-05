@@ -11,5 +11,9 @@ export const Banner8 = require('./banner8.png');
 export const Banner9 = require('./banner9.png');
 export const Banner10 = require('./banner10.png');
 export const Banner11 = require('./banner11.png');
-
+export const Airport1 = require('./airport.jpg');
+export const Airport2 = require('./airport2.jpg');
+export const Airport3 = require('./airport3.jpg');
+export const Airport4 = require('./airport4.jpg');
+export const Airport5 = require('./airport5.jpg');
 

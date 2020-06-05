@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../../banner'
-import SectionOne from './sectionOne'
+import SectionOne from './SectionOne'
+
+import './contact.css'
 
 
 const ContactPage = () => (

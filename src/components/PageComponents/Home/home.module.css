@@ -88,11 +88,11 @@
     background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
     background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
     background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");*/
-  /*background-image: url("../../../images/banner1.png");*/
+  background-image: url("../../../images/airport.jpg");
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed, fixed, fixed;
-  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
   min-height: 70vh;
   height: 35em;
@@ -371,12 +371,12 @@ body.is-mobile .Banner {
       rgba(231, 35, 42, 0.65)
     ),
     url("../../../images/cta.jpg");*/
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%),url('../../../images/airport5.jpg');
   background-position: center center;
-  background-size: auto, auto, cover, cover;
+  background-size: cover;
   background-attachment: fixed, fixed, fixed, fixed;
-  background-repeat: repeat, repeat, no-repeat, no-repeat;
+  background-repeat:  no-repeat, no-repeat;
  /* background-color: rgba(21, 27, 33, 0.6);*/
-  background-color: transparent;
   color: #ffffff;
   padding: 4rem 0;
 }
