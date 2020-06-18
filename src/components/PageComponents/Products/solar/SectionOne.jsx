@@ -4,9 +4,9 @@ import LSidebar from './LSidebar'
 
 import SectionTwo from './SectionTwo'
 
-import { Airport2 } from '../../../images/index'
+import { Airport2 } from '../../../../images/index'
 
-import productStyles from './products.module.css'
+import solartyles from './solar.module.css'
 
 const SectionOne = () => (
 <section id="main" className="wrapper sidebar right">
@@ -18,12 +18,12 @@ const SectionOne = () => (
     {/* Content */}
     <div className="content">
       <Link to="#" className="image fit"><img src={Airport2} alt='' /></Link>
-      <div className={productStyles.Leading}>
+      <div className={solartyles.Leading}>
       <h3>Leading Through Innovation</h3>
       <p>In the rapidly advancing world of SSL technology, LEDpac leads the way with superior quality LED solutions. Whether it's retrofit, new construction, residential, commercial, or industrial, interior or exterior, big or small, LEDpac's suite of SSL solutions is consistently the discriminating choice of homeowners, business owners, contractors, lighting designers and architects – and has been for 10 years.</p>
       </div>
 
-      <SectionTwo />
+    {/*      <SectionTwo />
 
       <h3>No Project Too Large or Too Small</h3>
       <p>LEDpac has North American manufacturing using only quality LEDs, and has developed systems for projects ranging in size from residential kitchens to jewelry cases for large national accounts. No project is too large or too small.</p>
@@ -36,7 +36,7 @@ const SectionOne = () => (
         <li>Patented Tech 4</li>
         <li>Patented Tech 5</li>
       </ul>
- 
+    */}
     </div>
       <LSidebar />
   </div>

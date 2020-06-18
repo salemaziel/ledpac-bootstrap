@@ -242,7 +242,7 @@
 
 @media screen and (max-width: 980px) {
     .Header {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 1);
         color: white;
         text-shadow: 2px 2px 3px black;
         height: 3.5em;
@@ -258,7 +258,7 @@
 
 @media screen and (max-width: 780px) {
     .Header {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 1);
         color: white;
         text-shadow: 2px 2px 3px black;
         height: 3.5em;
@@ -274,10 +274,10 @@
 
 @media screen and (max-width: 480px) {
     .Header {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 1);
         color: white;
         text-shadow: 2px 2px 3px black;
-        height: 3.5em;
+        height: 4em;
         left: 0;
         line-height: 3.5em;
         position: fixed;
@@ -290,7 +290,7 @@
 
 @media screen and (max-width: 360px) {
     .Header {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 1);
         color: white;
         text-shadow: 2px 2px 3px black;
         height: 3.5em;

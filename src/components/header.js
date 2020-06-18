@@ -5,6 +5,7 @@ import { Button, Navbar, Nav, NavItem } from "react-bootstrap";
 import headerStyles from "./header.module.css";
 
 import { LogoLight } from '../images/index'
+import NavMobile from "./Navmobile";
 
 //const Header = ({ siteTitle }) => (
 const Header = () => (
@@ -43,6 +44,9 @@ const Header = () => (
           </li>
         </ul>
       </nav>
+      </div>
+      <div className="NoDesktop">
+        <NavMobile />
       </div>
 
     </header>

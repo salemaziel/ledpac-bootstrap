@@ -1,8 +1,19 @@
 import React from 'react'
 
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 
 const SectionOne = () => (
 <section id="one" className="wrapper">
+    <Container>
+      <Row>
+        <Col>
+        <h1 style={{textAlign: 'center', fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '3em'}}>LEDPac: Industry Leading with Cutting Edge LED Technology</h1>
+        </Col>
+      </Row>
+    </Container>
     <div className="inner">
       <ul className="features">
         <li>

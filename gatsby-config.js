@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `LEDPac LED Lighting Solutions`,
     description: `LEDPac LED Lighting Solutions of Escondido, CA`,
-    author: `@mik3y`,
+    author: `@salemaziel`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

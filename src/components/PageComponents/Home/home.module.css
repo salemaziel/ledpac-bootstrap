@@ -312,6 +312,7 @@ body.is-mobile .Banner {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    width: 100%;
   }
 
   .content > .inner header {
@@ -325,7 +326,19 @@ body.is-mobile .Banner {
     
   }
 
-
+.inner {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+}
 .inner2 {
   display: -moz-flex;
   display: -webkit-flex;
@@ -417,7 +430,7 @@ body.is-mobile .Banner {
     background-repeat: no-repeat;
     position: relative;
     min-height: 70vh;
-    height: 35em;
+    height: 40em;
   }
   .content {
     padding: 2.5em 1.5em 0.5em 1.5em;
@@ -436,6 +449,10 @@ body.is-mobile .Banner {
   margin: 0 auto;
   width: 100%;
   flex-direction: column;
+}
+.cta > .inner > :first-child {
+  padding-left: 0;
+  width: 80%;
 }
 }
 
@@ -580,13 +597,19 @@ body.is-mobile .Banner {
 
 .cta > .inner > :first-child {
   padding-left: 0;
-  width: 50%;
+  width: 60%;
 }
 
 body.is-mobile .cta {
   background-attachment: scroll;
 }
-
+@media screen and (min-width: 2400px) {
+  .cta {
+    padding: 6rem 0;
+  }
+  
+  
+  }
 @media screen and (max-width: 980px) {
   .cta > .inner > * {
     width: 100%t;

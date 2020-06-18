@@ -28,7 +28,8 @@
     "react-icons": "^3.10.0",
     "react-simple-sidenav": "^2.0.0",
     "react-slick": "^0.26.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "typeface-open-sans": "^0.0.75"
   },
   "devDependencies": {
     "gh-pages": "3.0.0",

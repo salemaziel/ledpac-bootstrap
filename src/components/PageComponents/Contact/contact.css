@@ -3,7 +3,7 @@
 }
 
 .form-group {
-    width: 70%;
+    width: 90%;
 }
 
 .followus {
@@ -31,7 +31,7 @@ input {
 .special:focus,
 .special:hover,
 .special:active {
-    box-shadow: inset 0 0 0 2px green;
+    box-shadow: inset 0 0 0 2px rgb(12, 199, 12);
 }
 
 
