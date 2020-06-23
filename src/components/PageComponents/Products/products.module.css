@@ -14,3 +14,56 @@
     padding: 0 0 1rem 0;
     display: flex;
 }
+
+.CategoryRow {
+    display: flex;
+    margin: auto;
+}
+
+
+
+@media screen and (min-width: 2400px) {
+    .CategoryRow {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 1680px) {
+    .CategoryRow {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .CategoryRow {
+        display: flex;
+    }
+}
+@media screen and (max-width: 980px) {
+    .CategoryRow {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .CategoryRow {
+        display: inline;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .CategoryRow {
+        display: inline;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .CategoryRow {
+        display: inline;
+    }
+}

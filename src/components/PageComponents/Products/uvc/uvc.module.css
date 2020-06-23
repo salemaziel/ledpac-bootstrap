@@ -13,4 +13,88 @@
 .ProductBox {
     padding: 0 0 1rem 0;
     display: flex;
+    margin: auto auto 2rem auto;
+}
+
+.ProductRow {
+    display: flex;
+    margin: auto auto 2rem auto;
+
+}
+
+.TopPic {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 2400px) {
+    .ProductRow {
+        display: flex;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 1680px) {
+    .ProductRow {
+        display: flex;
+        margin: auto;
+
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .ProductRow {
+        display: flex;
+        margin: auto;
+
+    }
+}
+@media screen and (max-width: 980px) {
+    .ProductRow {
+        display: flex;
+        margin: auto;
+
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .ProductRow {
+        display: inline;
+        margin: auto;
+
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .Leading {
+        margin: 1rem auto;
+        padding: 2rem 0;
+    }
+
+    .ProductBox {
+        padding: 0 0 1rem 0;
+        display: flex;
+        margin: auto auto 2rem auto;
+    }
+
+    .ProductRow {
+        display: inline;
+        margin: auto auto 2rem auto;
+
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .ProductRow {
+        display: inline;
+        margin: auto;
+
+    }
 }

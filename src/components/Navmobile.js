@@ -115,14 +115,15 @@ class NavMobile extends React.Component {
             </Nav.Item>,
           ]}
           itemStyle={{
-            background: "inherit",
+            background: "rgba(0,0,0,0.8)",
+            backgroundColor: 'transparent',
             color: "#fff",
             fontSize: "1.2rem",
             padding: "10px",
             textAlign: "center",
             marginLeft: '1.5rem',
           }}
-          navStyle={{ width: "60%", marginRight: '0', background: "rgba(0,0,0,0.8)" }}
+          navStyle={{ width: "60%", marginRight: '0', background: "rgba(0,0,0,0.8)", backgroundColor:"rgba(0,0,0,0.8)" }}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}
         />

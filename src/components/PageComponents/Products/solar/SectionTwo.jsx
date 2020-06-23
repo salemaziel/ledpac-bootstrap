@@ -6,7 +6,8 @@ import {
   Airport3,
   Airport4,
   Airport5,
-} from '../../../../images/index';
+  CobNewGen, CobConnector, CobLedStrip, CobLedStrip2, CobLedStrip3, CobLedStrip4, CobLedStrip5, CobLighting, CobSpecs, CobSpecs2 
+} from "../../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -18,209 +19,115 @@ const SectionTwo = () => (
   <section>
     <div className="box alt">
       <div className="row gtr-uniform gtr-50">
-        {/*<div className={solarStyles.Cob}>*/}
+        {/*<div className={cobtyles.Cob}>*/}
         <div className={solarStyles.ProductBox}>
-          <div className="col-5">
-            <span className="image fit">
-              <img src={Airport2} alt />
-            </span>
-          </div>
-          <div className="col-7">
+          <Row className={solarStyles.ProductRow}>
+          <Col>
             <h3 className={solarStyles.ProductTitle}>COB LED</h3>
             <p>
               Chip-on-Board LEDs, also known as COBs, are the next and newest
-              generation of LED lighting technology{" "}
+              generation of LED lighting technology{" "} </p><p>
+              "COB" (Chip-on-Board) refers to the mounting of a bare LED chip in
+              direct contact with a substrate such as silicon carbide to produce
+              LED arrays.
             </p>
-            <ul className="actions">
+            {/*<ul className="actions">
               <li>
                 <Link to="#" className="button">
                   Learn More
                 </Link>
               </li>
-            </ul>
-          </div>
-        </div>
-
-        <br />
-
-        <div className={solarStyles.ProductBox}>
-          <div className="col-5">
+</ul>*/}
+          </Col>
+          <Col>
             <span className="image fit">
-              <img src={Airport2} alt />
+              <img src={CobNewGen} alt />
             </span>
-          </div>
-          <div className="col-7">
-            <h3 className={solarStyles.ProductTitle}>RGB LED</h3>
-            <p>
-              The new generation of LED light Chip-on-Board LEDs, also known as
-              COBs, are the next and newst generation of LED lighting{" "}
-            </p>
-            <ul className="actions">
-              <li>
-                <Link to="#" className="button">
-                  Learn More
-                </Link>
-              </li>
-            </ul>
-          </div>
+          </Col>
+          </Row>
+
+        </div>
         </div>
 
-        <br />
 
-        <div className={solarStyles.ProductBox}>
-          <div className="col-5">
+        <div className="row gtr-uniform gtr-50">
+        <Row className={solarStyles.ProductRow}>
+        <Col>
             <span className="image fit">
-              <img src={Airport2} alt />
+              <img src={CobLedStrip4} alt />
             </span>
-          </div>
-          <div className="col-7">
-            <h3 className={solarStyles.ProductTitle}>Solar Powered LED</h3>
+          </Col>
+
+          <Col style={{textAlign: 'left'}}>
             <p>
-              The new generation of LED light Chip-on-Board LEDs, also known as
-              COBs, are the next and newst generation of LED lighting{" "}
+             <strong> Advantage:</strong>
+              <ul>
+                <li>
+                  Higher efficiency rate and lower failure rates. (reduce 25% of
+                  heat){" "}
+                </li>
+                <li>High-intensity, particularly at close distances </li>
+                <li>High-uniformity, even at close working distances </li>
+                <li>
+                  Design simplicity, only 1 circuit and 2 contacts are required{" "}
+                </li>
+                <li>
+                  Superior thermal Performance, increased lifetime, stability
+                  and reliability
+                </li>
+              </ul>
+              <strong>    Specification:</strong>
+              <li>Voltage: 24VDC, Cutable length: 5cm </li>
+              <li>Power: 15W/M </li>
+              <li>Light Efficiency: 100LM/W </li>
+              <li>Width:10MM </li>
+              <li>Package: 5M/reel.</li>
             </p>
-            <ul className="actions">
-              <li>
-                <Link to="#" className="button">
-                  Learn More
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+          </Col>
+          <br />
+          {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
 
-        <br />
 
-        <div className={solarStyles.ProductBox}>
-          <div className="col-5">
+          </Row>
+
+
+          <Row className={solarStyles.ProductRow}>
+        <Col>          
             <span className="image fit">
-              <img src={Airport2} alt />
+              <img src={CobConnector} alt />
             </span>
-          </div>
-          <div className="col-7">
-            <h3 className={solarStyles.ProductTitle}>UltraViolet (UV) LED</h3>
-            <p>
-              The new generation of LED light Chip-on-Board LEDs, also known as
-              COBs, are the next and newst generation of LED lighting{" "}
-            </p>
-            <ul className="actions">
-              <li>
-                <Link to="#" className="button">
-                  Learn More
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+          </Col>
+          <Col>
+            <span className="image fit">
+              <img src={CobLedStrip} alt />
+            </span>
+          </Col>
 
-        <br />
+            <Col>
+            <span className="image fit">
+              <img src={CobLedStrip5} alt />
+            </span>
+            </Col>
+          </Row>
+          <Row className={solarStyles.ProductRow} >
+          <Col>
+            <span className="image fit">
+              <img src={CobSpecs2} alt />
+            </span>
+          </Col>
 
 
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>* /}
-        {/*</div>** /}
-        <br />
-        <hr />
-        <br />
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-6">
-          <h3 className={productStyles.ProductTitle}>RGB LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>* /}
-        {/*</div>** /}
 
-        <br />
-        <hr />
-        <br />
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-12">
-          <h3 className={productStyles.ProductTitle}>Solar Powered LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>*/}
-        {/*</div>**/}
+         <Col>
+            <span className="image fit">
+              <img src={CobSpecs} alt />
+            </span>
+          </Col>
+          </Row>
 
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-12">
-          <h3 className={productStyles.ProductTitle}>UltraViolet (UV) LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>*/}
-        {/*</div>** /}
 
-        <div className="col-12">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
         </div>
-
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport3} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport3} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>*/}
       </div>
-    </div>
   </section>
 );
 

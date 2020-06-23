@@ -16,4 +16,14 @@ export const Airport2 = require('./airport2.jpg');
 export const Airport3 = require('./airport3.jpg');
 export const Airport4 = require('./airport4.jpg');
 export const Airport5 = require('./airport5.jpg');
+export const CobConnector = require('./cob/cob-connector.png');
+export const CobLedStrip = require('./cob/cob-led-strip.png');
+export const CobLedStrip2 = require('./cob/cob-led-strip-2.png');
+export const CobLedStrip3 = require('./cob/cob-led-strip-3.png');
+export const CobLedStrip4 = require('./cob/cob-led-strip-4.png');
+export const CobLedStrip5 = require('./cob/cob-led-strip-5.png');
+export const CobLighting = require('./cob/cob-lighting.png');
+export const CobNewGen = require('./cob/cob-new-gen.png');
+export const CobSpecs = require('./cob/cob-specs.png');
+export const CobSpecs2 = require('./cob/cob-specs-2.png');
 

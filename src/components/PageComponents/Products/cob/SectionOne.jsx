@@ -1,30 +1,49 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import LSidebar from './LSidebar'
+import React from "react";
+import { Link } from "gatsby";
+import LSidebar from "./LSidebar";
 
-import SectionTwo from './SectionTwo'
+import SectionTwo from "./SectionTwo";
 
-import { Airport2 } from '../../../../images/index'
+import {
+  CobNewGen,
+  CobConnector,
+  CobLedStrip,
+  CobLedStrip2,
+  CobLedStrip3,
+  CobLedStrip4,
+  CobLedStrip5,
+  CobLighting,
+  CobSpecs,
+  CobSpecs2,
+} from "../../../../images/index";
 
-import cobtyles from './cob.module.css'
+import cobStyles from "./cob.module.css";
 
 const SectionOne = () => (
-<section id="main" className="wrapper sidebar right">
-  <div className="inner">
-    <header className="major">
-      <h2>Products</h2>
-      {/*<p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
-    </header>
-    {/* Content */}
-    <div className="content">
-      <Link to="#" className="image fit"><img src={Airport2} alt='' /></Link>
-      <div className={cobtyles.Leading}>
-      <h3>Leading Through Innovation</h3>
-      <p>In the rapidly advancing world of SSL technology, LEDpac leads the way with superior quality LED solutions. Whether it's retrofit, new construction, residential, commercial, or industrial, interior or exterior, big or small, LEDpac's suite of SSL solutions is consistently the discriminating choice of homeowners, business owners, contractors, lighting designers and architects – and has been for 10 years.</p>
-      </div>
+  <section id="main" className="wrapper sidebar right">
+    <div className="inner">
+      <header className="major">
+        <h2>COB LEDs</h2>
+        {/*<p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
+      </header>
+      {/* Content */}
+      <div className="content">
+        <img src={CobLighting} alt="" className={cobStyles.TopPic} />
+        <div className={cobStyles.Leading}>
+          <h3>Leading Through Innovation</h3>
+          <p>
+            In the rapidly advancing world of SSL technology, LEDpac leads the
+            way with superior quality LED solutions. Whether it's retrofit, new
+            construction, residential, commercial, or industrial, interior or
+            exterior, big or small, LEDpac's suite of SSL solutions is
+            consistently the discriminating choice of homeowners, business
+            owners, contractors, lighting designers and architects – and has
+            been for 10 years.
+          </p>
+        </div>
 
-    {/*  <SectionTwo />
-
+        <SectionTwo />
+        {/*
       <h3>No Project Too Large or Too Small</h3>
       <p>LEDpac has North American manufacturing using only quality LEDs, and has developed systems for projects ranging in size from residential kitchens to jewelry cases for large national accounts. No project is too large or too small.</p>
       <h3>Patented Technology</h3>
@@ -37,11 +56,10 @@ const SectionOne = () => (
         <li>Patented Tech 5</li>
       </ul>
     */}
-    </div>
+      </div>
       <LSidebar />
-  </div>
-</section>
+    </div>
+  </section>
+);
 
-)
-
-export default SectionOne
+export default SectionOne;

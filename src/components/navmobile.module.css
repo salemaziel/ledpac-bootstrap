@@ -1,0 +1,64 @@
+.mobileNavRow {
+    width: 100%;
+    max-width: 100vh;
+}
+
+
+
+@media screen and (min-width: 2400px) {
+    .mobileNavRow {
+        width: 100%;
+        max-width: 100vh;
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1680px) {
+    .mobileNavRow {
+        width: 100%;
+        max-width: 100vh;
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .mobileNavRow {
+        width: 100%;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .mobileNavRow {
+        width: 100%;
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .mobileNavRow {
+        width: 100%;
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .mobileNavRow {
+        width: 100%;
+        max-width: 100vh;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .mobileNavRow {
+        width: 100%;
+        max-width: 100vh;
+        display: flex;
+    }
+}

@@ -23,8 +23,8 @@ const SectionOne = () => (
       <p>In the rapidly advancing world of SSL technology, LEDpac leads the way with superior quality LED solutions. Whether it's retrofit, new construction, residential, commercial, or industrial, interior or exterior, big or small, LEDpac's suite of SSL solutions is consistently the discriminating choice of homeowners, business owners, contractors, lighting designers and architects – and has been for 10 years.</p>
       </div>
 
-   {/*       <SectionTwo />
-
+   <SectionTwo />
+{/*       
       <h3>No Project Too Large or Too Small</h3>
       <p>LEDpac has North American manufacturing using only quality LEDs, and has developed systems for projects ranging in size from residential kitchens to jewelry cases for large national accounts. No project is too large or too small.</p>
       <h3>Patented Technology</h3>
