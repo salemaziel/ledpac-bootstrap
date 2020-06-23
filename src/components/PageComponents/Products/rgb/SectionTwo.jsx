@@ -6,7 +6,7 @@ import {
   Airport3,
   Airport4,
   Airport5,
-  CobNewGen, CobConnector, CobLedStrip, CobLedStrip2, CobLedStrip3, CobLedStrip4, CobLedStrip5, CobLighting, CobSpecs, CobSpecs2 
+  CobNewGen, CobConnector, CobLedStrip, CobLedStrip2, CobLedStrip3, CobLedStrip4, CobLedStrip5, CobLighting, CobSpecs, CobSpecs2 , RGBAdvantage, RGBGrow1, RGBGrow2, RGBGrow3, RGBGrowRack
 } from "../../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -23,13 +23,9 @@ const SectionTwo = () => (
         <div className={rgbStyles.ProductBox}>
           <Row className={rgbStyles.ProductRow}>
           <Col>
-            <h3 className={rgbStyles.ProductTitle}>COB LED</h3>
+            <h3 className={rgbStyles.ProductTitle}>RGB LED</h3>
             <p>
-              Chip-on-Board LEDs, also known as COBs, are the next and newest
-              generation of LED lighting technology{" "} </p><p>
-              "COB" (Chip-on-Board) refers to the mounting of a bare LED chip in
-              direct contact with a substrate such as silicon carbide to produce
-              LED arrays.
+            LEDpac's high-output premium LED RGB lighting solutions for both commercial and residential applications such as: holiday lights, backlit countertops, built-in cabinetry, cove lights, architectural features, signage, retail window displays, building profiling, and any other custom application..
             </p>
             {/*<ul className="actions">
               <li>
@@ -41,7 +37,7 @@ const SectionTwo = () => (
           </Col>
           <Col>
             <span className="image fit">
-              <img src={CobNewGen} alt />
+              <img src={RGBGrow2} alt="" style={{margin: 'auto'}} />
             </span>
           </Col>
           </Row>
@@ -54,7 +50,7 @@ const SectionTwo = () => (
         <Row className={rgbStyles.ProductRow}>
         <Col>
             <span className="image fit">
-              <img src={CobLedStrip4} alt />
+              <img src={RGBAdvantage} alt="" />
             </span>
           </Col>
 
@@ -63,25 +59,23 @@ const SectionTwo = () => (
              <strong> Advantage:</strong>
               <ul>
                 <li>
-                  Higher efficiency rate and lower failure rates. (reduce 25% of
-                  heat){" "}
+                Lorem ipsum dolor sit amet{" "}
                 </li>
-                <li>High-intensity, particularly at close distances </li>
-                <li>High-uniformity, even at close working distances </li>
+                <li>Lorem ipsum dolor sit amet </li>
+                <li>Lorem ipsum dolor sit amet </li>
                 <li>
-                  Design simplicity, only 1 circuit and 2 contacts are required{" "}
+                Lorem ipsum dolor sit amet{" "}
                 </li>
                 <li>
-                  Superior thermal Performance, increased lifetime, stability
-                  and reliability
+                Lorem ipsum dolor sit amet
                 </li>
               </ul>
               <strong>    Specification:</strong>
-              <li>Voltage: 24VDC, Cutable length: 5cm </li>
-              <li>Power: 15W/M </li>
-              <li>Light Efficiency: 100LM/W </li>
-              <li>Width:10MM </li>
-              <li>Package: 5M/reel.</li>
+              <li>Lorem ipsum dolor sit amet </li>
+              <li>Lorem ipsum dolor sit amet </li>
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Lorem ipsum dolor sit amet </li>
+              <li>Lorem ipsum dolor sit amet</li>
             </p>
           </Col>
           <br />
@@ -92,20 +86,16 @@ const SectionTwo = () => (
 
 
           <Row className={rgbStyles.ProductRow}>
-        <Col>          
-            <span className="image fit">
-              <img src={CobConnector} alt />
-            </span>
-          </Col>
+
           <Col>
             <span className="image fit">
-              <img src={CobLedStrip} alt />
+              <img src={RGBGrowRack} alt />
             </span>
           </Col>
 
             <Col>
             <span className="image fit">
-              <img src={CobLedStrip5} alt />
+              <img src={RGBGrow3} alt />
             </span>
             </Col>
           </Row>

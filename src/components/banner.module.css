@@ -2,7 +2,7 @@
     min-width: 100%;
     width: 100vh;
     min-height: 30rem;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/airport.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/airport.jpg');
     background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;

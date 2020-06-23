@@ -26,4 +26,21 @@ export const CobLighting = require('./cob/cob-lighting.png');
 export const CobNewGen = require('./cob/cob-new-gen.png');
 export const CobSpecs = require('./cob/cob-specs.png');
 export const CobSpecs2 = require('./cob/cob-specs-2.png');
+export const RGBAdvantage = require('./rgb/advantage.jpg');
+export const RGBGrow1 = require('./rgb/growstrip1.jpg');
+export const RGBGrow2 = require('./rgb/growstrip2.jpg');
+export const RGBGrow3 = require('./rgb/growstrip3.jpg');
+export const RGBGrow3_1 = require('./rgb/growstrip3_1.jpg');
+export const RGBGrowRack = require('./rgb/growlightrack.png');
+export const SolarLamp1 = require('./solar/solar-lamp1.png');
+export const SolarLamp2 = require('./solar/solar-lamp2.png');
+export const SolarLamp3 = require('./solar/solar-lamp3.png');
+export const SolarSpecs1 = require('./solar/solar-specs1.png');
+export const ProjectPics1 = require('./solar/project-pictures1.jpg');
+export const ProjectPics1_1 = require('./solar/project-pictures1_1.jpg');
+export const UVCWand1 = require('./uvc/uvc-wand1.jpg');
+export const UVCWand2 = require('./uvc/uvc-wand2.jpg');
+export const UVCWand3 = require('./uvc/uvc-wand3.jpg');
+export const UVCSpectrum = require('./uvc/spectrum.png');
+
 

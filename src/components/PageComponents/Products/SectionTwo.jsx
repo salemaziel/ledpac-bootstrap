@@ -6,6 +6,9 @@ import {
   CobNewGen,
   Airport4,
   Airport5,
+  RGBGrow3_1,
+  ProjectPics1_1,
+  UVCWand3
 } from "../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -50,15 +53,14 @@ const SectionTwo = () => (
         <Row className={productStyles.CategoryRow}>
           <Col>
             <span className="image fit">
-              <img src={Airport2} alt />
+              <img src={RGBGrow3_1} alt />
             </span>
 
           </Col>
           <Col>
             <h3 className={productStyles.ProductTitle}>RGB LED</h3>
             <p>
-              The new generation of LED light Chip-on-Board LEDs, also known as
-              COBs, are the next and newst generation of LED lighting{" "}
+              RGB Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  {" "}
             </p>
             <ul className="actions">
               <li>
@@ -76,13 +78,12 @@ const SectionTwo = () => (
         <div className={productStyles.ProductBox}>
         <Row className={productStyles.CategoryRow}>
           <Col>            <span className="image fit">
-              <img src={Airport2} alt />
+              <img src={ProjectPics1_1} alt />
             </span>
           </Col>
           <Col>            <h3 className={productStyles.ProductTitle}>Solar Powered LED</h3>
             <p>
-              The new generation of LED light Chip-on-Board LEDs, also known as
-              COBs, are the next and newst generation of LED lighting{" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. {" "}
             </p>
             <ul className="actions">
               <li>
@@ -99,14 +100,13 @@ const SectionTwo = () => (
         <div className={productStyles.ProductBox}>
         <Row className={productStyles.CategoryRow}>
           <Col>            <span className="image fit">
-              <img src={Airport2} alt />
+              <img src={UVCWand3} alt />
             </span>
             </Col>
           <Col>
             <h3 className={productStyles.ProductTitle}>UltraViolet (UV) LED</h3>
             <p>
-              The new generation of LED light Chip-on-Board LEDs, also known as
-              COBs, are the next and newst generation of LED lighting{" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. {" "}
             </p>
             <ul className="actions">
               <li>

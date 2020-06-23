@@ -4,23 +4,23 @@ import LSidebar from './LSidebar'
 
 import SectionTwo from './SectionTwo'
 
-import { Airport2 } from '../../../../images/index'
+import { Airport2, ProjectPics1_1 } from '../../../../images/index'
 
-import solartyles from './solar.module.css'
+import solarStyles from './solar.module.css'
 
 const SectionOne = () => (
 <section id="main" className="wrapper sidebar right">
   <div className="inner">
     <header className="major">
-      <h2>Products</h2>
+      <h2>Solar Powered LED</h2>
       {/*<p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
     </header>
     {/* Content */}
     <div className="content">
-      <Link to="#" className="image fit"><img src={Airport2} alt='' /></Link>
-      <div className={solartyles.Leading}>
-      <h3>Leading Through Innovation</h3>
-      <p>In the rapidly advancing world of SSL technology, LEDpac leads the way with superior quality LED solutions. Whether it's retrofit, new construction, residential, commercial, or industrial, interior or exterior, big or small, LEDpac's suite of SSL solutions is consistently the discriminating choice of homeowners, business owners, contractors, lighting designers and architects – and has been for 10 years.</p>
+      <div className="image fit"><img src={ProjectPics1_1} alt="" /></div>
+      <div className={solarStyles.Leading}>
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
  <SectionTwo />

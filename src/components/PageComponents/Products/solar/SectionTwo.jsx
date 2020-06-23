@@ -6,7 +6,22 @@ import {
   Airport3,
   Airport4,
   Airport5,
-  CobNewGen, CobConnector, CobLedStrip, CobLedStrip2, CobLedStrip3, CobLedStrip4, CobLedStrip5, CobLighting, CobSpecs, CobSpecs2 
+  CobNewGen,
+  CobConnector,
+  CobLedStrip,
+  CobLedStrip2,
+  CobLedStrip3,
+  CobLedStrip4,
+  CobLedStrip5,
+  CobLighting,
+  CobSpecs,
+  CobSpecs2,
+  SolarLamp1,
+  SolarLamp2,
+  SolarLamp3,
+  SolarSpecs1,
+  ProjectPics1,
+  ProjectPics1_1
 } from "../../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -22,112 +37,110 @@ const SectionTwo = () => (
         {/*<div className={cobtyles.Cob}>*/}
         <div className={solarStyles.ProductBox}>
           <Row className={solarStyles.ProductRow}>
-          <Col>
-            <h3 className={solarStyles.ProductTitle}>COB LED</h3>
-            <p>
-              Chip-on-Board LEDs, also known as COBs, are the next and newest
-              generation of LED lighting technology{" "} </p><p>
-              "COB" (Chip-on-Board) refers to the mounting of a bare LED chip in
-              direct contact with a substrate such as silicon carbide to produce
-              LED arrays.
-            </p>
-            {/*<ul className="actions">
+            <Col>
+              <h3 className={solarStyles.ProductTitle}>Solar Powered White LED Area Lights</h3>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+              </p>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              </p>
+              {/*<ul className="actions">
               <li>
                 <Link to="#" className="button">
                   Learn More
                 </Link>
               </li>
 </ul>*/}
-          </Col>
+            </Col>
+            <Col>
+              <span className="image fit">
+                <img src={SolarLamp3} alt />
+              </span>
+            </Col>
+          </Row>
+        </div>
+      </div>
+
+      <div className="row gtr-uniform gtr-50">
+        <Row className={solarStyles.ProductRow}>
           <Col>
             <span className="image fit">
-              <img src={CobNewGen} alt />
-            </span>
-          </Col>
-          </Row>
-
-        </div>
-        </div>
-
-
-        <div className="row gtr-uniform gtr-50">
-        <Row className={solarStyles.ProductRow}>
-        <Col>
-            <span className="image fit">
-              <img src={CobLedStrip4} alt />
+              <img src={SolarLamp2} alt />
             </span>
           </Col>
 
-          <Col style={{textAlign: 'left'}}>
+          <Col style={{ textAlign: "left" }}>
             <p>
-             <strong> Advantage:</strong>
+              <strong> Features:</strong>
               <ul>
+                <li>Beam angle:120 degrees. </li>
                 <li>
-                  Higher efficiency rate and lower failure rates. (reduce 25% of
-                  heat){" "}
-                </li>
-                <li>High-intensity, particularly at close distances </li>
-                <li>High-uniformity, even at close working distances </li>
-                <li>
-                  Design simplicity, only 1 circuit and 2 contacts are required{" "}
+                  Aluminum die-casting heat sinks for optimal heat dissipation.{" "}
                 </li>
                 <li>
-                  Superior thermal Performance, increased lifetime, stability
-                  and reliability
+                  Green, energy saving (70~80%)., long and reliable life of 50,000 hours.{" "}
+                </li>
+                <li>
+                  No RF interference, No IR/UV radiation ,no mercury pollution.
+                </li>
+                <li>
+                  Wide colour availability in degrees Kelvin(K),2700-6700K.{" "}
+                </li>
+                <li>Beautiful streamline exterior design </li>
+                <li>
+                  Special circuit design, each LED work separately, avoiding the
+                  single broken LED influence problem (WHICH IS..?).
                 </li>
               </ul>
-              <strong>    Specification:</strong>
+              <strong>Application:</strong>
+              <ul>
+              <li>Area roadway/roadway lighting.</li>
+              <li>Parking areas lighting. </li>
+              <li>Airports lighting. </li>
+              <li>Streetscapes lighting.</li>
+              <li>Campuses lighting.</li>
+             {/* <strong> Specification:</strong>
               <li>Voltage: 24VDC, Cutable length: 5cm </li>
               <li>Power: 15W/M </li>
               <li>Light Efficiency: 100LM/W </li>
               <li>Width:10MM </li>
-              <li>Package: 5M/reel.</li>
+             <li>Package: 5M/reel.</li>*/}
+             </ul>
             </p>
           </Col>
           <br />
           {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
+        </Row>
 
-
-          </Row>
-
-
-          <Row className={solarStyles.ProductRow}>
-        <Col>          
+        <Row className={solarStyles.ProductRow}>
+          <Col>
             <span className="image fit">
-              <img src={CobConnector} alt />
+              <img src={SolarSpecs1} alt="" />
+            </span>
+          </Col>
+
+        </Row>
+        <Container>
+        <Row className={solarStyles.ProductRow}>
+
+
+          <Col>
+            <span className="image fit">
+              <img src={SolarLamp1} alt />
             </span>
           </Col>
           <Col>
             <span className="image fit">
-              <img src={CobLedStrip} alt />
-            </span>
-          </Col>
-
-            <Col>
-            <span className="image fit">
-              <img src={CobLedStrip5} alt />
-            </span>
-            </Col>
-          </Row>
-          <Row className={solarStyles.ProductRow} >
-          <Col>
-            <span className="image fit">
-              <img src={CobSpecs2} alt />
+              <img src={ProjectPics1_1} alt />
             </span>
           </Col>
 
 
-
-         <Col>
-            <span className="image fit">
-              <img src={CobSpecs} alt />
-            </span>
-          </Col>
-          </Row>
-
-
-        </div>
+        </Row>
+        </Container>
       </div>
+    </div>
   </section>
 );
 
