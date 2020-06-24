@@ -1,15 +1,14 @@
 .BannerSection {
     min-width: 100%;
     width: 100vh;
-    min-height: 30rem;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/airport.jpg');
-    background-position: bottom center;
+    background-position: 90% center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     margin: 0;
     position: relative;
-    height: 70vh;
+    height: 35vh;
 }
 
 
@@ -29,8 +28,8 @@
         width: 100%;
         min-width: 100%;
         min-height: 25rem;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/airport.jpg');
-        background-position: 70% 20%;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/airport2.jpg');
+        background-position: 20% 20%;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: local;

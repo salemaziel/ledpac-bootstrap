@@ -208,7 +208,12 @@ a:hover{
     
     .NoMobile {
         display: block;
-    }
+	}
+	
+	.wrapper > .inner {
+		margin: 0 auto;
+		width: 90em;
+	}
 }
 
 @media screen and (max-width: 1680px) {

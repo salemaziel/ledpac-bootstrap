@@ -7,7 +7,7 @@ import CTA from '../../../CTA'
 
 const SolarPage = () => (
     <>
-    <Banner />
+    {/*<Banner />*/}
     <SectionOne />
     <CTA />
 

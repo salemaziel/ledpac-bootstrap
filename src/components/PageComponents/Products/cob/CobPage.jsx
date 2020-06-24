@@ -7,7 +7,7 @@ import CTA from '../../../CTA'
 
 const CobPage = () => (
     <>
-    <Banner />
+    {/*<Banner />*/}
     <SectionOne />
     <CTA />
 

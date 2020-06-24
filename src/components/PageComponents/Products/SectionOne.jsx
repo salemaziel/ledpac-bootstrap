@@ -17,7 +17,7 @@ const SectionOne = () => (
     </header>
     {/* Content */}
     <div className="content">
-      <Link to="#" className="image fit"><img src={Airport2} alt='' /></Link>
+      <div className="image fit"><img src={Airport2} alt='' /></div>
       <div className={productStyles.Leading}>
       <h3>Leading Through Innovation</h3>
       <p>In the rapidly advancing world of SSL technology, LEDpac leads the way with superior quality LED solutions. Whether it's retrofit, new construction, residential, commercial, or industrial, interior or exterior, big or small, LEDpac's suite of SSL solutions is consistently the discriminating choice of homeowners, business owners, contractors, lighting designers and architects – and has been for 10 years.</p>
