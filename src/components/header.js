@@ -28,13 +28,13 @@ const Header = () => (
             </Link>
           </li>
           <li>
-            <Link to="/projects" className={headerStyles.menu}>
-              Projects
+            <Link to="/products" className={headerStyles.menu}>
+              Products
             </Link>
           </li>
           <li>
-            <Link to="/products" className={headerStyles.menu}>
-              Products
+            <Link to="/our-work" className={headerStyles.menu}>
+              Our Work
             </Link>
           </li>
           <li>

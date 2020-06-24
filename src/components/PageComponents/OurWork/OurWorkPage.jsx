@@ -5,8 +5,10 @@ import CTA from '../../CTA'
 
 
 
+
 const ProjectsPage = () => (
     <>
+
     <Banner />
     <SectionOne />
     <CTA />

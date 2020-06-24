@@ -76,7 +76,7 @@ class NavMobile extends React.Component {
           openFromRight={true}
           title={
             <div>
-              <Link>
+              <Link to="/">
                 <img src={LogoLight} width="100%" alt="" />
               </Link>
             </div>
@@ -99,8 +99,8 @@ class NavMobile extends React.Component {
             </Link>
             </Nav.Item>,
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/projects">
-              Projects
+            <Link rel="preload" className="nav-link" to="/our-work">
+              Our Work
             </Link>
             </Nav.Item>,
             <Nav.Item>

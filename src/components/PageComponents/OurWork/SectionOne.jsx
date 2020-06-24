@@ -11,8 +11,8 @@ const SectionOne = () => (
 <section id="main" className="wrapper sidebar right">
   <div className="inner">
     <header className="major">
-      <h2>Projects</h2>
-      <p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>
+      <h2>Our Work</h2>
+     {/* <p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
     </header>
     {/* Content */}
     <div className="content">

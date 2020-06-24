@@ -38,9 +38,33 @@ export const SolarLamp3 = require('./solar/solar-lamp3.png');
 export const SolarSpecs1 = require('./solar/solar-specs1.png');
 export const ProjectPics1 = require('./solar/project-pictures1.jpg');
 export const ProjectPics1_1 = require('./solar/project-pictures1_1.jpg');
+export const UVCSpectrum = require('./uvc//spectrum.png');
 export const UVCWand1 = require('./uvc/uvc-wand1.jpg');
 export const UVCWand2 = require('./uvc/uvc-wand2.jpg');
 export const UVCWand3 = require('./uvc/uvc-wand3.jpg');
-export const UVCSpectrum = require('./uvc/spectrum.png');
+export const Project57 = require('./projects/57.jpg');
+export const Project58 = require('./projects/58.jpg');
+export const Project59 = require('./projects/59.jpg');
+export const Project60 = require('./projects/60.jpg');
+export const Project62 = require('./projects/62.jpg');
+export const Project63 = require('./projects/63.jpg');
+export const Project65 = require('./projects/65.jpg');
+export const Project66 = require('./projects/66.jpg');
+export const Project67 = require('./projects/67.jpg');
+export const Project68 = require('./projects/68.jpg');
+export const Project71 = require('./projects/71_1356601753.jpg');
+export const Project73 = require('./projects/73.jpg');
+export const Project74 = require('./projects/74.jpg');
+export const Project78 = require('./projects/78.jpg');
+export const Project79 = require('./projects/79.jpg');
+export const Project80 = require('./projects/80.jpg');
+export const Project81 = require('./projects/81.jpg');
+export const Project82 = require('./projects/82.jpg');
+export const Project83 = require('./projects/83.jpg');
+export const Project85 = require('./projects/85.jpg');
+export const Project87 = require('./projects/87.jpg');
+export const Project88 = require('./projects/88.jpg');
+export const Project90 = require('./projects/90.jpg');
+
 
 

@@ -3965,7 +3965,7 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 999;
 	}
 
 		#header a {
@@ -4688,7 +4688,7 @@ input, select, textarea {
 		top: 0;
 		visibility: hidden;
 		width: 20em;
-		z-index: 10002;
+		z-index: 999;
 	}
 
 		#navPanel input, #navPanel select, #navPanel textarea {

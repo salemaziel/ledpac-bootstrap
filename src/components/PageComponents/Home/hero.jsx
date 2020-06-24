@@ -17,7 +17,7 @@ const Hero = () => (
             <ul className={homeStyles.actions}>
               <li>
                 <Link
-                  to="/projects/covid-19"
+                  to="/our-work/covid-19"
                   className={homeStyles.LearnButton}
                 >
                   Learn More
