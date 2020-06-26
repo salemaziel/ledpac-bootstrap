@@ -71,5 +71,6 @@ export const CostcoAfter = require('./costco/costco-after-550x332.jpg');
 export const CostcoAfter_1 = require('./costco/costco-after-442x332.jpg');
 export const CostcoBefore = require('./costco/costco-before-550.jpg');
 export const CostcoGlare = require('./costco/costco-glare.jpg');
+export const CostcoNoGlare = require('./costco/costco-noglare-250.jpg');
 export const Finley8 = require('./finley/finley-8.jpg');
 

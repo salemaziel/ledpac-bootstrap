@@ -1,0 +1,12 @@
+.StillCard {
+    background-color: #343a40;
+    color: white;
+    border-color: none;
+    margin-bottom: 2rem;
+
+}
+
+.StillCard:hover {
+    border-color: none!important;
+    transform: none!important;
+}

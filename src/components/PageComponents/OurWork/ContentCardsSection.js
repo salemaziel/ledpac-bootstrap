@@ -44,13 +44,6 @@ function ContentCardsSection(props) {
                 "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
               link: "/products/rgb-led"
             },
-            {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125641/ledpac/cob-new-gen_obpkrv.png",
-              title: "Linearal C.O.B. LED Lights",
-              body:
-                "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
-              link: "/products/chip-on-board-led"
-            },
           ]}
         ></ContentCards>
       </Container>

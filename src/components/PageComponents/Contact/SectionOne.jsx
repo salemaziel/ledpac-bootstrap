@@ -14,8 +14,8 @@ const SectionOne = () => (
     </header>
     {/* Content */}
     <div className="content">
-      <h3>Dolore Amet Consequat</h3>
-      <p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Cras vel neque eros.</p>
+      <h3>Get In Touch</h3>
+      <p>Fill out the form below to send us a message. We will get back to you as soon as we can!</p>
 
     <br />
       <ContactForm />

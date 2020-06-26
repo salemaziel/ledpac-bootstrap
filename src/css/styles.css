@@ -32,6 +32,25 @@ a:hover{
 }
 
 
+.card {
+	box-shadow: 0px 5px 11px grey;
+	-moz-transition: 0.4s ease-in-out, color 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out, color 0.4s ease-in-out;
+	-ms-transition:  0.4s ease-in-out, color 0.4s ease-in-out;
+	transition: 0.4s ease-in-out, color 0.4s ease-in-out;
+	transform: scale(1);
+
+}
+
+.card:hover {
+	border-color: red;
+	-moz-transition: 0.4s ease-in-out, color 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out, color 0.4s ease-in-out;
+	-ms-transition:  0.4s ease-in-out, color 0.4s ease-in-out;
+	transition: 0.4s ease-in-out, color 0.4s ease-in-out;
+	transform: scale(1.02);
+	cursor: pointer;
+}
 	.wrapper {
 		padding: 6.5em 0 2.5em 0 ;
 		position: relative;
@@ -42,7 +61,7 @@ a:hover{
 			width: 70em;
 		}
 
-	{/*	.wrapper.cta {
+	/*	.wrapper.cta {
 			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
 			background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
 			background-image: -ms-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
@@ -53,7 +72,7 @@ a:hover{
 			background-repeat: repeat, repeat, no-repeat, no-repeat;
 			background-color: rgba(21, 27, 33, 0.6);
 			color: #ffffff;
-		}*/}
+		}*/
 
 			.wrapper.cta input, .wrapper.cta select, .wrapper.cta textarea {
 				color: #ffffff;

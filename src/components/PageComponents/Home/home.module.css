@@ -469,16 +469,23 @@ body.is-mobile .Banner {
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 70vh;
-    height: 45em;
+    height: 100vh;
   }
 
+  .LearnButton {
+    color: white;
+    box-shadow: inset 0 0 0 2px red;
+  }
   .mywrapper {
     padding: 2.5em 1.2em 0.5em ;
 }
 
   .content {
-    padding: 2.5em 1.5em 0.5em 1.5em;
+    padding: 4.5em 1.5em 2.5em 1.5em;
+    }
+
+  .content a {
+    color: white;;
   }
 
 

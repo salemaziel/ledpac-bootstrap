@@ -10,7 +10,7 @@ const AboutPage = () => (
     <>
     <Banner />
     <SectionOne/>
-    <SectionTwo />
+    {/*<SectionTwo />*/}
     <CTA />
     </>
 )

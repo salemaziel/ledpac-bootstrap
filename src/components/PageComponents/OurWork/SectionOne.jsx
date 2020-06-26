@@ -6,8 +6,9 @@ import Card from 'react-bootstrap/Card'
 
 import ContentCardsSection from './ContentCardsSection'
 import WorkCards1 from './workCards1'
+import CovidCard from './covidCard'
 
-import { Airport2 } from '../../../images/index'
+import { Airport2, UVCWand3_1 } from '../../../images/index'
 
 
 const SectionOne = () => (
@@ -19,7 +20,8 @@ const SectionOne = () => (
     </header>
     {/* Content */}
     <div className="content">
-      <a href="#" className="image fit"><img src={Airport2} alt='' /></a>
+      <CovidCard />
+  {/*    <div className="image fit"><img src={UVCWand3_1} alt='' /></div>*/}
       <h3>Dolore Amet Consequat</h3>
       <p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
       <h3>Sed Magna Ornare</h3>

@@ -55,7 +55,7 @@ const SectionOne = () => (
           <li>Lacinia mattis arcu nascetur lobortis.</li>
         </ul>
       </div>
-      <LSidebar />
+      {/*<LSidebar />*/}
     </div>
   </section>
 );
