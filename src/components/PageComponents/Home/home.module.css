@@ -11,6 +11,16 @@
   text-align: right;
 }
 
+.mywrapper {
+  padding: 3.5em 0 1em 0;
+  position: relative;
+}
+
+.mywrapper > .inner {
+  margin: 0 auto;
+  width: 70em;
+}
+
 .actions li {
   padding: 0 0 0 1em;
   vertical-align: middle;
@@ -18,13 +28,14 @@
 
 .Covid {
   color: red!important;
+  text-shadow: 2px 2px 5px #180909;
 }
 
 .Heading {
   text-align: center; 
   font-size: 2rem; 
   font-weight: bold;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   letter-spacing: 2px;
   word-spacing: 3px;
   line-height: 2.5rem;
@@ -251,6 +262,14 @@ body.is-mobile .Banner {
 }
 
 @media screen and (max-width: 1280px) {
+
+  .mywrapper {
+    padding: 5em 3em 1em 3em ;
+  }
+
+    .mywrapper > .inner {
+      width: 100%;
+    }
   .Banner {
     min-height: 0;
   }
@@ -412,6 +431,12 @@ body.is-mobile .Banner {
 }
 */
 @media screen and (max-width: 736px) {
+
+  .mywrapper {
+    padding: 2.5em 2em 0.5em 2em ;
+  }
+
+
   .content {
     padding: 2.5em 2em 0.5em 2em;
   }
@@ -447,6 +472,11 @@ body.is-mobile .Banner {
     min-height: 70vh;
     height: 45em;
   }
+
+  .mywrapper {
+    padding: 2.5em 1.2em 0.5em ;
+}
+
   .content {
     padding: 2.5em 1.5em 0.5em 1.5em;
   }
@@ -620,6 +650,7 @@ body.is-mobile .Banner {
 .cta > .inner > * {
   padding-left: 1.5em;
   -ms-flex: auto;
+  flex: auto;
   width: 50%;
 }
 

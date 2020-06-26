@@ -7,7 +7,7 @@ import CTA from '../../../CTA'
 
 const RgbPage = () => (
     <>
-    {/*<Banner />*/}
+    <Banner />
     <SectionOne />
     <CTA />
 

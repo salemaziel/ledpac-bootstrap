@@ -42,6 +42,7 @@ export const UVCSpectrum = require('./uvc//spectrum.png');
 export const UVCWand1 = require('./uvc/uvc-wand1.jpg');
 export const UVCWand2 = require('./uvc/uvc-wand2.jpg');
 export const UVCWand3 = require('./uvc/uvc-wand3.jpg');
+export const UVCWand3_1= require('./uvc/uvc-wand3_1.jpg');
 export const Project57 = require('./projects/57.jpg');
 export const Project58 = require('./projects/58.jpg');
 export const Project59 = require('./projects/59.jpg');
@@ -61,10 +62,14 @@ export const Project80 = require('./projects/80.jpg');
 export const Project81 = require('./projects/81.jpg');
 export const Project82 = require('./projects/82.jpg');
 export const Project83 = require('./projects/83.jpg');
+export const Project83_1 = require('./projects/83_1.jpg');
 export const Project85 = require('./projects/85.jpg');
 export const Project87 = require('./projects/87.jpg');
 export const Project88 = require('./projects/88.jpg');
 export const Project90 = require('./projects/90.jpg');
-
-
+export const CostcoAfter = require('./costco/costco-after-550x332.jpg');
+export const CostcoAfter_1 = require('./costco/costco-after-442x332.jpg');
+export const CostcoBefore = require('./costco/costco-before-550.jpg');
+export const CostcoGlare = require('./costco/costco-glare.jpg');
+export const Finley8 = require('./finley/finley-8.jpg');
 

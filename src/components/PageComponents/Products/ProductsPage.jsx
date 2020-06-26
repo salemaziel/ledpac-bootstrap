@@ -7,7 +7,7 @@ import CTA from '../../CTA'
 
 const ProductsPage = () => (
     <>
-    {/*<Banner />*/}
+    <Banner />
     <SectionOne />
     <CTA />
 

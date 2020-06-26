@@ -67,8 +67,9 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
-    />
+      ].concat(meta)}>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-slick/0.14.5/react-slick.min.js" ></script>
+      </Helmet>
   );
 }
 

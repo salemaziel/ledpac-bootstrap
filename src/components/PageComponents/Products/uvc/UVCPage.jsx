@@ -7,7 +7,7 @@ import CTA from '../../../CTA'
 
 const UVCPage = () => (
     <>
-    {/*<Banner />*/}
+    <Banner />
     <SectionOne />
     <CTA />
 

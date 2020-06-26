@@ -10,7 +10,7 @@ import {
     Project58,
     Project62,
     Project71,
-    Project83,
+    Project83_1,
     Project80,
     Project78,
     ProjectPics1_1,
@@ -85,7 +85,7 @@ const SectionTwo = () => {
       </Row>
       <Row>
       <Col><span className="image fit"><img src={Project71} alt="airport" /></span></Col>
-      <Col><span className="image fit"><img src={Project83} alt="airport" /></span></Col>
+      <Col><span className="image fit"><img src={Project83_1} alt="airport" /></span></Col>
       <Col><span className="image fit"><img src={Project80} alt="airport" /></span></Col>
       </Row>
     </div>

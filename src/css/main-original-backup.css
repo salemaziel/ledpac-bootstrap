@@ -3651,7 +3651,7 @@ input, select, textarea {
 				border-color: #ffffff;
 			}
 
-		.wrapper.cta {
+		/*.wrapper.cta {
 			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
 			background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
 			background-image: -ms-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
@@ -3662,7 +3662,7 @@ input, select, textarea {
 			background-repeat: repeat, repeat, no-repeat, no-repeat;
 			background-color: rgba(21, 27, 33, 0.6);
 			color: #ffffff;
-		}
+		}*/
 
 			.wrapper.cta input, .wrapper.cta select, .wrapper.cta textarea {
 				color: #ffffff;

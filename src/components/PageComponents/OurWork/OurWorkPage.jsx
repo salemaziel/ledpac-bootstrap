@@ -11,6 +11,7 @@ const ProjectsPage = () => (
 
     <Banner />
     <SectionOne />
+    
     <CTA />
 
     </>

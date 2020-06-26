@@ -28,6 +28,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "gatsby";
 
+import DisplayPDF from './displaypdf'
+
 import solarStyles from "./solar.module.css";
 
 const SectionTwo = () => (
@@ -111,6 +113,11 @@ const SectionTwo = () => (
           </Col>
           <br />
           {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
+        </Row>
+        <Row>
+          <Col>
+             <DisplayPDF />
+          </Col>
         </Row>
 
         <Row className={solarStyles.ProductRow}>
