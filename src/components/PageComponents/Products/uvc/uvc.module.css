@@ -1,100 +1,141 @@
 .ProductTitle {
-    font-size: 1.5rem;
-    margin: auto;
-    padding: 10px 0 10px;
-    text-align: left;
+  font-size: 1.5rem;
+  margin: auto;
+  padding: 10px 0 10px;
+  text-align: left;
 }
 
 .Leading {
-    margin: 1rem auto;
-    padding: 3rem 0;
+  margin: 1rem auto;
+  padding: 3rem 0;
 }
 
 .ProductBox {
-    padding: 0 0 1rem 0;
-    display: flex;
-    margin: auto auto 2rem auto;
+  padding: 0 0 1rem 0;
+  display: flex;
+  margin: auto auto 2rem auto;
 }
 
 .ProductRow {
-    display: flex;
-    margin: auto auto 2rem auto;
-
+  display: flex;
+  margin: auto auto 2rem auto;
 }
 
 .TopPic {
-    margin: auto;
-    padding: 1rem;
-    width: 100%;
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
+}
 
+
+.ImageFit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 5px;
+    border: 0;
+    position: relative;
+}
+
+
+.CategoryRow {
+  display: flex;
+  margin: auto;
 }
 
 @media screen and (min-width: 2400px) {
-    .ProductRow {
-        display: flex;
-        margin: auto;
-    }
+  .ProductRow {
+    display: flex;
+    margin: auto;
+  }
 
+  .CategoryRow {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 1680px) {
-    .ProductRow {
-        display: flex;
-        margin: auto;
+  .ProductRow {
+    display: flex;
+    margin: auto;
+  }
 
-    }
+  .CategoryRow {
+    display: flex;
+  }
 }
-
 
 @media screen and (max-width: 1280px) {
-    .ProductRow {
-        display: flex;
-        margin: auto;
+  .ProductRow {
+    display: flex;
+    margin: auto;
+  }
 
-    }
+  .CategoryRow {
+    display: flex;
+  }
 }
 @media screen and (max-width: 980px) {
-    .ProductRow {
-        display: flex;
-        margin: auto;
-
-    }
+  .ProductRow {
+    display: flex;
+    margin: auto;
+  }
 }
-
 
 @media screen and (max-width: 767px) {
-    .ProductRow {
-        display: inline;
-        margin: auto;
+  .ProductRow {
+    display: inline;
+    margin: auto;
+  }
 
-    }
+  .CategoryRow {
+    display: inline;
+  }
 }
-
 
 @media screen and (max-width: 480px) {
-    .Leading {
-        margin: 1rem auto;
-        padding: 2rem 0;
-    }
+  .Leading {
+    margin: 1rem auto;
+    padding: 2rem 0;
+  }
 
-    .ProductBox {
-        padding: 0 0 1rem 0;
-        display: flex;
-        margin: auto auto 2rem auto;
-    }
+  .ProductBox {
+    padding: 0 0 1rem 0;
+    display: flex;
+    margin: auto auto 2rem auto;
+  }
 
-    .ProductRow {
-        display: inline;
-        margin: auto auto 2rem auto;
+  .ProductRow {
+    display: inline;
+    margin: auto auto 2rem auto;
+  }
 
-    }
+  .CategoryRow {
+    display: inline;
+  }
+
+
+.ImageFit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0;
+    border: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
 }
 
-
 @media screen and (max-width: 360px) {
-    .ProductRow {
-        display: inline;
-        margin: auto;
+  .ProductRow {
+    display: inline;
+    margin: auto;
+  }
 
-    }
+  .CategoryRow {
+    display: inline;
+  }
 }

@@ -13,7 +13,7 @@ const SectionOne = () => (
     </header>
     {/* Content */}
     <div className="content">
-      <Link to="#" className="image fit"><img src={Banner2} alt='' /></Link>
+      <div className="image fit"><img src={Banner2} alt='' /></div>
       <h3>Who We Are</h3>
       <p>LEDpac is an innovative LED company designing products and systems for economical and functional application. Founded in 2000, LEDpac has developed products for application in interior coves, cabinets, display cases, signage, downlights, landscape lights and many other applications.</p>
       <p>LEDpac has expanded their product offering in 2010 to include a broad list of new lamp replacement products including MR16, PAR20, PAR30, BR30 and PAR38 shapes. New, more efficient LED modules in many of the original LEDpac product line has allowed for more effective light distribution and up to 33% higher light output from the same original package.</p>
