@@ -71,22 +71,22 @@ const SectionTwo = () => {
   <Container>
     <div className="row gtr-uniform gtr-50">
       <Row>
-      <Col><span className="image fit"><img src={Airport4} alt="airport" /></span></Col>
+      <Col><span className="image fit"><img src={Airport4} alt="airport" style={{cursor: 'pointer'}} /></span></Col>
       </Row>
       <Row>
-      <Col><span className="image fit"><img src={Airport2} alt="airport" /></span></Col>
-      <Col><span className="image fit"><img src={Airport5} alt="airport" /></span></Col>
-      <Col><span className="image fit"><img src={Airport3} alt="airport" /></span></Col>
+      <Col><span className="image fit"><img src={Airport2} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
+      <Col><span className="image fit"><img src={Airport5} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
+      <Col><span className="image fit"><img src={Airport3} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
       </Row>
       <Row>
-      <Col><span className="image fit"><img src={Project57} alt="airport" /></span></Col>
-      <Col><span className="image fit"><img src={Project58} alt="airport" /></span></Col>
-      <Col><span className="image fit"><img src={Project62} alt="airport" /></span></Col>
+      <Col><span className="image fit"><img src={Project57} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
+      <Col><span className="image fit"><img src={Project58} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
+      <Col><span className="image fit"><img src={Project62} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
       </Row>
       <Row>
-      <Col><span className="image fit"><img src={Project71} alt="airport" /></span></Col>
-      <Col><span className="image fit"><img src={Project83_1} alt="airport" /></span></Col>
-      <Col><span className="image fit"><img src={Project80} alt="airport" /></span></Col>
+      <Col><span className="image fit"><img src={Project71} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
+      <Col><span className="image fit"><img src={Project83_1} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
+      <Col><span className="image fit"><img src={Project80} alt="airport"style={{cursor: 'pointer'}} /></span></Col>
       </Row>
     </div>
     </Container>

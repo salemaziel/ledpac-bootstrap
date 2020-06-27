@@ -83,4 +83,14 @@ export const Sixtyfour_1 = require('./uvc/64-1.png');
 export const Sixtyfour_2 = require('./uvc/64-2.png');
 export const SixFourZero_1 = require('./uvc/640-1.png');
 export const SixFourZero_2 = require('./uvc/640-2.png');
-
+export const TwentyFive_BlackBG = require('./uvc/25-500x375.png');
+export const TwentyFive_BlackSquare = require('./uvc/25-1000x1000.png');
+export const TwentyFive_VertSquare = require('./uvc/25-1000x1200.png');
+export const OneTwentyEight_VertSquare = require('./uvc/128-1000x1200.png');
+export const Fifty_VertSquare = require('./uvc/50-1000x1200.png');
+export const Sixtyfour_VertSquare = require('./uvc/64-1000x1200.png');
+export const Sixtyfourzero_VertSquare = require('./uvc/640-1000x1200.png');
+export const OneTwentyEight_BlackSquare = require('./uvc/128-1000x1000.png');
+export const Fifty_BlackSquare = require('./uvc/50-1000x1000.png');
+export const Sixtyfour_BlackSquare = require('./uvc/64-1000x1000.png');
+export const Sixtyfourzero_BlackSquare = require('./uvc/640-1000x1000.png');

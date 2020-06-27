@@ -11,7 +11,7 @@ const LSidebar = () => (
     <>
     <div className="sidebar">
       <div>
-        <h2>Products</h2>
+        <h3>Products</h3>
       </div>
       <section>
       <Link to="/products/chip-on-board-led" className="image fit"><img src={CobNewGen} alt='' /></Link>

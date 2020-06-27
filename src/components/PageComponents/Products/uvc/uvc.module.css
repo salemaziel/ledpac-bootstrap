@@ -1,8 +1,24 @@
 .ProductTitle {
   font-size: 1.5rem;
   margin: auto;
-  padding: 10px 0 10px;
+  padding: 0 0 10px;
   text-align: left;
+}
+
+.ProductTitle p ul {
+  margin: 0;
+}
+
+.ProductText {
+  margin: 0;
+}
+
+.ProductText ul {
+  margin: 0 0 2rem 2rem;
+}
+
+.ProductText ul.actions {
+  margin: 0;
 }
 
 .Leading {
@@ -11,9 +27,19 @@
 }
 
 .ProductBox {
-  padding: 0 0 1rem 0;
+  padding: 0;
   display: flex;
   margin: auto auto 2rem auto;
+  transform: none;
+  cursor: none;
+}
+
+.ProductBox:hover {
+  border: 1px solid rgba(0,0,0,.125);
+  transform: none;
+  background-color: transparent;
+  outline: none;
+  cursor: initial;
 }
 
 .ProductRow {
@@ -30,18 +56,45 @@
 
 .ImageFit {
     display: block;
-    margin: 0 0 2em 0;
+    margin: 0px 0px -10px -16px;
     width: 100%;
-    padding: 1.5rem;
+    padding: 0;
     border-radius: 5px;
     border: 0;
     position: relative;
+}
+
+.ImageFit img{
+  width: 100%;
 }
 
 
 .CategoryRow {
   display: flex;
   margin: auto;
+}
+
+
+.actions {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  cursor: default;
+  list-style: none;
+  margin:0 0 0 -1em;
+  padding-left: 0;
+  padding-left: 1em;
+  text-align: right;
+}
+
+.actions li {
+  padding: 0;
+}
+
+.actions li a {
+  width: 100%;
+  padding: 0 4.5em;
 }
 
 @media screen and (min-width: 2400px) {
@@ -103,7 +156,7 @@
   .ProductBox {
     padding: 0 0 1rem 0;
     display: flex;
-    margin: auto auto 2rem auto;
+    margin: auto 1rem 2rem 1rem;
   }
 
   .ProductRow {
@@ -118,10 +171,10 @@
 
 .ImageFit {
     display: block;
-    margin: 0 0 2em 0;
+    margin: 0 0 0 0;
     width: 100%;
     border-radius: 5px;
-    padding: 0;
+    padding: 15px 0;
     border: 0;
     position: relative;
     justify-content: center;

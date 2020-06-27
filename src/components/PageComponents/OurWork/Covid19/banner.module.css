@@ -1,0 +1,71 @@
+.BannerSection {
+    min-width: 100%;
+    width: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../../images/banner2.png');
+    background-position: 50% 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0;
+    position: relative;
+    height: 35vh;
+}
+
+
+
+@media screen and (max-width:1680px) {
+
+}
+
+
+@media screen and (max-width:1280px) {
+
+}
+
+
+@media screen and (max-width: 980px) {
+    .BannerSection {
+        width: 100%;
+        min-width: 100%;
+        min-height: 25rem;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../../images/banner2.png');
+        background-position: 50% 45%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        margin: 0 0 1rem 0;
+        padding: 2rem 0 0;
+        height: 40vh;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+
+}
+
+
+@media screen and (max-width:480px) {
+    .BannerSection {
+        width: 100%;
+        min-width: 100%;
+        min-height: 20rem;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../../images/banner2.png');
+        background-position: 64% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        margin: 2rem 0 1rem 0;
+        padding: 2rem 0 0;
+        height: 35vh;
+
+    }
+}
+
+
+
+@media screen and (max-width:360px) {
+
+}

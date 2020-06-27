@@ -9,6 +9,7 @@ import {
   RGBGrow3_1,
   ProjectPics1_1,
   UVCWand3_1,
+  TwentyFive_BlackBG
 } from "../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -28,7 +29,7 @@ const SectionTwo = () => (
             <Col>
               {" "}
               <span className="image fit">
-                <img src={UVCWand3_1} alt />
+                <img src={TwentyFive_BlackBG} alt />
               </span>
             </Col>
             <Col>
