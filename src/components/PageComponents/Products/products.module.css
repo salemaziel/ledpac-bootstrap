@@ -20,6 +20,14 @@
     margin: auto;
 }
 
+.CategoryRow div h3 a:hover {
+    text-decoration: underline;
+    -moz-transition: 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition:  0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
 
 
 @media screen and (min-width: 2400px) {

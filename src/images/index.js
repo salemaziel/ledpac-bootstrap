@@ -94,3 +94,8 @@ export const OneTwentyEight_BlackSquare = require('./uvc/128-1000x1000.png');
 export const Fifty_BlackSquare = require('./uvc/50-1000x1000.png');
 export const Sixtyfour_BlackSquare = require('./uvc/64-1000x1000.png');
 export const Sixtyfourzero_BlackSquare = require('./uvc/640-1000x1000.png');
+export const WholeRoom_1 = require('./uvc/whole-room-1.png');
+export const CloseSurface_1 = require('./uvc/close-surface-1.png');
+export const PowerDimMag550 = require('./cob/PowerDim-Mag-family-550.jpg');
+
+

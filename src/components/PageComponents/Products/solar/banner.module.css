@@ -2,7 +2,7 @@
     min-width: 100%;
     width: 100vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../../images/solar/stock-nightlight.jpg');
-    background-position: 50% 45%;
+    background-position: 50% 40%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;

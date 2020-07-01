@@ -29,12 +29,18 @@ const SectionTwo = () => (
             <Col>
               {" "}
               <span className="image fit">
+              <Link to="/products/ultraviolet-led" >
+
                 <img src={TwentyFive_BlackBG} alt />
+                </Link>
+
               </span>
             </Col>
             <Col>
               <h3 className={productStyles.ProductTitle}>
+                <Link to="/products/ultraviolet-led" >
                 UltraViolet (UV) LED
+                </Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -60,12 +66,16 @@ const SectionTwo = () => (
             <Col>
               {" "}
               <span className="image fit">
+              <Link to="/products/solar-led" >
                 <img src={ProjectPics1_1} alt />
+                </Link>
               </span>
             </Col>
             <Col>
               {" "}
-              <h3 className={productStyles.ProductTitle}>Solar Powered LED</h3>
+              <h3 className={productStyles.ProductTitle}>
+              <Link to="/products/solar-led" >
+              Solar Powered LED</Link></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -90,11 +100,13 @@ const SectionTwo = () => (
           <Row className={productStyles.CategoryRow}>
             <Col>
               <span className="image fit">
+              <Link to="/products/rgb-led">
                 <img src={RGBGrow3_1} alt />
+                </Link>
               </span>
             </Col>
             <Col>
-              <h3 className={productStyles.ProductTitle}>RGB LED</h3>
+              <h3 className={productStyles.ProductTitle}><Link to="/products/rgb-led">RGB LED</Link></h3>
               <p>
                 RGB Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
@@ -125,10 +137,10 @@ const SectionTwo = () => (
               </span>
             </Col>
             <Col>
-              <Link to="/products/chip-on-board-led">
+             
                 {" "}
-                <h3 className={productStyles.ProductTitle}>COB LED</h3>{" "}
-              </Link>
+                <h3 className={productStyles.ProductTitle}> <Link to="/products/chip-on-board-led">COB LED </Link></h3>{" "}
+             
               <p>
                 Chip-on-Board LEDs, also known as COBs, are the next and newest
                 generation of LED lighting technology{" "}
