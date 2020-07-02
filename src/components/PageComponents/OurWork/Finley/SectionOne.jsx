@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import LSidebar from "./LSidebar";
 
+import SectionTwo from "./SectionTwo";
+
 import { Finley8 } from "../../../../images/index";
 
 const SectionOne = () => (
@@ -13,42 +15,44 @@ const SectionOne = () => (
       </header>
       {/* Content */}
       <div className="content">
-        <div href="#" className="image fit"><img src={Finley8} alt='' /></div>
-        <h3>Dolore Amet Consequat</h3>
+        <div href="#" className="image fit">
+          <img src={Finley8} alt="" />
+        </div>
+        <h3>Onyx Countertop</h3>
         <p>
-        In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in
-          odio vulputate luctus. Suspendisse euismod lorem eget lacinia
-          fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam.
-          Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.e.{" "}
+          LEDpac was invited to help solve the challenge of backlighting a solid
+          onyx countertop for a new home project. The challenge for LEDpac was
+          to develop a way to reliably light the countertop at the Malaga, the
+          new home development project for Steve and Amy Finley in northern San
+          Diego County.{" "}
         </p>
-        <p>
-        In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in
-          odio vulputate luctus. Suspendisse euismod lorem eget lacinia
-          fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam.
-          Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.{" "}
-        </p>
+
         <br />
-        <h3>Dolore Amet Consequat</h3>
+        <h3>What was the initial customer request?</h3>
         <p>
-        In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in
-          odio vulputate luctus. Suspendisse euismod lorem eget lacinia
-          fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam.
-          Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.
+          They needed a solution for a 5 by 10 foot countertop in the kitchen
+          that Mrs. Amy Finley wanted to light up from underneath. The counter
+          material is a 1900-pound Onyx counter which had to be backed with
+          Acrylic to support the weight. The extreme weight of the counter meant
+          that it would be very difficult to service the backlight. So a
+          reliable and long lasting lighting solution needed to be found. LEDpac
+          was invited in to develop a solution.
         </p>
-        <h3>Dolore Amet Consequat</h3>
         <p>
-          In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in
-          odio vulputate luctus. Suspendisse euismod lorem eget lacinia
-          fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam.
-          Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.
+          LEDpac engineered the complete backlight illumination for this design.
         </p>
-        <ul>
+
+        <SectionTwo />
+
+        
+
+       {/*} <ul>
           <li>Faucibus orci lobortis ac adipiscing integer.</li>
           <li>Col accumsan arcu mi aliquet placerat.</li>
           <li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
           <li>Blandit massa non blandit tempor interdum.</li>
           <li>Lacinia mattis arcu nascetur lobortis.</li>
-        </ul>
+        </ul>*/}
       </div>
       <LSidebar />
     </div>

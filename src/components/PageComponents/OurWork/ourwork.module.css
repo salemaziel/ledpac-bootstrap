@@ -10,3 +10,16 @@
     border-color: none!important;
     transform: none!important;
 }
+
+
+.CovidText {
+    margin: 1rem auto;
+    padding: 4rem 4rem 4rem;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px gray;
+    color: red;
+
+}
+
