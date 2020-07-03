@@ -25,7 +25,7 @@ const CovidCard = () => (
           can kill COVID-19 in under 4 seconds.{" "}
         </p>
        
-        <h3 style={{marginLeft: '70%', color: 'white', textShadow: '1px 1px 2px red',}}>Click to Learn More </h3>
+        <p style={{marginLeft: '60%', color: 'white', textShadow: '2px 2px 4px red', fontSize: '2rem', fontWeight: '600'}}>Click to Learn More </p>
 
         
 

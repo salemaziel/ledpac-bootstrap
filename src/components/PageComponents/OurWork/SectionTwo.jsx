@@ -98,7 +98,6 @@ const SectionTwo = () => {
 <div className="box alt">
   <Container>
     <div className="row gtr-uniform gtr-50">
-      <br />
       <hr />
       <br />
 

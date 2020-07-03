@@ -127,5 +127,10 @@ export const Sixtyfourzero_BlackSquare = require('./uvc/640-1000x1000.png');
 export const WholeRoom_1 = require('./uvc/whole-room-1.png');
 export const CloseSurface_1 = require('./uvc/close-surface-1.png');
 export const PowerDimMag550 = require('./cob/PowerDim-Mag-family-550.jpg');
+export const Covid19Banner = require('./covid19/covid19-banner.jpeg');
+export const Covid19Stats_1 = require('./covid19/coronavirus-statistics-on-screen-3970329.jpg');
+export const Covid19Masks = require('./covid19/masks-decontaminated.jpg');
+export const Covid19UVMask = require('./covid19/stock-photo-uv-light-sterilization-of-face-mask-to-disinfect-and-reuse-covid-prevention-concept-1702442965.jpg');
+export const Covid19ReuseMasks = require('./covid19/stock-photo-uv-light-sterilization-of-face-mask-to-disinfect-and-reuse-covid-prevention-concept-close-up-1701548905.jpg');
 
 
