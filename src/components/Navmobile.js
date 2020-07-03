@@ -77,7 +77,6 @@ class NavMobile extends React.Component {
           title={
             <div>
               <Link to="/">
-                <img src={LogoLight} width="100%" alt="" />
               </Link>
             </div>
           }
@@ -85,7 +84,8 @@ class NavMobile extends React.Component {
             background: "inherit",
             color: "black",
             width: "auto",
-            margin: "auto",
+            margin: "0 auto",
+            padding: "0"
           }}
           items={[
             <Nav.Item>

@@ -271,7 +271,7 @@ body.is-mobile .Banner {
       width: 100%;
     }
   .Banner {
-    min-height: 0;
+    
   }
 
   .content {
@@ -680,5 +680,33 @@ body.is-mobile .cta {
   .cta > .inner > * {
     width: 100%t;
     padding-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .Covid{
+      font-size: 1em;
+  }
+  header h2 + p {
+    font-size: 1em;
+  }
+
+  .LearnButton {
+    font-size: 1em;
+    height: 3em;
+    line-height: 3em;
+  }
+
+  .content {
+    padding: 3em 1.5em 1.5em 1.5em;
+  }
+
+  .Heading {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 1rem 
   }
 }
