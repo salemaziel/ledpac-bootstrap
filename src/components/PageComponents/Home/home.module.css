@@ -475,6 +475,7 @@ body.is-mobile .Banner {
   .LearnButton {
     color: white;
     box-shadow: inset 0 0 0 2px red;
+    
   }
   .mywrapper {
     padding: 2.5em 1.2em 0.5em ;
@@ -516,6 +517,13 @@ body.is-mobile .Banner {
   word-spacing: 3px;
   line-height: 2.5rem;
   padding: 0;
+}
+
+.Covid {
+  font-size: 1.5rem;
+}
+header h2 + p {
+  font-size: 1.3rem;
 }
 
 
@@ -683,6 +691,10 @@ body.is-mobile .cta {
   }
 }
 
+
+@media screen and (max-width: 480px) {
+
+}
 
 @media screen and (max-width: 360px) {
   .Covid{

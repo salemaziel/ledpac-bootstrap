@@ -132,5 +132,6 @@ export const Covid19Stats_1 = require('./covid19/coronavirus-statistics-on-scree
 export const Covid19Masks = require('./covid19/masks-decontaminated.jpg');
 export const Covid19UVMask = require('./covid19/stock-photo-uv-light-sterilization-of-face-mask-to-disinfect-and-reuse-covid-prevention-concept-1702442965.jpg');
 export const Covid19ReuseMasks = require('./covid19/stock-photo-uv-light-sterilization-of-face-mask-to-disinfect-and-reuse-covid-prevention-concept-close-up-1701548905.jpg');
-
+export const GirlWithMask = require('./covid19/girl-with-mask.jpg')
+export const GirlWithMaskBanner = require('./covid19/girl-with-mask-banner.jpg')
 

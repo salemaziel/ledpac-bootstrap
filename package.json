@@ -1,11 +1,10 @@
 {
-  "name": "gatsby-starter-basic-bootstrap",
+  "name": "ledpac-company-website",
   "private": false,
-  "description": "A very basic gatsby starter with react-bootstrap",
+  "description": "Website for LEDPac Lighting Solutions ",
   "version": "0.1.0",
-  "author": "mike wakerly <opensource@hoho.com>",
+  "author": "Salem Aziel <contact@salemaziel.com>",
   "dependencies": {
-    "@browniebroke/gatsby-image-gallery": "^3.3.3",
     "@fortawesome/fontawesome-svg-core": "1.2.29",
     "@fortawesome/free-brands-svg-icons": "5.13.1",
     "@fortawesome/free-solid-svg-icons": "5.13.1",
@@ -29,8 +28,6 @@
     "react-dom": "^16.12.0",
     "react-helmet": "6.1.0",
     "react-icons": "^3.10.0",
-    "react-image-gallery": "^1.0.7",
-    "react-image-lightbox": "^5.1.1",
     "react-pdf": "^4.1.0",
     "react-simple-sidenav": "^2.0.0",
     "react-slick": "^0.26.1",

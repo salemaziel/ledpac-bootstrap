@@ -13,7 +13,7 @@
 
 .CovidText {
     margin: 1rem auto;
-    padding: 4rem 4rem 4rem;
+    padding: 0 1rem;
     font-size: 28px;
     line-height: 40px;
     font-weight: 700;
@@ -22,3 +22,44 @@
 
 }
 
+
+@media screen and (min-width: 2400px) {
+
+
+}
+
+
+@media screen and (max-width: 168px) {
+
+    
+}
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+}
+
+@media screen and (max-width: 480px) {
+.CovidText {
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    font-size: 16px;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+
+
+}
