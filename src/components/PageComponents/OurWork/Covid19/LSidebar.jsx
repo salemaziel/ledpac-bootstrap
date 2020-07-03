@@ -18,7 +18,7 @@ const LSidebar = () => (
       </section>
       <hr />*/}
       <section>
-        <Link to="#" className="image fit"><img src={Banner2} alt='' /></Link>
+        <Link to="#" className="image fit" style={{margin: '2rem 0'}} ><img src={Banner2} alt='' /></Link>
         <h3>Amet Lorem Tempus</h3>
         <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
         <footer>
