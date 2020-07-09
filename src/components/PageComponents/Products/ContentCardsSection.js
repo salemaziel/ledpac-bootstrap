@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "../Home/Section";
+import Section from "./Section";
 import Container from "react-bootstrap/Container";
-import ContentCards from "../Home/ContentCards";
+import ContentCards from "./ContentCards";
 
 import {
   CobNewGen,
@@ -10,6 +10,8 @@ import {
   UVCWand3,
 }
 from '../../../images/index'
+
+import cardStyles from './products.module.css'
 
 function ContentCardsSection(props) {
   return (
@@ -20,12 +22,13 @@ function ContentCardsSection(props) {
       bgImage={props.bgImage}
       bgImageOpacity={props.bgImageOpacity}
     >
-      <Container fluid>
+      <div className={cardStyles.CardContainer}>
+        <div style={{margin: 'auto', padding: '0'}}>
         <ContentCards
           items={[
             {
               image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125848/ledpac/uvc-wand3_1_jbnob3.jpg",
-              title: "Costco Jewelry",
+              title: "UV-C LED Disinfecting Lights",
               body:
                 "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
               link: "/products/ultraviolet-led"
@@ -44,9 +47,17 @@ function ContentCardsSection(props) {
                 "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
               link: "/products/rgb-led"
             },
+            {
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125641/ledpac/cob-new-gen_obpkrv.png",
+              title: "Linearal C.O.B. LED Lights",
+              body:
+                "Chip-on-Board LEDs, also known as COBs, are the next and newest generation of LED lighting technology.",
+              link: "/products/chip-on-board-led"
+            },
           ]}
         ></ContentCards>
-      </Container>
+        </div>
+      </div>
     </Section>
   );
 }

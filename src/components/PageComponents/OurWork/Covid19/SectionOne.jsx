@@ -15,10 +15,10 @@ const SectionOne = () => (
     <div className="inner">
       <header /*className="major"*/ className={covidStyles.covidHeader} /*style={{padding: '4rem', width: '100%', backgroundSize: 'cover', backgroundPosition: '50% 30%', backgroundRepeat: 'no-repeat', backgroundImage: `url(${Covid19Stats_1})` }}*/ >
         <h2>Covid 19</h2>
-        <p>Working Toward A Solution</p>
+        <p>UltraViolet LED Disinfectant Solutions</p>
       </header>
       {/* Content */}
-      <div className="content">
+      
 
         {/*<div className="image fit"><img src={Covid19Stats_1} alt='' /></div>*/}
         <div className={covidStyles.intro}>
@@ -30,15 +30,19 @@ const SectionOne = () => (
                 <Col className="image fit">
                   <img src={Covid19ReuseMasks} alt="airport" />
                 </Col>
+                <Col className="image fit">
+                  <img src={Covid19ReuseMasks} alt="airport" />
+                </Col>
               </Row>
           </div>
+          </div>
+          <div className="content">
         <h3>TOGETHER WE CAN KILL COVID-19</h3>
         <p>
           The world has been turned upside down by the COVID-19 pandemic,
           changing the way people live and do business. The virus is highly
           contagious and currently there is no cure.{" "}
         </p>
-        </div>
 
         <p>
           LEDPac, LLC has partnered with The Global Lighting Project, a 501 C3

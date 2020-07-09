@@ -28,7 +28,16 @@
     transition: 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+.Content {
+    width: 75%;
+    margin: auto;
+}
 
+
+.CardContainer{ 
+    padding: 0;
+    margin: auto;
+}
 
 @media screen and (min-width: 2400px) {
     .CategoryRow {
@@ -66,6 +75,10 @@
 @media screen and (max-width: 480px) {
     .CategoryRow {
         display: inline;
+    }
+    .CardContainer{ 
+        padding: 0 2rem;
+        margin: auto;
     }
 }
 

@@ -9,7 +9,7 @@ function ContentCards(props) {
   return (
     <Row className="justify-content-center">
       {props.items.map((item, index) => (
-        <Col xs={12} md={6} lg={3} className="py-3" key={index}>
+        <Col xs={12} md={6} lg={6} className="py-3" key={index}>
           <Link to={item.link}>
           <Card>
             <AspectRatio ratio={1 / 0.65}>

@@ -2,20 +2,19 @@ import React from 'react'
 
 import Hero from './hero'
 import SectionOne from './sectionOne'
+import SectionCTA from './sectionCTA'
 import SectionTwo from './sectionTwo'
-import SectionThree from './sectionThree'
-import ContentCardsSection from './ContentCardsSection'
-import List from './list'
+import SectionProducts from './SectionProducts'
 
 
 const HomePage = () => (
     <>
         <Hero />
         <SectionOne />
-        <ContentCardsSection />
-        <List />
+        <SectionProducts />
+
         <SectionTwo />
-        <SectionThree />
+        <SectionCTA />
     </>
 )
 

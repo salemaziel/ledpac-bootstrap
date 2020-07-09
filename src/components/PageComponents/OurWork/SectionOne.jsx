@@ -6,7 +6,6 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import ContentCardsSection from './ContentCardsSection'
 import WorkCards1 from './workCards1'
 import CovidCard from './covidCard'
 
