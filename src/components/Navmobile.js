@@ -7,6 +7,8 @@ import Col from "react-bootstrap/Col"
 import { LogoLight } from '../images/index'
 
 import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+
 import Button from "react-bootstrap/Button"
 
 //import navmobileStyles from "./navmobile.module.css"
@@ -25,43 +27,9 @@ class NavMobile extends React.Component {
   }
   render() {
     return (
-      <Container
-        fluid
-        style={{
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Row className="mobileNavRow">
-
-          <Col
-            style={{
-              justifyContent: "center",
-              alignContent: "center",
-              alignItems: "center",
-              textAlign: 'center'
-            }}
-          >
-            <Link to="/" rel="preload">
-              <img
-                src={LogoLight}
-                alt="Logo"
-                className="mobileLogo"
-                width={150}
-              />
-            </Link>
-          </Col>
-          <Col
-            style={{
-                placeContent: 'flex-end',
-                alignItems: 'flex-end',
-                textAlign: 'end',
-                textAlign: '-webkit-right',
-            }}
-          >
+      <>
             <MenuIcon
-              className="navbar-toggle"
+              
               style={{
                   width: '40px',
                   height: 'auto'
@@ -70,8 +38,7 @@ class NavMobile extends React.Component {
             >
               {" "}
             </MenuIcon>
-          </Col>
-        </Row>
+
         <SideNav
           openFromRight={true}
           title={
@@ -127,7 +94,8 @@ class NavMobile extends React.Component {
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}
         />
-      </Container>
+{/*</Navbar>*/}
+</>
     )
   }
 }

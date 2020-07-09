@@ -271,7 +271,7 @@ body.is-mobile .Banner {
       width: 100%;
     }
   .Banner {
-    
+    display: flex;
   }
 
   .content {
