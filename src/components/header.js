@@ -71,28 +71,28 @@ class Header extends React.Component {
             </Navbar.Brand>
             <Nav className="mr-auto NoMobile"></Nav>
             <Nav className="ml-auto NoMobile">
-              <NavItem href="/about">
-                <Nav.Link as={Link} activeClassName="active" to="/about">
+              <NavItem>
+                <Nav.Link as={Link} activeClassName="active" to="/">
                   Home
                 </Nav.Link>
               </NavItem>
-              <NavItem href="/about">
+              <NavItem>
                 <Nav.Link as={Link} activeClassName="active" to="/about">
                   About
                 </Nav.Link>
               </NavItem>
-              <NavItem href="/about">
-                <Nav.Link as={Link} activeClassName="active" to="/about">
+              <NavItem>
+                <Nav.Link as={Link} activeClassName="active" to="/products">
                   Products
                 </Nav.Link>
               </NavItem>
-              <NavItem href="/about">
-                <Nav.Link as={Link} activeClassName="active" to="/about">
+              <NavItem >
+                <Nav.Link as={Link} activeClassName="active" to="/our-work">
                   Our Work
                 </Nav.Link>
               </NavItem>
-              <NavItem href="/about">
-                <Nav.Link as={Link} activeClassName="active" to="/about">
+              <NavItem >
+                <Nav.Link as={Link} activeClassName="active" to="/contact">
                   Contact
                 </Nav.Link>
               </NavItem>
@@ -154,8 +154,8 @@ class Header extends React.Component {
                   </Nav.Item>,
                 ]}
                 itemStyle={{
-                  background: "transparent",
-                  backgroundColor: "transparent",
+                  background: "transparent!important",
+                  backgroundColor: "transparent!important",
                   color: "#fff",
                   fontSize: "1.2rem",
                   padding: "10px",
