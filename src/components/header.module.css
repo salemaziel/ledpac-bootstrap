@@ -79,21 +79,21 @@
         padding-top: 0.5rem;
     }
 
-a.nav-link {
 
-}
 
         .Header nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
         }
-/* 
+
             .Header nav ul li {
                 display: inline-block;
-                margin-left: 1.5em;
+                margin-left: 1em;
+                background: transparent;
+                background-color: transparent;
             }
-
+/* 
                 .Header nav ul li a {
                     font-weight: 700;
                     letter-spacing: 0.05em;
@@ -254,9 +254,9 @@ a.nav-link {
         background: rgba(0, 0, 0, 1);
         color: white;
         text-shadow: 2px 2px 3px black;
-        height: 3.5em;
+        height: 6em;
         left: 0;
-        line-height: 3.5em;
+        line-height: 6em;
         position: fixed;
         top: 0;
         width: 100%;
@@ -266,13 +266,16 @@ a.nav-link {
    .Header nav {
         height: inherit;
         line-height: inherit;
-        margin-right: 1.5em;
+        margin-right: auto;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
         position: relative;
         right: 0;
         top: 0;
-       
+        background-color: rgba(0, 0, 0, 1);
+  
     }
-/* 
+ 
         .Header nav ul {
             list-style: none;
             margin: 0;
@@ -282,14 +285,16 @@ a.nav-link {
             .Header nav ul li {
                 display: inline-block;
                 margin-left: 1.5em;
+                background: transparent;
+                background-color: transparent;
             }
 
                 .Header nav ul li a {
                     font-weight: 700;
                     letter-spacing: 0.05em;
                     text-transform: uppercase;
-                    font-size: 0.9em;
-                }*/
+                    font-size: 1em;
+                }
 }
 
 
@@ -298,20 +303,25 @@ a.nav-link {
         background: rgba(0, 0, 0, 1);
         color: white;
         text-shadow: 2px 2px 3px black;
-        height: 3.5em;
+        height: 5em;
         left: 0;
-        line-height: 3.5em;
+        line-height: 4em;
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 999;
+    }
+
+    .Header nav ul li {
+        background: transparent;
+        background-color: transparent;
     }
 }
 
 
 @media screen and (max-width: 480px) {
     .Header {
-        background: rgba(0, 0, 0, 1);
+        background: rgba(0, 0, 0, 0.5);
         color: white;
         text-shadow: 2px 2px 3px black;
         height: 4.5em;
@@ -326,13 +336,25 @@ a.nav-link {
     .Header nav {
         padding-top: 0;
         margin-right: 0;
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+
+    .Header nav ul {
+        padding: 0;
+    }
+
+
+    .Header nav ul li {
+        background: transparent;
+        background-color: transparent;
     }
 }
 
 
 @media screen and (max-width: 360px) {
     .Header {
-        background: rgba(0, 0, 0, 1);
+        background: rgba(0, 0, 0, 0.5);
         color: white;
         text-shadow: 2px 2px 3px black;
         height: 3.5em;
@@ -342,5 +364,11 @@ a.nav-link {
         top: 0;
         width: 100%;
         z-index: 999;
+    }
+
+
+    .Header nav ul li {
+        background: transparent;
+        background-color: transparent;
     }
 }

@@ -1,19 +1,35 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import homeStyles from './PageComponents/Home/home.module.css'
+import React from "react";
+import { Link } from "gatsby";
+import homeStyles from "./PageComponents/Home/home.module.css";
+
+import Col from "react-bootstrap/Col";
 
 const CTA = () => (
-    <section id="two" className={homeStyles.cta}>
+  <section id="two" className={homeStyles.cta}>
     <div className={homeStyles.inner}>
-      <header>
-        <h2>Ultrices ante sagittis nunc senectus libero netus</h2>
-       {/* <ul className={homeStyles.actions}>
-          <li><Link to="#" className="button big">How it works</Link></li>
-</ul>*/}
-      </header>
-      <p>Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus. Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet consectetur. Morbi libero orci, consectetur in odio maximus felis. Lorem ipsum ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet consectetur.</p>
+      <Col>
+        <header>
+          <h2>Need an estimate on LED lighting?</h2>
+        </header>
+        <p>
+          {" "}
+          For pricing and estimates specific to your project, contact LEDpac
+          today
+        </p>
+      </Col>
+      <br />
+      <br />
+      <Col>
+        <ul className={homeStyles.actions}>
+          <li>
+            <Link to="/contact" className="button big">
+              Get An Estimate
+            </Link>
+          </li>
+        </ul>
+      </Col>
     </div>
   </section>
-)
+);
 
-export default CTA
+export default CTA;

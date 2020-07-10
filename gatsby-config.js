@@ -3,6 +3,7 @@ module.exports = {
     title: `LEDPac LED Lighting Solutions`,
     description: `LEDPac LED Lighting Solutions of Escondido, CA`,
     author: `@salemaziel`,
+    siteUrl: `https://ledpac.salemaziel.design`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +17,23 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-remove-generator`,
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://ledpac.salemaziel.design',
+        sitemap: 'https://ledpac.salemaziel.design/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

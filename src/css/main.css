@@ -350,7 +350,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 1em;
 		font-weight: 700;
 		height: 3.25em;
 		line-height: 3.35em;
@@ -1621,6 +1621,13 @@ input, select, textarea {
 
 					#footer .content > .inner > * {
 						width: 100%;
+					}
+					#footer .content > .inner .about {
+						text-align: end;
+					}
+
+					#footer .about ul {
+						justify-content: flex-end;
 					}
 
 			}

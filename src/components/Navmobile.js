@@ -82,8 +82,8 @@ class NavMobile extends React.Component {
             </Nav.Item>,
           ]}
           itemStyle={{
-            background: "transparent",
-            backgroundColor: 'transparent',
+            background: "transparent!important",
+            backgroundColor: 'transparent!important',
             color: "#fff",
             fontSize: "1.2rem",
             padding: "10px",

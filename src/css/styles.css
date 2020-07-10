@@ -233,6 +233,11 @@ body.is-mobile .wrapper.cta {
   padding: 0 0 0 4em;
 }
 
+nav ul li {
+  background-color: transparent!important;
+  background: transparent!important;
+}
+
 @media screen and (min-width: 2400px) {
   .NoDesktop {
     display: none;
@@ -341,7 +346,7 @@ body.is-mobile .wrapper.cta {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
   .NoDesktop {
     display: block;
   }
@@ -351,7 +356,11 @@ body.is-mobile .wrapper.cta {
   }
 
   .wrapper {
-    padding: 2.5em 2em 0.5em 2em;
+    padding: 2.5em 2.5em 0.5em 2.5em;
+  }
+
+  .navbar-brand {
+    padding-top: 0;
   }
 }
 

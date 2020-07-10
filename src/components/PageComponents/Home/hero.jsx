@@ -10,8 +10,7 @@ const Hero = () => (
             <header>
               <h2 className={homeStyles.Covid}>LEDPac is committed to eradicating COVID-19.</h2>
               <p>
-                Research and development on patented disinfectant Ultra Violet
-                LED lights.
+              Designing and manufacturing patented disinfectant ultraviolet LED lights.
               </p>
             </header>
             <ul className={homeStyles.actions}>

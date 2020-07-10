@@ -29,6 +29,7 @@
 .Covid {
   color: red!important;
   text-shadow: 2px 2px 5px #180909;
+  letter-spacing: 0;
 }
 
 .Heading {
@@ -519,8 +520,23 @@ body.is-mobile .Banner {
   padding: 0;
 }
 
+.about > ul.actions {
+  justify-content: flex-end;
+}
+
+.actions {
+  margin: 0;
+  padding: 0;
+}
+
+.actions li {
+  margin: auto;
+  padding: 0;
+}
+
 .Covid {
   font-size: 1.5rem;
+  letter-spacing: 0.5px;
 }
 header h2 + p {
   font-size: 1.3rem;
@@ -561,7 +577,7 @@ header h2 + p {
   background-repeat: no-repeat;
  /* background-color: rgba(21, 27, 33, 0.6);*/
   color: #ffffff;
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 .cta input,
@@ -572,6 +588,7 @@ header h2 + p {
 
 .cta a {
   color: #ffffff;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.7);
 }
 
 .cta strong,
@@ -586,6 +603,17 @@ header h2 + p {
 .cta h5,
 .cta h6 {
   color: #ffffff;
+}
+
+.cta h2 {
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
+}
+
+.cta p {
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
 }
 
 .cta blockquote {
@@ -671,7 +699,7 @@ header h2 + p {
 
 .cta > .inner > :first-child {
   padding-left: 0;
-  width: 60%;
+  width: 70%;
 }
 
 body.is-mobile .cta {

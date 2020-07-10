@@ -52,9 +52,12 @@
 
 @media screen and (max-width: 480px) {
 .CovidText {
-    margin: 0 auto;
-    padding: 0.5rem 0;
+    margin: auto;
+    padding: 0 1rem;
     font-size: 16px;
+    text-shadow: none;
+    line-height: 32px;
+
 }
 
 }
