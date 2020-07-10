@@ -103,10 +103,10 @@ const SectionTwo = () => {
 
 
       <Row>
-      <Col><span className="image fit"><img src={Airport4} alt="airport" style={{cursor: 'pointer'}} /></span></Col>
+      <Col><span className="image fit"><img src={Airport2} alt="airport" style={{cursor: 'pointer'}} /></span></Col>
       </Row>
       <Row>
-      <Col><span className="image fit"><img src={Airport2} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
+      <Col><span className="image fit"><img src={Airport4} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
       <Col><span className="image fit"><img src={Airport5} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
       <Col><span className="image fit"><img src={Airport3} alt="airport" style={{cursor: 'pointer'}}/></span></Col>
       </Row>

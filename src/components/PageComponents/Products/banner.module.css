@@ -1,7 +1,7 @@
 .BannerSection {
     min-width: 100%;
     width: 100vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../images/banner4.png');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../images/airport4.jpg');
     background-position: 50% 45%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
         width: 100%;
         min-width: 100%;
         min-height: 25rem;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../images/banner4.png');
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../images/airport4.jpg');
         background-position: 50% 45%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -52,7 +52,7 @@
         width: 100%;
         min-width: 100%;
         min-height: 20rem;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../images/banner4.png');
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 33%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0.15) 100%), url('../../../images/airport4.jpg');
         background-position: 64% 50%;
         background-size: cover;
         background-repeat: no-repeat;
