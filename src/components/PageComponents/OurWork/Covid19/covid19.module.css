@@ -2,13 +2,13 @@
     margin: auto auto 3em;
     padding: 4rem;
     width: 100%;
-    background-image: url('../../../../images/covid19/coronavirus-statistics-on-screen-3970329.jpg');
+    /*background-image: url('../../../../images/covid19/coronavirus-statistics-on-screen-3970329.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
     border-radius: 5px;
 }
-
+/*
 .covidHeader h2 {
     color: red;
     letter-spacing: 3px;
@@ -21,7 +21,7 @@
     text-shadow: 1px 1px 5px red;
     font-weight: 600;
 }
-
+*/
 .intro {
     margin: 2rem auto;
 }
