@@ -25,43 +25,6 @@ class Header extends React.Component {
     return (
       <>
         <header /*id="header" */ className={headerStyles.Header}>
-          {/* <div className="NoMobile">
-      <h1>
-        <Link to="/">
-        <img src={LogoLight} alt="LEDPac logo" width={175} />
-        </Link>
-      </h1>
-      <nav id="nav">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about" className={headerStyles.menu}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/products" className={headerStyles.menu}>
-              Products
-            </Link>
-          </li>
-          <li>
-            <Link to="/our-work" className={headerStyles.menu}>
-              Our Work
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className={headerStyles.menu}>
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      </div>
-      <div className="NoDesktop">
-        <NavMobile />
-      </div>*/}
 
           <Navbar variant="dark" expand="lg">
             <Navbar.Brand>
