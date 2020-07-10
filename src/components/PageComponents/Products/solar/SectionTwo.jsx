@@ -1,21 +1,6 @@
 import React from "react";
 
 import {
-  Airport1,
-  Airport2,
-  Airport3,
-  Airport4,
-  Airport5,
-  CobNewGen,
-  CobConnector,
-  CobLedStrip,
-  CobLedStrip2,
-  CobLedStrip3,
-  CobLedStrip4,
-  CobLedStrip5,
-  CobLighting,
-  CobSpecs,
-  CobSpecs2,
   SolarLamp1,
   SolarLamp2,
   SolarLamp3,

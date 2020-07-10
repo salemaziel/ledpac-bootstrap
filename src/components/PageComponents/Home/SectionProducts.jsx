@@ -1,16 +1,12 @@
 import React from "react";
 
 import {
-  Airport1,
-  Airport2,
   CobNewGen,
-  Airport4,
-  Airport5,
   RGBGrow3_1,
   ProjectPics1_1,
-  UVCWand3_1,
   TwentyFive_BlackBG
 } from "../../../images/index";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

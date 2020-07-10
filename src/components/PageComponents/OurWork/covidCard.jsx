@@ -1,13 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
 
 import {
-  CostcoAfter_1,
-  Finley8,
-  UVCWand3_1,
-  WholeRoom_1_1_dark,
-  Covid19Stats_1,
   GirlWithMaskBanner,
 } from "../../../images/index";
 

@@ -1,15 +1,10 @@
 import React from "react"
 import SideNav, { MenuIcon } from "react-simple-sidenav"
-import { Link, navigateTo } from "gatsby"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import { LogoLight } from '../images/index'
+import { Link } from "gatsby"
+
 
 import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
 
-import Button from "react-bootstrap/Button"
 
 //import navmobileStyles from "./navmobile.module.css"
 //import { MenuIcon } from "../images/index"

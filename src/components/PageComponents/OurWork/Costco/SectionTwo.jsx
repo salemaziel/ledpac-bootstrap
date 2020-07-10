@@ -5,20 +5,7 @@ import {
   CostcoAfter,
   CostcoGlare,
   CostcoNoGlare,
-  Airport5,
-  Airport1,
-  Project57,
-  Project58,
-  Project62,
-  Project71,
-  Project83_1,
-  Project80,
-  Project78,
-  ProjectPics1_1,
-  SolarLamp1,
-  SolarLamp2,
-  SolarLamp3,
-  CobLighting,
+
 } from "../../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

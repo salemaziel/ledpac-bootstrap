@@ -1,12 +1,12 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import { Button, Navbar, Nav, NavItem } from "react-bootstrap";
 import headerStyles from "./header.module.css";
 import SideNav, { MenuIcon } from "react-simple-sidenav";
-
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import NavItem from 'react-bootstrap/NavItem'
 import { LogoLight } from "../images/index";
-import NavMobile from "./Navmobile";
 
 //const Header = ({ siteTitle }) => (
 //const Header = () => (

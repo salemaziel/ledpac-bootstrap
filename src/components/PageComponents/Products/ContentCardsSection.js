@@ -1,15 +1,7 @@
 import React from "react";
 import Section from "./Section";
-import Container from "react-bootstrap/Container";
 import ContentCards from "./ContentCards";
 
-import {
-  CobNewGen,
-  RGBGrow3_1,
-  ProjectPics1_1,
-  UVCWand3,
-}
-from '../../../images/index'
 
 import cardStyles from './products.module.css'
 

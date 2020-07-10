@@ -1,11 +1,6 @@
 import React from "react";
 
 import {
-  Airport1,
-  Airport2,
-  Airport3,
-  Airport4,
-  Airport5,
   CobNewGen,
   CobConnector,
   CobLedStrip,
@@ -17,10 +12,8 @@ import {
   CobSpecs,
   CobSpecs2,
 } from "../../../../images/index";
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Link } from "gatsby";
 
 import cobStyles from "./cob.module.css";
 

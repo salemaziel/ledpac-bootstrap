@@ -1,15 +1,12 @@
 import React from "react";
-import { Link } from "gatsby";
 import LSidebar from "./LSidebar";
 import SectionTwo from "./SectionTwo";
-import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import WorkCards1 from "./workCards1";
 import CovidCard from "./covidCard";
 
-import { Airport2, UVCWand3_1 } from "../../../images/index";
 
 const SectionOne = () => (
   <section id="main" className="wrapper sidebar right">

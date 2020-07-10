@@ -1,13 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
 import LSidebar from "./LSidebar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 
 import {
-  Banner2,
   Covid19Banner,
   OneTwentyEight_1,
   Fifty_1,

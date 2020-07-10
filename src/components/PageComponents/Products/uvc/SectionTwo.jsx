@@ -9,14 +9,11 @@ import {
 
 } from "../../../../images/index";
 
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Media from "react-bootstrap/Media";
-import { Link } from "gatsby";
+
 
 import Card from "react-bootstrap/Card";
-import CardColumns from "react-bootstrap/CardColumns";
 
 import uvcStyles from "./uvc.module.css";
 
