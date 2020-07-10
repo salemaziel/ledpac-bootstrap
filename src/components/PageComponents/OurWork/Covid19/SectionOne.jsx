@@ -35,7 +35,7 @@ const SectionOne = () => (
       {/*<div className="image fit"><img src={Covid19Stats_1} alt='' /></div>*/}
       <div className={covidStyles.intro}>
         <div className="box alt">
-          <Row>
+          <Row className={covidStyles.PictureRow}>
             <Col className="image fit">
               <img src={Covid19UVMask} alt="airport" />
             </Col>
@@ -71,15 +71,15 @@ const SectionOne = () => (
         <br />
         <div className="box alt">
           <Container>
-            <Row>
+            <Row className={covidStyles.PictureRow}>
               <Col className="image fit">
-                <img src={OneTwentyEight_1} alt="airport" />
+                <img src={OneTwentyEight_1} alt="airport" style={{padding: '2rem'}}/>
               </Col>
               <Col className="image fit">
-                <img src={Fifty_1} alt="airport" />
+                <img src={Fifty_1} alt="airport" style={{padding: '2rem'}}/>
               </Col>
               <Col className="image fit">
-                <img src={Sixtyfour_1} alt="airport" />
+                <img src={Sixtyfour_1} alt="airport" style={{padding: '2rem'}} />
               </Col>
             </Row>
             {/* <Row>

@@ -1,37 +1,6 @@
 import React from "react";
 
 import {
-  Airport1,
-  Airport2,
-  Airport3,
-  Airport4,
-  Airport5,
-  CobNewGen,
-  CobConnector,
-  CobLedStrip,
-  CobLedStrip2,
-  CobLedStrip3,
-  CobLedStrip4,
-  CobLedStrip5,
-  CobLighting,
-  CobSpecs,
-  CobSpecs2,
-  UVCWand1,
-  UVCWand2,
-  UVCWand3_1,
-  UVCSpectrum,
-  Twentyfive_1,
-  Twentyfive_2,
-  Fifty_1,
-  Fifty_2,
-  Sixtyfour_1,
-  Sixtyfour_2,
-  SixFourZero_1,
-  SixFourZero_2,
-  OneTwentyEight_1,
-  OneTwentyEight_2,
-  TwentyFive_BlackBG,
-  TwentyFive_BlackSquare,
   TwentyFive_VertSquare,
   OneTwentyEight_VertSquare,
   Fifty_VertSquare,
@@ -50,6 +19,13 @@ import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
 
 import uvcStyles from "./uvc.module.css";
+
+import Fifty from '../../../../assets/R7-50_UV-C_MICROBE_INACTIVATOR.pdf'
+import TwentyFive from '../../../../assets/R7-25_UV-C_MICROBE_INACTIVATOR.pdf'
+import OneTwentyEight from '../../../../assets/R7-128_UV-C_MICROBE_INACTIVATOR.pdf'
+import SixtyFour from '../../../../assets/R7-64_UV-C_MICROBE_INACTIVATOR.pdf'
+import SixFourZero from '../../../../assets/R7-640_UV-C_MICROBE_INACTIVATOR_TRACK.pdf'
+
 
 const SectionTwo = () => (
   <section>
@@ -87,9 +63,9 @@ const SectionTwo = () => (
               </p>
               <ul className={uvcStyles.actions}>
                 <li>
-                  <Link to="#" className="button">
+                  <a href={OneTwentyEight} className="button">
                     Learn More
-                  </Link>
+                  </a>
                 </li>
               </ul>
               </Card.Text>
@@ -130,9 +106,9 @@ const SectionTwo = () => (
               </p>
               <ul className={uvcStyles.actions}>
                 <li>
-                  <Link to="#" className="button">
+                  <a href={TwentyFive} className="button">
                     Learn More
-                  </Link>
+                  </a>
                 </li>
               </ul>
               </Card.Text>
@@ -173,9 +149,9 @@ const SectionTwo = () => (
               </p>
               <ul className={uvcStyles.actions}>
                 <li>
-                  <Link to="#" className="button">
+                  <a href={Fifty} className="button">
                     Learn More
-                  </Link>
+                  </a>
                 </li>
               </ul>
               </Card.Text>
@@ -191,7 +167,7 @@ const SectionTwo = () => (
           <Row className={uvcStyles.CategoryRow}>
             <Col>
             <div className={uvcStyles.ImageFit} >
-                <img src={TwentyFive_VertSquare} alt /*style={{height: '100%'}}*/ />
+                <img src={Sixtyfour_VertSquare} alt /*style={{height: '100%'}}*/ />
             </div>
             </Col>
             <Col>
@@ -217,9 +193,9 @@ const SectionTwo = () => (
               </p>
               <ul className={uvcStyles.actions}>
                 <li>
-                  <Link to="#" className="button">
+                  <a href={SixtyFour} className="button">
                     Learn More
-                  </Link>
+                  </a>
                 </li>
               </ul>
               </Card.Text>
@@ -260,9 +236,9 @@ const SectionTwo = () => (
               </p>
               <ul className={uvcStyles.actions}>
                 <li>
-                  <Link to="#" className="button">
+                  <a href={SixFourZero} className="button">
                     Learn More
-                  </Link>
+                  </a>
                 </li>
               </ul>
               </Card.Text>

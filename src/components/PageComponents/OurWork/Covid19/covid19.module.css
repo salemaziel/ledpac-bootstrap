@@ -33,6 +33,10 @@
 
 }
 
+.PictureRow {
+    display: flex;
+}
+
 @media screen and (min-width: 2400px) {
 
 
@@ -61,10 +65,15 @@
 }
 
 @media screen and (max-width: 480px) {
-
+    .PictureRow {
+        display: block;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 360px) {
-
+    .PictureRow {
+        display: block;
+    }
 
 }
