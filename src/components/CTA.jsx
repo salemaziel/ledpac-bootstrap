@@ -4,6 +4,7 @@ import homeStyles from "./PageComponents/Home/home.module.css";
 
 import Col from "react-bootstrap/Col";
 
+
 const CTA = () => (
   <section id="two" className={homeStyles.cta}>
     <div className={homeStyles.inner}>

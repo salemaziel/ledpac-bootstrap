@@ -18,6 +18,8 @@ const SectionCTA = () => (
           today
         </p>
       </Col>
+      <br />
+      <br />
       <Col>
         <ul className={homeStyles.actions}>
           <li>
