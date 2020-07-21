@@ -16,9 +16,11 @@ const LSidebar = () => (
         <ReactPlayer 
       url='https://vimeo.com/9214023'
       width="100%"
-      playing="true"
+      playing="false"
       controls="true"
       loop="true"
+      volume="0.2"
+      muted="true"
       style={{marginTop: '-17%', verticalAlign: 'top' }}
       />
 

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import homeStyles from './home.module.css'
-
+import Rotate from 'react-reveal/Rotate';
 import {
   Banner1,
   Banner2,
@@ -22,6 +22,7 @@ const SectionTwo = () => (
         <p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>
       </header>
       <div className="posts">
+        <Rotate top left cascade>
         <section className="post">
           <a href="#" className="image"><img src={Banner1} alt /></a>
           <div className="content">
@@ -70,6 +71,7 @@ const SectionTwo = () => (
             <a href="#" className="button">More</a>
           </div>
         </section>
+        </Rotate>
       </div>
     </div>
   </section>

@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col'
 
 import homeStyles from './home.module.css'
 
+
+
 const SectionOne = () => (
 <section id="one" className="wrapper">
     <Container>

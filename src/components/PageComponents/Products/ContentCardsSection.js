@@ -5,6 +5,7 @@ import ContentCards from "./ContentCards";
 
 import cardStyles from './products.module.css'
 
+
 function ContentCardsSection(props) {
   return (
     <Section
@@ -16,6 +17,7 @@ function ContentCardsSection(props) {
     >
       <div className={cardStyles.CardContainer}>
         <div style={{margin: 'auto', padding: '0'}}>
+        
         <ContentCards
           items={[
             {
