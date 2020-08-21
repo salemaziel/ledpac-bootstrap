@@ -28,8 +28,8 @@ const config = require('./config/site');
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://ledpac.salemaziel.design',
-        sitemap: 'https://ledpac.salemaziel.design/sitemap.xml',
+        host: 'https://testing.ledpc.com',
+        sitemap: 'https://testing.ledpac.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
@@ -44,7 +44,7 @@ const config = require('./config/site');
       options: {
         name: `LEDPac LED Lighting Solutions`,
         short_name: `LEDPac`,
-	lang: `en`,
+	      lang: `en`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#ff0000`,

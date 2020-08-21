@@ -5,6 +5,8 @@ import ContentCards from "./ContentCards";
 
 import cardStyles from './products.module.css'
 
+import Fade from 'react-reveal/Fade'
+
 
 function ContentCardsSection(props) {
   return (
@@ -17,7 +19,7 @@ function ContentCardsSection(props) {
     >
       <div className={cardStyles.CardContainer}>
         <div style={{margin: 'auto', padding: '0'}}>
-        
+        <Fade left big>
         <ContentCards
           items={[
             {
@@ -50,6 +52,7 @@ function ContentCardsSection(props) {
             },
           ]}
         ></ContentCards>
+        </Fade>
         </div>
       </div>
     </Section>

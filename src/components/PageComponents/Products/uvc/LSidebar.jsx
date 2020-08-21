@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Banner2, WholeRoom_1, CloseSurface_1 } from '../../../../images/index'
+import { Banner2, WholeRoom_1, CloseSurface_1, UVDisinfectLamp4 } from '../../../../images/index'
 
 import UVCSterilizerSpecs from '../../../../assets/UVC_Sterilizer_Specs.pdf'
 import DefenderUVC300 from '../../../../assets/Defender_UVC_300W.pdf'
@@ -21,7 +21,7 @@ const LSidebar = () => (
       </section>
       <hr />*/}
       <section>
-        <div className="image fit"><img src={WholeRoom_1} alt='' /></div>
+        <div className="image fit"><img src={UVDisinfectLamp4} alt='' /></div>
         <h3>Whole Room UV-C Disinfectants</h3>
         <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
         <footer>

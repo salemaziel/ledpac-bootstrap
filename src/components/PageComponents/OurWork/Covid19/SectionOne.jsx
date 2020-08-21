@@ -17,6 +17,8 @@ import {
 } from "../../../../images/index";
 
 import covidStyles from "./covid19.module.css";
+import { Link } from 'gatsby'
+import Fade from 'react-reveal/Fade'
 
 const SectionOne = () => (
   <section id="main" className="wrapper sidebar right">
@@ -24,13 +26,16 @@ const SectionOne = () => (
       <header
         className="major" /* className={covidStyles.covidHeader}*/ /*style={{padding: '4rem', width: '100%', backgroundSize: 'cover', backgroundPosition: '50% 30%', backgroundRepeat: 'no-repeat', backgroundImage: `url(${Covid19Stats_1})` }}*/
       >
+        <Fade left big>
         <h2>Covid 19</h2>
         <p>UltraViolet LED Disinfectant Solutions</p>
+        </Fade>
       </header>
       {/* Content */}
 
       {/*<div className="image fit"><img src={Covid19Stats_1} alt='' /></div>*/}
       <div className={covidStyles.intro}>
+      <Fade left big>
         <div className="box alt">
           <Row className={covidStyles.PictureRow}>
             <Col className="image fit">
@@ -44,8 +49,11 @@ const SectionOne = () => (
             </Col>
           </Row>
         </div>
+        </Fade>
       </div>
+      <Fade left big>
       <div className="content">
+        
         <h3>TOGETHER WE CAN KILL COVID-19</h3>
         <p>
           The world has been turned upside down by the COVID-19 pandemic,
@@ -70,13 +78,19 @@ const SectionOne = () => (
           <Container>
             <Row className={covidStyles.PictureRow}>
               <Col className="image fit">
+                <Link to="/products/ultraviolet-led">
                 <img src={OneTwentyEight_1} alt="airport" style={{padding: '2rem'}}/>
+                </Link>
               </Col>
               <Col className="image fit">
-                <img src={Fifty_1} alt="airport" style={{padding: '2rem'}}/>
+              <Link to="/products/ultraviolet-led">
+                <img  src={Fifty_1} alt="airport" style={{padding: '2rem'}}/>
+                </Link>
               </Col>
               <Col className="image fit">
-                <img src={Sixtyfour_1} alt="airport" style={{padding: '2rem'}} />
+              <Link to="/products/ultraviolet-led">
+                <img  src={Sixtyfour_1} alt="airport" style={{padding: '2rem'}} />
+                </Link>
               </Col>
             </Row>
             {/* <Row>
@@ -121,6 +135,7 @@ const SectionOne = () => (
                   <a
                     href="https://globallightingproject.org/campaigns/covid-19/"
                     className="button NoMobile"
+                    style={{maxWidth: "fit-content"}}
                   >
                     Learn More About The Global Lighting Project
                   </a>
@@ -146,6 +161,7 @@ const SectionOne = () => (
           <li>Lacinia mattis arcu nascetur lobortis.</li>
         </ul>*/}
       </div>
+      </Fade>
       <LSidebar />
     </div>
   </section>

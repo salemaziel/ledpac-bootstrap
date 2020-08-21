@@ -3,10 +3,13 @@ import { Link } from "gatsby";
 import homeStyles from "./PageComponents/Home/home.module.css";
 
 import Col from "react-bootstrap/Col";
+import Fade from 'react-reveal/Fade';
 
 
 const CTA = () => (
   <section id="two" className={homeStyles.cta}>
+        {/*<Fade left cascade>*/}
+
     <div className={homeStyles.inner}>
       <Col>
         <header>
@@ -30,6 +33,7 @@ const CTA = () => (
         </ul>
       </Col>
     </div>
+    {/*</Fade>*/}
   </section>
 );
 

@@ -62,10 +62,12 @@
     border-radius: 5px;
     border: 0;
     position: relative;
+    height: 100%;
 }
 
 .ImageFit img{
   width: 100%;
+  height: 100%;
 }
 
 

@@ -50,10 +50,10 @@ const Footer = () => (
           </div>
         </div>
         <p className={footerStyles.copyright}>
-          © LEDPac. All rights reserved.
-          <br />
-          <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> |{" "}
-          <Link to="/contact">Contact</Link>
+          LEDPac © All rights reserved.
+
+          {/*<a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> |{" "}
+          <Link to="/contact">Contact</Link>*/}
         </p>
 
       </footer>

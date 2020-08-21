@@ -29,9 +29,7 @@ const SectionOne = () => (
       </Fade>
 
       {/*<SectionTwo />*/}
-      <Fade left cascade>
       <ContentCardsSection />
-      </Fade>
 
       <h3>No Project Too Large or Too Small</h3>
       <p>LEDpac has North American manufacturing using only quality LEDs, and has developed systems for projects ranging in size from residential kitchens to jewelry cases for large national accounts. No project is too large or too small.</p>
