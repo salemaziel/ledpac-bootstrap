@@ -1,7 +1,6 @@
 import React from "react";
 
 import {
-  Airport1,
   Finley1,
   Finley10,
   Finley11,

@@ -1,20 +1,20 @@
 import React from "react";
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 import LSidebar from "./LSidebar";
 
 import SectionTwo from "./SectionTwo";
 
 import {
-  CobNewGen,
-  CobConnector,
-  CobLedStrip,
-  CobLedStrip2,
-  CobLedStrip3,
-  CobLedStrip4,
-  CobLedStrip5,
+//  CobNewGen,
+//  CobConnector,
+//  CobLedStrip,
+//  CobLedStrip2,
+//  CobLedStrip3,
+//  CobLedStrip4,
+//  CobLedStrip5,
   CobLighting,
-  CobSpecs,
-  CobSpecs2,
+//  CobSpecs,
+//  CobSpecs2,
 } from "../../../../images/index";
 
 import cobStyles from "./cob.module.css";

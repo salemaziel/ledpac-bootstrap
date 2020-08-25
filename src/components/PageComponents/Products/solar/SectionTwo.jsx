@@ -5,15 +5,15 @@ import {
   SolarLamp2,
   SolarLamp3,
   SolarSpecs1,
-  ProjectPics1,
+//  ProjectPics1,
   ProjectPics1_1
 } from "../../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 
-import DisplayPDF from './displaypdf'
+//import DisplayPDF from './displaypdf'
 
 import solarStyles from "./solar.module.css";
 

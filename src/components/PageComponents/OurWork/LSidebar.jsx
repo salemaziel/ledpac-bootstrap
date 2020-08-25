@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Banner2, CobNewGen, RGBGrow3_1,
+import { CobNewGen,
   ProjectPics1_1,
   UVCWand3, 
   RGBGrow3} from '../../../images/index'

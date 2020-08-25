@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   RGBAdvantage, 
-  RGBGrow1, 
+//  RGBGrow1, 
   RGBGrow2, 
   RGBGrow3, 
   RGBGrowRack

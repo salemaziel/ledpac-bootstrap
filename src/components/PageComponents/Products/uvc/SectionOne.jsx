@@ -1,10 +1,14 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import LSidebar from './LSidebar'
 
 import SectionTwo from './SectionTwo'
 
-import { Airport2, UVCWand3, UVCSpectrum } from '../../../../images/index'
+import { 
+//  Airport2, 
+//UVCWand3, 
+UVCSpectrum 
+} from '../../../../images/index'
 
 import uvctyles from './uvc.module.css'
 

@@ -1,10 +1,13 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import LSidebar from './LSidebar'
 
 import SectionTwo from './SectionTwo'
 
-import { Airport2, ProjectPics1_1 } from '../../../../images/index'
+import { 
+//  Airport2, 
+  ProjectPics1_1 
+} from '../../../../images/index'
 
 import solarStyles from './solar.module.css'
 

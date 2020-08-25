@@ -1,12 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import LSidebar from './LSidebar'
 
-import SectionTwo from './SectionTwo'
+//import SectionTwo from './SectionTwo'
 
 import ContentCardsSection from './ContentCardsSection'
 
-import { Airport2, Airport4 } from '../../../images/index'
+//import { 
+//  Airport2, 
+//  Airport4 
+//} from '../../../images/index'
 
 import productStyles from './products.module.css'
 import Fade from 'react-reveal/Fade';

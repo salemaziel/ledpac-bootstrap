@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import LSidebar from './LSidebar'
 
-import { Banner2, Airport1 } from '../../../images/index'
+import { Banner2 } from '../../../images/index'
 
 import Fade from 'react-reveal/Fade';
 

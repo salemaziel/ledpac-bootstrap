@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 
-import { Banner2 } from "../../../images/index";
+//import { Banner2 } from "../../../images/index";
 
 import ReactPlayer from 'react-player/vimeo'
 

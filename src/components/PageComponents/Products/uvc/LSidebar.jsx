@@ -1,7 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 
-import { Banner2, WholeRoom_1, CloseSurface_1, UVDisinfectLamp4 } from '../../../../images/index'
+import { 
+//  Banner2, 
+//  WholeRoom_1, 
+  CloseSurface_1, 
+  UVDisinfectLamp4 } from '../../../../images/index'
 
 import UVCSterilizerSpecs from '../../../../assets/UVC_Sterilizer_Specs.pdf'
 import DefenderUVC300 from '../../../../assets/Defender_UVC_300W.pdf'

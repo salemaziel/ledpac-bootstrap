@@ -301,7 +301,7 @@ const SectionTwo = () => (
                   </p>
                   <ul className={uvcStyles.actions}>
                     <li>
-                      <a href={SixFourZero} className="button" target="_blank">
+                      <a href={SixFourZero} className="button" target="_blank" rel="noreferrer">
                         Learn More
                       </a>
                     </li>
@@ -311,7 +311,7 @@ const SectionTwo = () => (
                     <li>
                       <Link to="/contact"
                         className="button"
-                        target="_blank"
+                        
                       >
                         Contact
                       </Link>

@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import homeStyles from "./PageComponents/Home/home.module.css";
 
 import Col from "react-bootstrap/Col";
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
 
 
 const CTA = () => (
