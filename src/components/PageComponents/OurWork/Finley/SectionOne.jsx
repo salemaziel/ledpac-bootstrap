@@ -44,15 +44,7 @@ const SectionOne = () => (
 
         <SectionTwo />
 
-        
 
-       {/*} <ul>
-          <li>Faucibus orci lobortis ac adipiscing integer.</li>
-          <li>Col accumsan arcu mi aliquet placerat.</li>
-          <li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-          <li>Blandit massa non blandit tempor interdum.</li>
-          <li>Lacinia mattis arcu nascetur lobortis.</li>
-        </ul>*/}
       </div>
       <LSidebar />
     </div>

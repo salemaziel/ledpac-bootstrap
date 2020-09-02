@@ -238,6 +238,81 @@ nav ul li {
   background: transparent!important;
 }
 
+
+.card-header {
+  width: 100%;
+  border-top: 1px solid #e1e4e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-header a {
+  text-align: center;
+  flex: 1;
+  line-height: 40px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.card-header a:hover {
+  background: #e6e6e6;
+}
+.card-header .divider {
+  width: 1px;
+  height: 40px;
+  background: #e1e4e9;
+}
+
+.card-title.h5 {
+  font-size: 20px;
+}
+.card-header:hover,
+.card-header:focus,
+.card-header:focus-within {
+  background: rgba(203,203,204,0.3);
+}
+
+.card-footer {
+  width: 100%;
+  border-top: 1px solid #e1e4e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer:hover,
+.card-footer:focus,
+.card-footer:focus-within {
+  background: rgba(203,203,204,0.3);
+}
+
+
+.card-footer a {
+  text-align: center;
+  flex: 1;
+  line-height: 40px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.card-footer a:hover {
+  background: #e6e6e6;
+}
+.card-footer .divider {
+  width: 1px;
+  height: 40px;
+  background: #e1e4e9;
+}
+
+
+
+
+
+
 @media screen and (min-width: 2400px) {
   .NoDesktop {
     display: none;

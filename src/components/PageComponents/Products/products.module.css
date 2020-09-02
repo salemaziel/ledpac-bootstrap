@@ -62,6 +62,10 @@
     .CategoryRow {
         display: flex;
     }
+    .Content {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 

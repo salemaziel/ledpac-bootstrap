@@ -15,7 +15,7 @@ const SectionOne = () => (
     {/* Content */}
     <div className="content">
       <h3>Get In Touch</h3>
-      <p>Fill out the form below to send us a message. We will get back to you as soon as we can!</p>
+      <p>Please fill out the form below. We will contact you shortly </p>
 
     <br />
       <ContactForm />

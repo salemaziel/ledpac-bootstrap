@@ -3,12 +3,27 @@ import React from 'react'
 import LSidebar from './LSidebar'
 
 import SectionTwo from './SectionTwo'
+import ProductCards2 from '../ProductCards2'
+
+import {
+  TwentyFive_VertSquare,
+  OneTwentyEight_VertSquare,
+  Fifty_VertSquare,
+  Sixtyfour_VertSquare,
+  Sixtyfourzero_VertSquare,
+} from "../../../../images/index";
 
 import { 
 //  Airport2, 
 //UVCWand3, 
 UVCSpectrum 
 } from '../../../../images/index'
+
+import Fifty from "../../../../assets/R7-50_UV-C_MICROBE_INACTIVATOR.pdf";
+import TwentyFive from "../../../../assets/R7-25_UV-C_MICROBE_INACTIVATOR.pdf";
+import OneTwentyEight from "../../../../assets/R7-128_UV-C_MICROBE_INACTIVATOR.pdf";
+import SixtyFour from "../../../../assets/R7-64_UV-C_MICROBE_INACTIVATOR.pdf";
+import SixFourZero from "../../../../assets/R7-640_UV-C_MICROBE_INACTIVATOR_TRACK.pdf";
 
 import uvctyles from './uvc.module.css'
 
@@ -17,30 +32,100 @@ const SectionOne = () => (
   <div className="inner">
     <header className="major">
       <h2>UltraViolet (UVC) LED</h2>
-      {/*<p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
     </header>
     {/* Content */}
     <div className="content">
-      <div to="#" className="image fit"><img src={UVCSpectrum} alt='' /></div>
+      <h3>Good Solid Header Introducing these products, for ex:</h3>
+      <h3>Hand-held Industrial-Grade UV-C Microorganism Inactivation Wands </h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <ProductCards2
+      items={[
+        {
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          title: "128 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
+          subtitle: "MODEL: XLP 128.30.640",
+          body: "Features:",
+          link: "/contact",
+          specs: OneTwentyEight,
+          feature1 : "Beeping sensor switch",
+          feature2 : "Premium UV-C LEDs",
+          feature3 : "Expandable design",
+          feature4 : "High impact lenses",
+          feature5 : "Safety gravity switch",
+          feature6 : "USB-C Power input",
+        },
+        {
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951469/ledpac/uvc/25-500x375_wwbt6p.png",
+          title: "25 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
+          subtitle: "Model: SLP 25.6.150",
+          body: "Features:",
+          link: "/contact",
+          specs: TwentyFive,
+          feature1 : "Beeping sensor switch",
+          feature2 : "Premium UV-C LEDs",
+          feature3 : "Expandable design",
+          feature4 : "High impact lenses",
+          feature5 : "Safety gravity switch",
+          feature6 : "USB-C Power input",
+        },
+        {
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          title: "50 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
+          subtitle: "MODEL: SLP 50.12.300",
+          body: "Features:",
+          link: "/contact",
+          specs: Fifty,
+          feature1 : "Beeping sensor switch",
+          feature2 : "Premium UV-C LEDs",
+          feature3 : "Expandable design",
+          feature4 : "High impact lenses",
+          feature5 : "Safety gravity switch",
+          feature6 : "USB-C Power input",
+        },
+        {
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          title: "64 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
+          subtitle: "MODEL: XLP 128.30.640",
+          body: "Features:",
+          link: "/contact",
+          specs: SixtyFour,
+          feature1 : "Beeping sensor switch",
+          feature2 : "Premium UV-C LEDs",
+          feature3 : "Expandable design",
+          feature4 : "High impact lenses",
+          feature5 : "Safety gravity switch",
+          feature6 : "USB-C Power input",
+        },
+        {
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          title: "640 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
+          subtitle: "MODEL: XLP 640.150.3840",
+          body: "Features:",
+          link: "/contact",
+          specs: SixFourZero,
+          feature1 : "Beeping sensor switch",
+          feature2 : "Premium UV-C LEDs",
+          feature3 : "Expandable design",
+          feature4 : "High impact lenses",
+          feature5 : "Safety gravity switch",
+          feature6 : "USB-C Power input",
+        },
+
+
+      ]} />
+      <div className={uvctyles.Leading}>
+      <h3>More Information about how UVC Lights work to kill viruses and bacteria</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+    {/*<SectionTwo />*/}
+      <div className="image fit"><img src={UVCSpectrum} alt='' style={{maxWidth: '70%', margin: 'auto'}} /></div>
       <div className={uvctyles.Leading}>
       <h3>Lorem ipsum dolor sit amet</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-    <SectionTwo />
-   {/*   
-      <h3>No Project Too Large or Too Small</h3>
-      <p>LEDpac has North American manufacturing using only quality LEDs, and has developed systems for projects ranging in size from residential kitchens to jewelry cases for large national accounts. No project is too large or too small.</p>
-      <h3>Patented Technology</h3>
-      <p>LEDpac has submitted more than a dozen products which are currently Patent Pending. One of the first LED companies to submit products under the UL2108 guidelines, LEDpac offers a range of UL listed products and systems using only the finest LEDs available.</p>
-      <ul>
-        <li>Patented Tech 1</li>
-        <li>Patented Tech 2</li>
-        <li>Patented Tech 3</li>
-        <li>Patented Tech 4</li>
-        <li>Patented Tech 5</li>
-      </ul>
-   */}
+   
     </div>
       <LSidebar />
   </div>

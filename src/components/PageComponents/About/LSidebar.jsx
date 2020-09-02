@@ -3,35 +3,31 @@ import React from "react";
 
 //import { Banner2 } from "../../../images/index";
 
-import ReactPlayer from 'react-player/vimeo'
+import ReactPlayer from "react-player/vimeo";
 
-import Fade from 'react-reveal/Fade';
-
+//import Fade from "react-reveal/Fade";
 
 const LSidebar = () => (
   <>
     <div className="sidebar">
-      
       <section>
+          <h3>
+            Connection <br />
+            at Indianapolis Airport
+          </h3>
 
-      <Fade>
-        <h3>Connection <br />
-        at Indianapolis Airport</h3>
-        </Fade>
-        <Fade ssrReveal>
-        <ReactPlayer 
-      url='https://vimeo.com/9214023'
-      width="100%"
-      playing="false"
-      controls="true"
-      loop="true"
-      volume="0.2"
-      muted="true"
-      style={{marginTop: '-17%', verticalAlign: 'top' }}
-      />
- </Fade>
+          <ReactPlayer
+            url="https://vimeo.com/9214023"
+            width="100%"
+            playing="false"
+            controls="true"
+            loop="true"
+            volume="0.2"
+            muted="true"
+            style={{ marginTop: "-17%", verticalAlign: "top" }}
+          />
       </section>
-     
+
       <hr />
       {/*<section>
         <Link to="#" className="image fit"><img src={Banner2} alt='' /></Link>

@@ -13,7 +13,6 @@ const SectionOne = () => (
     <div className="inner">
       <header className="major">
         <h2>Our Work</h2>
-        {/* <p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
       </header>
       <div className="" style={{ width: "100%", marginBottom: "2em" }}>
         <CovidCard />
@@ -43,7 +42,6 @@ const SectionOne = () => (
             </p>
           </Col>
         </Row>
-        {/*    <div className="image fit"><img src={UVCWand3_1} alt='' /></div>*/}
         <WorkCards1 />
 
         <hr />

@@ -1,7 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Banner2 } from '../../../../images/index'
+import { 
+  Banner2, 
+  LampMail_1, 
+  LampMail_2, 
+  LampMail_3, 
+  LampMail_4, 
+} from '../../../../images/index'
 
 
 const LSidebar = () => (
@@ -18,7 +24,7 @@ const LSidebar = () => (
       </section>
       <hr />*/}
       <section>
-        <Link to="#" className="image fit"><img src={Banner2} alt='' /></Link>
+        <Link to="#" className="image fit"><img src={LampMail_1} alt='' /></Link>
         <h3>Amet Lorem Tempus</h3>
         <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
         <footer>
@@ -29,7 +35,7 @@ const LSidebar = () => (
       </section>
       <hr />
       <section>
-        <Link to="#" className="image fit"><img src={Banner2} alt='' /></Link>
+        <Link to="#" className="image fit"><img src={LampMail_2} alt='' /></Link>
         <h3>Amet Lorem Tempus</h3>
         <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
         <footer>

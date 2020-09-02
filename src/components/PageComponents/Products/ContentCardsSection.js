@@ -19,11 +19,11 @@ function ContentCardsSection(props) {
     >
       <div className={cardStyles.CardContainer}>
         <div style={{margin: 'auto', padding: '0'}}>
-        <Fade left big>
+        {/*<Fade left big>*/}
         <ContentCards
           items={[
             {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125848/ledpac/uvc-wand3_1_jbnob3.jpg",
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599040252/ledpac/uvc/mask-disinfectant-1.jpg_cm4ifo.jpg",
               title: "UV-C LED Disinfecting Lights",
               body:
                 "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
@@ -52,7 +52,7 @@ function ContentCardsSection(props) {
             },
           ]}
         ></ContentCards>
-        </Fade>
+        {/*</Fade>*/}
         </div>
       </div>
     </Section>

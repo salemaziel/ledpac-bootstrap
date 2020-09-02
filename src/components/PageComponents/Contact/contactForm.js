@@ -1,25 +1,24 @@
-import React from "react"
-import { navigate } from "gatsby"
-import Form from "react-bootstrap/Form"
+import React from "react";
+import { navigate } from "gatsby";
+import Form from "react-bootstrap/Form";
 //import Button from 'react-bootstrap/Button'
-
 
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
+    .join("&");
 }
 
 export default function ContactForm() {
-  const [state, setState] = React.useState({})
+  const [state, setState] = React.useState({});
 
   const handleChange = (e) => {
-    setState({ ...state, [e.target.name]: e.target.value })
-  }
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    const form = e.target
+    e.preventDefault();
+    const form = e.target;
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -29,8 +28,8 @@ export default function ContactForm() {
       }),
     })
       .then(() => navigate(form.getAttribute("action")))
-      .catch((error) => alert(error))
-  }
+      .catch((error) => alert(error));
+  };
 
   return (
     <>
@@ -46,154 +45,73 @@ export default function ContactForm() {
 
         <Form.Row>
           {/*<Col>*/}
-            <Form.Group>
-              <label style={{ display: "none" }} htmlFor="name">
-                Name
-              </label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Name"
-                required
-              />
-            </Form.Group>
-        {/*  </Col> 
-          <Col>*/}
-          {/*  <Form.Group>
-              <label htmlFor="name" style={{ display: "none" }}>
-                Last Name
-              </label>
-              <input
-                type="text"
-                name="lastname"
-                id="lastname"
-                placeholder="Last Name"
-                required
-                onClick={handleChange}
-              />
-            </Form.Group>
-          </Col> */}
+          <Form.Group>
+            <label style={{ display: "none" }} htmlFor="name">
+              Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+          </Form.Group>
         </Form.Row>
 
         <Form.Row>
           {/*<Col>*/}
           <Form.Group>
-              <label htmlFor="email" style={{ display: "none" }}>
-                Email
-              </label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email"
-                required
-                onChange={handleChange}
-              />
-            </Form.Group>
-        {/*  </Col> 
+            <label htmlFor="email" style={{ display: "none" }}>
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+              onChange={handleChange}
+            />
+          </Form.Group>
+          {/*  </Col> 
           <Col>*/}
-          </Form.Row>
-          <Form.Row>
-            <Form.Group>
-              <label htmlFor="tel" style={{ display: "none" }}>
-                Phone
-              </label>
-              <input
-                type="tel"
-                name="phone"
-                id="phone"
-                placeholder="Phone"
-                onChange={handleChange}
-              />
-            </Form.Group>
-       {/* </Col> */}
-        </Form.Row>
-
-       {/* <Form.Row>
-          <Col>
-            <Form.Group>
-              <label htmlFor="streetname" style={{ display: "none" }}>
-                Street Address
-              </label>
-              <input
-                type="text"
-                name="streetname"
-                id="streetname"
-                placeholder="123 Your Street"
-                required
-                onChange={handleChange}
-              />
-            </Form.Group>
-          </Col>
         </Form.Row>
         <Form.Row>
-          <Col>
-            <Form.Group>
-              <label htmlFor="city" style={{ display: "none" }}>
-                City
-              </label>
-              <input
-                type="text"
-                name="city"
-                id="city"
-                placeholder="City"
-                required
-                onChange={handleChange}
-              />
-            </Form.Group>
-          </Col>
-          <Col xs={2}>
-            <Form.Group>
-              <label htmlFor="state" style={{ display: "none" }}>
-                State
-              </label>
-              <input
-                type="text"
-                name="state"
-                id="state"
-                value="CA"
-                required
-                onChange={handleChange}
-              />
-            </Form.Group>
-          </Col>
-          <Col>
-            <Form.Group>
-              <label htmlFor="address" style={{ display: "none" }}>
-                Zip Code
-              </label>
-              <input
-                type="text"
-                name="zipcode"
-                id="zipcode"
-                placeholder="Zip Code"
-                required
-                onChange={handleChange}
-              />
-            </Form.Group>
-          </Col>
-       </Form.Row> */}
+          <Form.Group>
+            <label htmlFor="tel" style={{ display: "none" }}>
+              Phone
+            </label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Phone"
+              onChange={handleChange}
+            />
+          </Form.Group>
+          {/* </Col> */}
+        </Form.Row>
 
         <Form.Row>
-            <Form.Group>
-              <label htmlFor="textarea" style={{ display: "none" }}>
-                Message
-              </label>
-              <input
-                type="textarea"
-                name="message"
-                id="message"
-                placeholder="Message"
-                onChange={handleChange}
-              />
-            </Form.Group>
-       {/* </Col> */}
+          <Form.Group>
+            <label htmlFor="textarea" style={{ display: "none" }}>
+              Message
+            </label>
+            <input
+              type="textarea"
+              name="message"
+              id="message"
+              placeholder="Message"
+              onChange={handleChange}
+            />
+          </Form.Group>
+          {/* </Col> */}
         </Form.Row>
 
         <Form.Group>
           <ul className="actions">
-            <li style={{listStyle: 'none'}}>
+            <li style={{ listStyle: "none" }}>
               <button
                 type="submit"
                 value="Send Message"
@@ -207,5 +125,5 @@ export default function ContactForm() {
         </Form.Group>
       </form>
     </>
-  )
+  );
 }

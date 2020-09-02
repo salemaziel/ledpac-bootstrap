@@ -136,6 +136,12 @@
     display: flex;
     margin: auto;
   }
+  .ProductTitle {
+    font-size: 1rem;
+    margin: auto;
+    padding: 0 0 10px;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 767px) {

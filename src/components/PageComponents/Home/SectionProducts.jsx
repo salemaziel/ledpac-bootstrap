@@ -25,7 +25,7 @@ const SectionProducts = () => (
         <div className="box alt">
           <div className="row gtr-uniform gtr-50">
             {/*<div className={productStyles.Cob}>*/}
-            <Fade top big cascade>
+            <Fade left big cascade>
             <div className={productStyles.ProductBox}>
               <Row className={productStyles.CategoryRow}>
                 <Col>
@@ -156,109 +156,6 @@ const SectionProducts = () => (
             </div>
             </Fade>
 
-            {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>* /}
-        {/*</div>** /}
-        <br />
-        <hr />
-        <br />
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-6">
-          <h3 className={productStyles.ProductTitle}>RGB LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>* /}
-        {/*</div>** /}
-
-        <br />
-        <hr />
-        <br />
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-12">
-          <h3 className={productStyles.ProductTitle}>Solar Powered LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>*/}
-            {/*</div>**/}
-
-            {/*<div className={productStyles.Cob}>* /}
-        <div className="col-12">
-          <h3 className={productStyles.ProductTitle}>UltraViolet (UV) LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>*/}
-            {/*</div>** /}
-
-        <div className="col-12">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport3} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport3} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>*/}
           </div>
         </div>
       </div>

@@ -281,7 +281,7 @@ h2 {
 }
 
 h3 {
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1.5em;
 }
 
@@ -440,6 +440,10 @@ hr {
 }
 
 /* Button */
+.button {
+  width: max-content;
+  margin: auto;
+}
 
 input[type="submit"],
 input[type="reset"],
@@ -466,8 +470,6 @@ button,
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  max-width: 300px;
-  min-width: 300px;
 }
 
 input[type="submit"].icon,

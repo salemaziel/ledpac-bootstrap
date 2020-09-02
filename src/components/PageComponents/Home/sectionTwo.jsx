@@ -1,7 +1,7 @@
 import React from 'react'
 
 import homeStyles from './home.module.css'
-import Rotate from 'react-reveal/Rotate';
+import Fade from 'react-reveal/Fade';
 import {
   Banner1,
   Banner2,
@@ -22,13 +22,17 @@ const SectionTwo = () => (
         <p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>
       </header>
       <div className="posts">
-        <Rotate top left cascade>
+        <Fade left big cascade>
         <section className="post">
           <a href="#" className="image"><img src={Banner1} alt /></a>
           <div className="content">
             <h3>Ultricies sed lorem</h3>
             <p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
-            <a href="#" className="button">More</a>
+            <a href="#" className="button" style={{
+              minWidth: 'initial'
+            }} style={{
+              minWidth: 'initial'
+            }}>More</a>
           </div>
         </section>
         <section className="post">
@@ -36,7 +40,9 @@ const SectionTwo = () => (
           <div className="content">
             <h3>Imperdiet egestas</h3>
             <p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
-            <a href="#" className="button">More</a>
+            <a href="#" className="button" style={{
+              minWidth: 'initial'
+            }}>More</a>
           </div>
         </section>
         <section className="post">
@@ -44,7 +50,9 @@ const SectionTwo = () => (
           <div className="content">
             <h3>Urna varius</h3>
             <p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
-            <a href="#" className="button">More</a>
+            <a href="#" className="button" style={{
+              minWidth: 'initial'
+            }}>More</a>
           </div>
         </section>
         <section className="post">
@@ -52,7 +60,9 @@ const SectionTwo = () => (
           <div className="content">
             <h3>Elit ligula commodo</h3>
             <p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
-            <a href="#" className="button">More</a>
+            <a href="#" className="button" style={{
+              minWidth: 'initial'
+            }}>More</a>
           </div>
         </section>
         <section className="post">
@@ -60,7 +70,9 @@ const SectionTwo = () => (
           <div className="content">
             <h3>Rutrum sed erat</h3>
             <p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
-            <a href="#" className="button">More</a>
+            <a href="#" className="button" style={{
+              minWidth: 'initial'
+            }}>More</a>
           </div>
         </section>
         <section className="post">
@@ -68,10 +80,12 @@ const SectionTwo = () => (
           <div className="content">
             <h3>Cubilia metus</h3>
             <p>Lorem ipsum dolor sit amet interdum arcu pulvinar lorem ipsum sed feugiat etiam sed magna adipiscing.</p>
-            <a href="#" className="button">More</a>
+            <a href="#" className="button" style={{
+              minWidth: 'initial'
+            }}>More</a>
           </div>
         </section>
-        </Rotate>
+        </Fade>
       </div>
     </div>
   </section>
