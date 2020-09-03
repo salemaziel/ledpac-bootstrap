@@ -47,7 +47,7 @@ const SectionTwo = () => (
             </Col>
             <Col>
               <span className="image fit">
-                <img src={ZeroSix} alt="" style={{ margin: "auto" }} />
+                <img src={ZeroSix} alt="Crop fields grown with RGB LEDs" style={{ margin: "auto" }} />
               </span>
             </Col>
           </Row>
@@ -58,7 +58,7 @@ const SectionTwo = () => (
         <Row className={rgbStyles.ProductRow}>
           <Col>
             <span className="image fit">
-              <img src={PicG} alt="" />
+              <img src={PicG} alt="RGB Grow Light Applications: Hydroponics, horticulture" />
             </span>
           </Col>
 
@@ -99,7 +99,7 @@ const SectionTwo = () => (
 
           <Col>
             <span className="image fit">
-              <img src={RGBGrowRack} alt />
+              <img src={RGBGrowRack} alt="RGB Light Grow Rack" />
             </span>
           </Col>
         </Row>

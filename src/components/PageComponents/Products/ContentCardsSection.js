@@ -37,14 +37,14 @@ function ContentCardsSection(props) {
               link: "/products/solar-led"
             },
             {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125632/ledpac/growstrip3_1_bn4e2y.jpg",
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599118437/ledpac/rgb/growstrip3_clbron.jpg",
               title: "RGB LED Grow Lights",
               body:
                 "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
               link: "/products/rgb-led"
             },
             {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125641/ledpac/cob-new-gen_obpkrv.png",
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125641/ledpac/cob/cob-new-gen_obpkrv.png",
               title: "Linearal C.O.B. LED Lights",
               body:
                 "Chip-on-Board LEDs, also known as COBs, are the next and newest generation of LED lighting technology.",

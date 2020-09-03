@@ -4,11 +4,11 @@ import {
   CobNewGen,
   CobConnector,
   CobLedStrip,
-//  CobLedStrip2,
-//  CobLedStrip3,
+  //  CobLedStrip2,
+  //  CobLedStrip3,
   CobLedStrip4,
   CobLedStrip5,
-//  CobLighting,
+  //  CobLighting,
   CobSpecs,
   CobSpecs2,
 } from "../../../../images/index";
@@ -35,13 +35,6 @@ const SectionTwo = () => (
                 in direct contact with a substrate such as silicon carbide to
                 produce LED arrays.
               </p>
-              {/*<ul className="actions">
-              <li>
-                <Link to="#" className="button">
-                  Learn More
-                </Link>
-              </li>
-</ul>*/}
             </Col>
             <Col>
               <span className="image fit">
@@ -55,11 +48,9 @@ const SectionTwo = () => (
       <div className="row gtr-uniform gtr-50">
         <Row className={cobStyles.ProductRow}>
           <Col>
-              <span className="image fit">
-                <img src={CobLedStrip4} alt />
-              </span>
- 
-            
+            <span className="image fit">
+              <img src={CobLedStrip4} alt />
+            </span>
           </Col>
 
           <Col style={{ textAlign: "left" }}>
@@ -80,37 +71,30 @@ const SectionTwo = () => (
                   and reliability
                 </li>
               </ul>
-
-              </p>
-              </Col>
-              </Row>
-              <Row className={cobStyles.ProductRow}>
-              <Col>
-              <span className="image fit">
+            </p>
+          </Col>
+        </Row>
+        <Row className={cobStyles.ProductRow}>
+          <Col>
+            <span className="image fit">
               <img src={CobLedStrip5} alt />
-              </span>
- 
-            
+            </span>
           </Col>
           <Col>
-
-         
-
-
-              <p>
+            <p>
               <strong> Specification:</strong>
               <ul>
-              <li>Voltage: 24VDC, Cutable length: 5cm </li>
-              <li>Power: 15W/M </li>
-              <li>Light Efficiency: 100LM/W </li>
-              <li>Width:10MM </li>
-              <li>Package: 5M/reel.</li>
+                <li>Voltage: 24VDC, Cutable length: 5cm </li>
+                <li>Power: 15W/M </li>
+                <li>Light Efficiency: 100LM/W </li>
+                <li>Width:10MM </li>
+                <li>Package: 5M/reel.</li>
               </ul>
             </p>
           </Col>
-          </Row>
-          <br />
-          {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
+        </Row>
+        <br />
+        {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
 
         <Row className={cobStyles.ProductRow}>
           <Col>

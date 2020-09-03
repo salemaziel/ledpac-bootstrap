@@ -16,7 +16,7 @@ const SectionOne = () => (
       {/* Content */}
       <div className="content">
         <div href="#" className="image fit">
-          <img src={Finley8} alt="" />
+          <img src={Finley8} alt="Onyx countertop LED light display" />
         </div>
         <h3>Onyx Countertop</h3>
         <p>

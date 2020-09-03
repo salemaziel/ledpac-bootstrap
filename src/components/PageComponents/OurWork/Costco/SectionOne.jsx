@@ -16,7 +16,7 @@ const SectionOne = () => (
       {/* Content */}
       <div className="content">
         <div className="image fit">
-          <img src={CostcoAfter} alt="" />
+          <img src={CostcoAfter} alt="Costco display: after photo" />
         </div>
         <h3>A Case Study: Do Brighter Lights Boost Jewelry Sales? </h3>
         <p>

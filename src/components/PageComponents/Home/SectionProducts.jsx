@@ -32,7 +32,7 @@ const SectionProducts = () => (
                   {" "}
                   <span className="image fit">
                     <Link to="/products/ultraviolet-led">
-                      <img src={TwentyFive_BlackBG} alt="" />
+                      <img src={TwentyFive_BlackBG} alt="UV LED Lights" />
                     </Link>
                   </span>
                 </Col>
@@ -66,7 +66,7 @@ const SectionProducts = () => (
                   {" "}
                   <span className="image fit">
                     <Link to="/products/solar-led">
-                      <img src={ProjectPics1_1} alt="" />
+                      <img src={ProjectPics1_1} alt="Solar Powered LED Lights" />
                     </Link>
                   </span>
                 </Col>
@@ -98,7 +98,7 @@ const SectionProducts = () => (
                 <Col>
                   <span className="image fit">
                     <Link to="/products/rgb-led">
-                      <img src={RGBGrow3_1} alt="" />
+                      <img src={RGBGrow3_1} alt="RGB LED Grow Lights" />
                     </Link>
                   </span>
                 </Col>

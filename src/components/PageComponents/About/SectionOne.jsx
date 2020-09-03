@@ -18,7 +18,7 @@ const SectionOne = () => (
       <div className="content">
         {/*<Fade left big>*/}
           <div className="image fit">
-            <img src={Banner2} alt="" />
+            <img src={Banner2} alt='' />
           </div>
 
           <h3>Who We Are</h3>

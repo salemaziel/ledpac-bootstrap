@@ -1,6 +1,6 @@
 import React from 'react'
 
-const List = () => (
+const SectionList = () => (
     <section className="wrapper">
     <div className="inner">
       <ul className="features">
@@ -25,5 +25,5 @@ const List = () => (
 </section>
 )
 
-export default List
+export default SectionList
 
