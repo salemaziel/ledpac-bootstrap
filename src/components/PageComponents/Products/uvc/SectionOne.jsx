@@ -41,7 +41,7 @@ const SectionOne = () => (
       <ProductCards2
       items={[
         {
-          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/uvc/128-1000x1000_zaaelc.png",
           title: "128 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
           subtitle: "MODEL: XLP 128.30.640",
           body: "Features:",
@@ -69,7 +69,7 @@ const SectionOne = () => (
           feature6 : "USB-C Power input",
         },
         {
-          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951469/ledpac/uvc/50-1000x1000_ik1ntd.png",
           title: "50 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
           subtitle: "MODEL: SLP 50.12.300",
           body: "Features:",
@@ -83,7 +83,7 @@ const SectionOne = () => (
           feature6 : "USB-C Power input",
         },
         {
-          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951469/ledpac/uvc/64-1000x1000_n8cfix.png",
           title: "64 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
           subtitle: "MODEL: XLP 128.30.640",
           body: "Features:",
@@ -97,7 +97,7 @@ const SectionOne = () => (
           feature6 : "USB-C Power input",
         },
         {
-          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951468/ledpac/128-1000x1000_zaaelc.png",
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1598951470/ledpac/uvc/640-1000x1000_shjqql.png",
           title: "640 UltraViolet (UV-C) LED Microorganism Inactivation Wand",
           subtitle: "MODEL: XLP 640.150.3840",
           body: "Features:",

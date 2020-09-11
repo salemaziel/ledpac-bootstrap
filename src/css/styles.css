@@ -310,6 +310,10 @@ nav ul li {
 
 
 
+.cursorPointer:hover {
+  cursor: pointer!important;
+}
+
 
 
 

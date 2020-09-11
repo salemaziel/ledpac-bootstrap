@@ -12,7 +12,7 @@ const LSidebar = () => (
     <>
     <div className="sidebar">
 
-      <section>
+      {/*<section>
         <Link to="#" className="image fit"><img src={RGBGrow3} alt='' /></Link>
         <h3>Amet Lorem Tempus</h3>
         <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
@@ -22,7 +22,7 @@ const LSidebar = () => (
           </ul>
         </footer>
       </section>
-      <hr />
+      <hr />*/}
       <section>
         <Link to="#" className="image fit"><img src={RGBGrow1} alt='' /></Link>
         <h3>Amet Lorem Tempus</h3>

@@ -20,13 +20,45 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import rgbStyles from "./rgb.module.css";
+import {Link} from 'gatsby'
 
 const SectionTwo = () => (
   <section>
     <div className="box alt">
       <div className="row gtr-uniform gtr-50">
-        {/*<div className={cobtyles.Cob}>*/}
-        <div className={rgbStyles.ProductBox}>
+      <Row className={rgbStyles.ProductRow}>
+          <Col>
+            <span className="image fit">
+              <img src={PicG} alt="RGB Grow Light Applications: Hydroponics, horticulture" />
+            </span>
+          </Col>
+
+          <Col style={{ textAlign: "left" }}>
+            <p>
+              <strong> Key Features</strong>
+              <ul>
+              
+
+                <li>High PPFD output  </li>
+                <li>Aesthetic design for the fixture </li>
+                <li>50,000 hours life span </li>
+                <li>High power led chips </li>
+                <li>COB LED Chip with all bands of spectrum</li>
+                <li>Superior quality optical lens for lighting </li>
+              <li>Individual electrical desiging for each fans &amp; Drivers</li>
+              <li>Full spectrum from 380-700NM wavelength</li>
+              </ul>
+            </p>
+          </Col>
+          <br />
+          {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
+        </Row>
+
+
+
+      <div className="row gtr-uniform gtr-50">
+                {/*<div className={cobtyles.Cob}>*/}
+                <div className={rgbStyles.ProductBox}>
           <Row className={rgbStyles.ProductRow}>
             <Col>
               <h3 className={rgbStyles.ProductTitle}>RGB LED</h3>
@@ -54,37 +86,23 @@ const SectionTwo = () => (
         </div>
       </div>
 
-      <div className="row gtr-uniform gtr-50">
-        <Row className={rgbStyles.ProductRow}>
-          <Col>
-            <span className="image fit">
-              <img src={PicG} alt="RGB Grow Light Applications: Hydroponics, horticulture" />
-            </span>
-          </Col>
-
-          <Col style={{ textAlign: "left" }}>
-            <p>
-              <strong> Advantage:</strong>
-              <ul>
-                <li>Lorem ipsum dolor sit amet </li>
-                <li>Lorem ipsum dolor sit amet </li>
-                <li>Lorem ipsum dolor sit amet </li>
-                <li>Lorem ipsum dolor sit amet </li>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul>
-              <strong> Specification:</strong>
-              <li>Lorem ipsum dolor sit amet </li>
-              <li>Lorem ipsum dolor sit amet </li>
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Lorem ipsum dolor sit amet </li>
-              <li>Lorem ipsum dolor sit amet</li>
-            </p>
-          </Col>
-          <br />
-          {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
+        <Row>
+        <div className="box alt">
+          <Row className="">
+            <Col className="image fit">
+              <img src={ZeroSeven} alt="spider c.o.b. rgb LED 1" className="cursorPointer"/>
+            </Col>
+            <Col className="image fit">
+              <img src={ZeroFive} alt="spider c.o.b. rgb LED 2" className="cursorPointer"/>
+            </Col>
+            <Col className="image fit">
+              <img src={SpiderSLP} alt="spider c.o.b. rgb LED 3" className="cursorPointer"/>
+            </Col>
+          </Row>
+        </div>
         </Row>
 
-        <Row className={rgbStyles.ProductRow}>
+        {/*<Row className={rgbStyles.ProductRow}>
         <Col>
         <h3 className={rgbStyles.ProductTitle}>RGB LED</h3>
               <p>
@@ -102,13 +120,12 @@ const SectionTwo = () => (
               <img src={RGBGrowRack} alt="RGB Light Grow Rack" />
             </span>
           </Col>
-        </Row>
+        </Row>*/}
         <Row className={rgbStyles.ProductRow} >
           <Col>
           <ul className="actions">
                   <li>
-                    <a
-                      href="https://globallightingproject.org/campaigns/covid-19/"
+                    <Link to="/contact"
                       className="button"
                       style={{
                         whiteSpace: "normal",
@@ -116,7 +133,7 @@ const SectionTwo = () => (
                       }}
                     >
                       Contact Us For An Estimate Today
-                    </a>
+                    </Link>
                   </li>
                 </ul>
           </Col>
