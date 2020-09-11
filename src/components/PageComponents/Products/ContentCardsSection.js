@@ -26,28 +26,28 @@ function ContentCardsSection(props) {
               image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599040252/ledpac/uvc/mask-disinfectant-1.jpg_cm4ifo.jpg",
               title: "UV-C LED Disinfecting Lights",
               body:
-                "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
+                "NEW* LEDpac UV-C  XLP Microbe inactavitor. A patented ,close-surface handheld wand, eradicates Covid-19 in seconds at the push of a button.",
               link: "/products/ultraviolet-led"
             },
             {
               image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125624/ledpac/uvc/project-pictures1_1_yq7nqk.jpg",
               title: "Solar/White LED Lights",
               body:
-                "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
+                "New hi powered solar LED illumination breakthrough. Now a totally reliable with quick illumination powered by the sun, Lighting the darkness through the night using super-efficient White LEDs.",
               link: "/products/solar-led"
             },
             {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599118437/ledpac/rgb/growstrip3_clbron.jpg",
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png",
               title: "RGB LED Grow Lights",
               body:
-                "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
+                "New cob RGB LED  grow light systems allowing the best color spectrum closest to the sunlight and make plants grow faster night and day underground.",
               link: "/products/rgb-led"
             },
             {
               image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125641/ledpac/cob/cob-new-gen_obpkrv.png",
               title: "Linearal C.O.B. LED Lights",
               body:
-                "Chip-on-Board LEDs, also known as COBs, are the next and newest generation of LED lighting technology.",
+                "Chip on board the newest innovation in linearal LED lighting, continuous bright consistant LED illumination throught entire product.",
               link: "/products/chip-on-board-led"
             },
           ]}

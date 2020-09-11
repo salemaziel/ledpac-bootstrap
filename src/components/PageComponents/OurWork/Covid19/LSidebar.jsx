@@ -11,8 +11,8 @@ const LSidebar = () => (
 
       <section>
         <Link to="#" className="image fit" style={{margin: '2rem 0'}} ><img src={BostonUni} alt='' /></Link>
-        <h3>Boston University Study</h3>
-        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+        <h3>UltraViolet wavelength range confirmed to kill Covid 19</h3>
+        <p>Researchers at Boston University tested UV-C LEDs and confirmed their ability to kill Covid-19. LEDpac complies to Boston University with UV-C close surface wands.</p>
         <footer>
           <ul className="actions">
             <li><a href={BostonReport} className="button">Learn More</a></li>

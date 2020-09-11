@@ -43,9 +43,7 @@ const SectionProducts = () => (
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  <strong>NEW</strong> LEDpac UV-C  XLP Microbe inactavitor. A patented,close-surface handheld wand, eradicates Covid-19 in seconds at the push of a button.{" "}
                   </p>
                   <ul className="actions">
                     <li>
@@ -76,9 +74,7 @@ const SectionProducts = () => (
                     <Link to="/products/solar-led">Solar Powered LED</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  New hi powered solar LED illumination breakthrough. Now a totally reliable with quick illumination powered by the sun, Lighting the darkness through the night using super-efficient White LEDs.{" "}
                   </p>
                   <ul className="actions">
                     <li>
@@ -98,7 +94,7 @@ const SectionProducts = () => (
                 <Col>
                   <span className="image fit">
                     <Link to="/products/rgb-led">
-                      <img src={RGBGrow3_1} alt="RGB LED Grow Lights" />
+                      <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png" alt="RGB LED Grow Lights" />
                     </Link>
                   </span>
                 </Col>
@@ -107,9 +103,7 @@ const SectionProducts = () => (
                     <Link to="/products/rgb-led">RGB LED</Link>
                   </h3>
                   <p>
-                    RGB Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  New cob RGB LED  grow light systems allowing the best color spectrum closest to the sunlight and make plants grow faster night and day underground.{" "}
                   </p>
                   <ul className="actions">
                     <li>
@@ -140,9 +134,12 @@ const SectionProducts = () => (
                     {" "}
                     <Link to="/products/chip-on-board-led">COB LED </Link>
                   </h3>{" "}
-                  <p>
+                 {/* <p>
                     Chip-on-Board LEDs, also known as COBs, are the next and
                     newest generation of LED lighting technology{" "}
+                  </p>*/}
+                  <p>
+                  Chip on board the newest innovation in linearal LED lighting, continuous bright consistant LED illumination throught entire product.{" "}
                   </p>
                   <ul className="actions">
                     <li>
