@@ -12,11 +12,12 @@ import ContentCardsSection from './ContentCardsSection'
 //} from '../../../images/index'
 
 import productStyles from './products.module.css'
+import { Container } from 'react-bootstrap'
 //import Fade from 'react-reveal/Fade';
 
 const SectionOne = () => (
 <section id="main" className="wrapper sidebar right">
-  <div className="inner">
+  <Container>
     <header className="major">
       <h2>Products</h2>
       {/*<p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
@@ -40,8 +41,8 @@ const SectionOne = () => (
 
  
     </div>
-      <LSidebar />
-  </div>
+      {/*<LSidebar />*/}
+  </Container>
 </section>
 
 )

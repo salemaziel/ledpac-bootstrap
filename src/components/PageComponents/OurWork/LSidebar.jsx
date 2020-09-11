@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import { CobNewGen,
   ProjectPics1_1,
-  UVCWand3, 
+  UVDisinfectLamp1, 
   RGBGrow3} from '../../../images/index'
 
 
@@ -47,7 +47,7 @@ const LSidebar = () => (
       </section>
       <hr />
       <section>
-        <Link to="/products/ultraviolet-led" className="image fit"><img src={UVCWand3} alt='' /></Link>
+        <Link to="/products/ultraviolet-led" className="image fit"><img src={UVDisinfectLamp1} alt='' /></Link>
         <h3>UltraViolet LED</h3>
         {/*<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>*/}
         <footer>
