@@ -30,7 +30,7 @@ function ContentCardsSection(props) {
               link: "/products/ultraviolet-led"
             },
             {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125624/ledpac/project-pictures1_1_yq7nqk.jpg",
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1593125624/ledpac/uvc/project-pictures1_1_yq7nqk.jpg",
               title: "Solar/White LED Lights",
               body:
                 "Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.",
