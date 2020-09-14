@@ -31,7 +31,7 @@ return(
   <section id="main" className="wrapper sidebar right">
     <div className="inner">
       <header className="major">
-        <h2>RGB LED</h2>
+        <h2>Spider COB LED Growlights</h2>
       </header>
       {/* Content */}
       <div className="content">
@@ -48,7 +48,7 @@ return(
         {
           image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png",
           title: "Spider C.O.B. RGB",
-          subtitle: "MODEL: XLP 128.30.640",
+          subtitle: "MODEL: Spider SLP",
           body: "Features:",
           link: "/contact",
           specs: SpiderCob,
@@ -63,7 +63,7 @@ return(
       ]} />
 
 <div className={rgbStyles.Leading}>
-          <h3>Spider C.O.B. Series</h3>
+          <h3>Spider C.O.B. SLP Series</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

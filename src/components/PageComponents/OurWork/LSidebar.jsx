@@ -26,7 +26,7 @@ const LSidebar = () => (
       <hr />
       <section>
         <Link to="/products/rgb-led" className="image fit"><img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png" alt='' /></Link>
-        <h3>RGB LED</h3>
+        <h3>Spider COB LED Growlights</h3>
         {/*<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>*/}
         <footer>
           <ul className="actions">

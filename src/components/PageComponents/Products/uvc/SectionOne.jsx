@@ -12,6 +12,10 @@ import {
   Sixtyfour_VertSquare,
   Sixtyfourzero_VertSquare,
 } from "../../../../images/index";
+import {Link} from 'gatsby'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 
 import { 
 //  Airport2, 
@@ -25,7 +29,7 @@ import OneTwentyEight from "../../../../assets/R7-128_UV-C_MICROBE_INACTIVATOR.p
 import SixtyFour from "../../../../assets/R7-64_UV-C_MICROBE_INACTIVATOR.pdf";
 import SixFourZero from "../../../../assets/R7-640_UV-C_MICROBE_INACTIVATOR_TRACK.pdf";
 
-import uvctyles from './uvc.module.css'
+import uvcStyles from './uvc.module.css'
 
 const SectionOne = () => (
 <section id="main" className="wrapper sidebar right">
@@ -35,7 +39,6 @@ const SectionOne = () => (
     </header>
     {/* Content */}
     <div className="content">
-      <h3>Good Solid Header Introducing these products, for ex:</h3>
       <h3>Hand-held Industrial-Grade UV-C Microorganism Inactivation Wands </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       <ProductCards2
@@ -113,19 +116,37 @@ const SectionOne = () => (
 
 
       ]} />
-      <div className={uvctyles.Leading}>
+      <div className={uvcStyles.Leading}>
       <h3>More Information about how UVC Lights work to kill viruses and bacteria</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
     {/*<SectionTwo />*/}
       <div className="image fit"><img src={UVCSpectrum} alt='' style={{maxWidth: '70%', margin: 'auto'}} /></div>
-      <div className={uvctyles.Leading}>
+      {/*<div className={uvcStyles.Leading}>
       <h3>Lorem ipsum dolor sit amet</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+    </div>*/}
+    <Row className="gtr-uniform gtr-50">
+            <Row className={uvcStyles.ProductRow} >
+          <Col>
+          <ul className="actions">
+                  <li>
+                    <Link to="/contact"
+                      className="button"
+                      style={{
+                        whiteSpace: "normal",
+                        boxShadow: 'inset 0 0 0 2px rgba(144, 144, 144, 0.25)'
+                      }}
+                    >
+                      Contact Us For An Estimate Today
+                    </Link>
+                  </li>
+                </ul>
+          </Col>
+      </Row>
 
-   
+   </Row>
     </div>
       <LSidebar />
   </div>

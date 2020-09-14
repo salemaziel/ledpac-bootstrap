@@ -168,3 +168,5 @@ export const LampMail_3 = require('./solar/3.jpg');
 export const LampMail_4 = require('./solar/4.jpg');
 export const LampMail_5 = require('./solar/5.jpg');
 export const BostonUni = require('./boston-university-logo.png');
+export const SpectrumStripLight = require('./rgb/spectrum_grow_striplight.jpg');
+

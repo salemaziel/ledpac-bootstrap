@@ -247,7 +247,7 @@ const SectionTwo = () => {
               separately. This custom fixture is so successful that the owner
               incorporated the design into their lighting and design business.
               This fixture is now a product offered by Finley design which will
-              now offer the custom chandelier lights using the LEDPac XLP. To
+              now offer the custom chandelier lights using the LEDpac XLP. To
               convert this fixture into a standard product LEDpac developed a
               small controller power pack to put into the light fixture. This
               will be a custom product to sell through Finley designs. These

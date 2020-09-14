@@ -14,6 +14,7 @@ import {
 } from "../../../../images/index";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import {Link} from 'gatsby'
 
 import cobStyles from "./cob.module.css";
 
@@ -124,7 +125,7 @@ const SectionTwo = () => (
             <p>
               <ul>
                 <strong> New COB led strip</strong>
-                <li> 12V & 24V </li>
+                <li> 12V &amp; 24V </li>
                 <li> 360led per meter </li>
                 <li> 2700/3000/4000/6000K </li>
               </ul>
@@ -145,6 +146,23 @@ const SectionTwo = () => (
             </span>
           </Col>
         </Row>
+        <Row className={cobStyles.ProductRow} >
+          <Col>
+          <ul className="actions">
+                  <li>
+                    <Link to="/contact"
+                      className="button"
+                      style={{
+                        whiteSpace: "normal",
+                        boxShadow: 'inset 0 0 0 2px rgba(144, 144, 144, 0.25)'
+                      }}
+                    >
+                      Contact Us For An Estimate Today
+                    </Link>
+                  </li>
+                </ul>
+          </Col>
+      </Row>
       </div>
     </div>
   </section>

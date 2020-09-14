@@ -43,7 +43,7 @@ const SectionOne = () => (
           contagious and currently there is no cure.{" "}
         </p>
         <p>
-          Until Now. LEDPac can eradicate Covid-19 in seconds with patented UV-C
+          Until Now. LEDpac can eradicate Covid-19 in seconds with patented UV-C
           LED technology.
         </p>
         <div className="box alt">
@@ -131,7 +131,7 @@ const SectionOne = () => (
         <h3>TOGETHER WE CAN KILL COVID-19</h3>
 
         <p>
-          LEDPac, LLC has partnered with The Global Lighting Project, a 501 C3
+          LEDpac, LLC has partnered with The Global Lighting Project, a 501 C3
           organization, to offer one of its patented products containing
           Ultraviolet LED diodes that promise to quickly disinfect surfaces
           contaminated with the Covid-19 virus. The design and LED diodes

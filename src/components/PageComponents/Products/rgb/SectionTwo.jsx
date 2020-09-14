@@ -61,7 +61,7 @@ const SectionTwo = () => (
                 <div className={rgbStyles.ProductBox}>
           <Row className={rgbStyles.ProductRow}>
             <Col>
-              <h3 className={rgbStyles.ProductTitle}>RGB LED</h3>
+              <h3 className={rgbStyles.ProductTitle}>Spider COB LED Growlights</h3>
               <p>
                 LEDpac's high-output premium LED RGB lighting solutions for both
                 commercial and residential applications such as: holiday lights,
@@ -79,7 +79,7 @@ const SectionTwo = () => (
             </Col>
             <Col>
               <span className="image fit">
-                <img src={ZeroSix} alt="Crop fields grown with RGB LEDs" style={{ margin: "auto" }} />
+                <img src={ZeroSix} alt="Crop fields grown with Spider COB LED Growlightss" style={{ margin: "auto" }} />
               </span>
             </Col>
           </Row>
@@ -90,13 +90,13 @@ const SectionTwo = () => (
         <div className="box alt">
           <Row className="">
             <Col className="image fit">
-              <img src={ZeroSeven} alt="spider c.o.b. rgb LED 1" className="cursorPointer"/>
+              <img src={ZeroSeven} alt="Spider COB LED Growlights 1" className="cursorPointer"/>
             </Col>
             <Col className="image fit">
-              <img src={ZeroFive} alt="spider c.o.b. rgb LED 2" className="cursorPointer"/>
+              <img src={ZeroFive} alt="Spider COB LED Growlights 2" className="cursorPointer"/>
             </Col>
             <Col className="image fit">
-              <img src={SpiderSLP} alt="spider c.o.b. rgb LED 3" className="cursorPointer"/>
+              <img src={SpiderSLP} alt="Spider COB LED Growlights 3" className="cursorPointer"/>
             </Col>
           </Row>
         </div>
@@ -104,7 +104,7 @@ const SectionTwo = () => (
 
         {/*<Row className={rgbStyles.ProductRow}>
         <Col>
-        <h3 className={rgbStyles.ProductTitle}>RGB LED</h3>
+        <h3 className={rgbStyles.ProductTitle}>Spider COB LED Growlights</h3>
               <p>
                 LEDpac's high-output premium LED RGB lighting solutions for both
                 commercial and residential applications such as: holiday lights,
@@ -129,7 +129,7 @@ const SectionTwo = () => (
                       className="button"
                       style={{
                         whiteSpace: "normal",
-                        boxShadow: 'inset 0 0 0 2px red'
+                        boxShadow: 'inset 0 0 0 2px rgba(144, 144, 144, 0.25)'
                       }}
                     >
                       Contact Us For An Estimate Today

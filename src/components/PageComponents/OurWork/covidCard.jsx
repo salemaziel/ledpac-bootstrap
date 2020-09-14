@@ -27,7 +27,7 @@ const CovidCard = () => (
             <Card.Body>
               <Card.Text>
                 <p className={workStyles.CovidText}>
-                  LEDPac, LLC has partnered with The Global Lighting Project, a
+                  LEDpac, LLC has partnered with The Global Lighting Project, a
                   501 C3 organization, to offer one of its patented products
                   containing Ultraviolet LED diodes that promise to quickly
                   disinfect surfaces contaminated with the Covid-19 virus. The
@@ -72,7 +72,7 @@ const CovidCard = () => (
             <Card.Body>
               {/*<Card.Text>
                 <p className={workStyles.CovidText}>
-                  LEDPac, LLC has partnered with The Global Lighting Project, a
+                  LEDpac, LLC has partnered with The Global Lighting Project, a
                   501 C3 organization, to offer one of its patented products
                   containing Ultraviolet LED diodes that promise to quickly
                   disinfect surfaces contaminated with the Covid-19 virus. The
@@ -103,7 +103,7 @@ const CovidCard = () => (
         justifyContent: 'center'
       }}> 
         <p className={workStyles.CovidText}>
-          LEDPac, LLC has partnered with <a href="https://globallightingproject.org" style={{textDecoration: 'underline'}}>The Global Lighting Project</a>, a 501 C3
+          LEDpac, LLC has partnered with <a href="https://globallightingproject.org" style={{textDecoration: 'underline'}}>The Global Lighting Project</a>, a 501 C3
           organization, to offer one of its patented products containing
           Ultraviolet LED diodes that promise to quickly disinfect surfaces
           contaminated with the Covid-19 virus. The design and LED diodes

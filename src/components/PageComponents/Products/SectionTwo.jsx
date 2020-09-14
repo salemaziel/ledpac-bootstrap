@@ -100,7 +100,7 @@ const SectionTwo = () => (
               </span>
             </Col>
             <Col>
-              <h3 className={productStyles.ProductTitle}><Link to="/products/rgb-led">RGB LED</Link></h3>
+              <h3 className={productStyles.ProductTitle}><Link to="/products/rgb-led">Spider COB LED Growlights</Link></h3>
               <p>
                 RGB Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
@@ -159,7 +159,7 @@ const SectionTwo = () => (
         <br />
         {/*<div className={productStyles.Cob}>* /}
         <div className="col-6">
-          <h3 className={productStyles.ProductTitle}>RGB LED</h3>
+          <h3 className={productStyles.ProductTitle}>Spider COB LED Growlights</h3>
         </div>
         <div className="col-6">
           <span className="image fit">

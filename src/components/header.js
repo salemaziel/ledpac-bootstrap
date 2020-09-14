@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import React from "react";
 import headerStyles from "./header.module.css";
 import SideNav, { MenuIcon } from "react-simple-sidenav";
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import NavItem from 'react-bootstrap/NavItem'
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import NavItem from "react-bootstrap/NavItem";
 import { LogoLight } from "../images/index";
 
 //const Header = ({ siteTitle }) => (
@@ -25,11 +25,10 @@ class Header extends React.Component {
     return (
       <>
         <header /*id="header" */ className={headerStyles.Header}>
-
           <Navbar variant="dark" expand="lg">
             <Navbar.Brand>
               <Link to="/">
-                <img src={LogoLight} alt="LEDPac logo" width={150} />
+                <img src={LogoLight} alt="LEDpac logo" width={150} />
               </Link>
             </Navbar.Brand>
             <Nav className="mr-auto NoMobile"></Nav>
@@ -49,12 +48,12 @@ class Header extends React.Component {
                   Products
                 </Nav.Link>
               </NavItem>
-              <NavItem >
+              <NavItem>
                 <Nav.Link as={Link} activeClassName="active" to="/our-work">
                   Our Work
                 </Nav.Link>
               </NavItem>
-              <NavItem >
+              <NavItem>
                 <Nav.Link as={Link} activeClassName="active" to="/contact">
                   Contact
                 </Nav.Link>
@@ -68,7 +67,7 @@ class Header extends React.Component {
                 style={{
                   width: "40px",
                   height: "auto",
-                  marginTop: '-1rem'
+                  marginTop: "-1rem",
                 }}
                 onClick={() => this.setState({ showNav: true })}
               >

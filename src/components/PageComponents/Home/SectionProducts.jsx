@@ -94,16 +94,16 @@ const SectionProducts = () => (
                 <Col>
                   <span className="image fit">
                     <Link to="/products/rgb-led">
-                      <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png" alt="RGB LED Grow Lights" />
+                      <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png" alt="Spider COB LED Growlights Lights" />
                     </Link>
                   </span>
                 </Col>
                 <Col>
                   <h3 className={productStyles.ProductTitle}>
-                    <Link to="/products/rgb-led">RGB LED</Link>
+                    <Link to="/products/rgb-led">Spider COB LED Growlights</Link>
                   </h3>
                   <p>
-                  New cob RGB LED  grow light systems allowing the best color spectrum closest to the sunlight and make plants grow faster night and day underground.{" "}
+                  New Spider COB LED Growlights  grow light systems allowing the best color spectrum closest to the sunlight and make plants grow faster night and day underground.{" "}
                   </p>
                   <ul className="actions">
                     <li>

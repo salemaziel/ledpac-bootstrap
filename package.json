@@ -1,7 +1,7 @@
 {
   "name": "ledpac-company-website",
   "private": false,
-  "description": "Website for LEDPac Lighting Solutions ",
+  "description": "Website for LEDpac Lighting Solutions ",
   "version": "0.1.0",
   "author": "Salem Aziel <contact@salemaziel.com>",
   "dependencies": {

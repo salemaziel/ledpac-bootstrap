@@ -27,7 +27,7 @@ const Footer = () => (
               <li className="icon solid fa-map-marker-alt">
                 <h3>Address</h3>
                 <p>
-                  LEDPac
+                  LEDpac
                   <br />
                   1234 Fictional Road
                   <br />
@@ -50,7 +50,7 @@ const Footer = () => (
           </div>
         </div>
         <p className={footerStyles.copyright}>
-          LEDPac © All rights reserved.
+          LEDpac © All rights reserved.
 
           {/*<a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> |{" "}
           <Link to="/contact">Contact</Link>*/}

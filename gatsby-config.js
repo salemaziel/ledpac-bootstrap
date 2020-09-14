@@ -1,7 +1,7 @@
 //module.exports = {
 //  siteMetadata: {
-//    title: `LEDPac LED Lighting Solutions`,
-//    description: `LEDPac LED Lighting Solutions of Escondido, CA`,
+//    title: `LEDpac LED Lighting Solutions`,
+//    description: `LEDpac LED Lighting Solutions of Escondido, CA`,
 //    author: `@salemaziel`,
 //    siteUrl: `https://ledpac.salemaziel.design`
 const config = require('./config/site');
@@ -42,8 +42,8 @@ const config = require('./config/site');
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `LEDPac LED Lighting Solutions`,
-        short_name: `LEDPac`,
+        name: `LEDpac LED Lighting Solutions`,
+        short_name: `LEDpac`,
 	      lang: `en`,
         start_url: `/`,
         background_color: `#000000`,

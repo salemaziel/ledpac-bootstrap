@@ -11,7 +11,7 @@ const RGB = () => (
     <SimpleReactLightbox>
 
     <Layout>
-        <SEO title="RGB LED Grow Lights" />
+        <SEO title="Spider COB LED Growlights Lights" />
 
         <RgbPage />
     </Layout>

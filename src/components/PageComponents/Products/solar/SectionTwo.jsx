@@ -12,6 +12,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 //import { Link } from "gatsby";
+import {Link} from 'gatsby'
 
 //import DisplayPDF from './displaypdf'
 
@@ -124,6 +125,23 @@ const SectionTwo = () => (
 
         </Row>
         </Container>
+        <Row className={solarStyles.ProductRow} >
+          <Col>
+          <ul className="actions">
+                  <li>
+                    <Link to="/contact"
+                      className="button"
+                      style={{
+                        whiteSpace: "normal",
+                        boxShadow: 'inset 0 0 0 2px rgba(144, 144, 144, 0.25)'
+                      }}
+                    >
+                      Contact Us For An Estimate Today
+                    </Link>
+                  </li>
+                </ul>
+          </Col>
+      </Row>
       </div>
     </div>
   </section>
