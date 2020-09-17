@@ -32,11 +32,11 @@ const LSidebar = () => (
         <div className="image fit"><img src={RGBGrow2} alt='' /></div>
         <div className="image fit"><img src={SpectrumStripLight} alt='' /></div>
 
-        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+        <p>Products Available Now!</p>
         <footer>
-          <ul className="actions">
+          {/*<ul className="actions">
             <li><Link to="#" className="button">Learn More</Link></li>
-          </ul>
+    </ul>*/}
         </footer>
       </section>
       <hr />

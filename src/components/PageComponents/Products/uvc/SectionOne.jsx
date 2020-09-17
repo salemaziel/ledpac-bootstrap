@@ -163,7 +163,7 @@ const SectionOne = () => (
       <h3>The Electromagnetic Spectrum</h3>
       <p>LEDpac Engineered Futuristic Design that's not just your grandpa’s old UV light, this new super powerful UV-C LED is capable of eradicating COVID-19 in seconds, no job too big or too small. We have a unique Patent design allowing us to create a matrix of HiP Ultraviolet disinfectant LED power unlike ever before! </p>
       <p>
-      As a perfected HiP LED this product runs clean at 298NM and emits the purest form of UV-C Light transmission seen on chart above.
+      As a perfected HiP LED this product runs clean  from UV- C 275NM – 280NM, and emits the purest form of UV-C Light transmission seen on chart above.
       </p>
     </div>
         <Row className="gtr-uniform gtr-50">
