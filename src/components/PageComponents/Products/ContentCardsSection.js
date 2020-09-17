@@ -23,7 +23,7 @@ function ContentCardsSection(props) {
         <ContentCards
           items={[
             {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599040252/ledpac/uvc/mask-disinfectant-1.jpg_cm4ifo.jpg",
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600366553/ledpac/uvc/UVC_hrz8w9.jpg",
               title: "UV-C LED Disinfecting Lights",
               body:
                 "NEW LEDpac UV-C  XLP Microbe inactivator. A patented ,close-surface handheld wand, eradicates Covid-19 in seconds at the push of a button.",

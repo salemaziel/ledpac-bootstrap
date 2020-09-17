@@ -32,7 +32,7 @@ const SectionProducts = () => (
                   {" "}
                   <span className="image fit">
                     <Link to="/products/ultraviolet-led">
-                      <img src={TwentyFive_BlackBG} alt="UV LED Lights" />
+                      <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600366553/ledpac/uvc/UVC_hrz8w9.jpg" alt="UV LED Lights" />
                     </Link>
                   </span>
                 </Col>
@@ -160,17 +160,17 @@ const SectionProducts = () => (
   <Row className={productStyles.CategoryRow}>
     <Col>
       <span className="image fit">
-        <Link to="/products/chip-on-board-led">
+        {/*<Link to="/products/">
           {" "}
-          <img src={CobNewGen} alt="cob leds" />{" "}
-        </Link>
+          <img src="" alt="Water purification with UV LEDs" />{" "}
+                </Link>*/}
       </span>
     </Col>
     <Col>
       {" "}
       <h3 className={productStyles.ProductTitle}>
         {" "}
-        <Link to="/products/chip-on-board-led">UV-C LED Water Disinfectant </Link>
+        <Link to="/products/">UV-C LED Water Disinfectant </Link>
       </h3>{" "}
      {/* <p>
         Chip-on-Board LEDs, also known as COBs, are the next and
@@ -179,13 +179,13 @@ const SectionProducts = () => (
       <p>
       <strong>COMING SOON</strong> Watch for the new HiP UV-C ultraviolet water disinfectant purification system. (Coming 2021) eradicating most viruses including Covid- 19! This compact system will be charged by the sun and or generated low voltage energy. Portable and smart disaffecting water in record breaking time.{" "}
       </p>
-      <ul className="actions">
+      {/*<ul className="actions">
         <li>
-          <Link to="/products/chip-on-board-led" className="button">
+          <Link to="/products/" className="button">
             Learn More
           </Link>
         </li>
-      </ul>
+    </ul>*/}
     </Col>
     
 
