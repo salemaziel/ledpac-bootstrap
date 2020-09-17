@@ -14,6 +14,8 @@ import {
   ZeroSeven,
   SpiderSLP,
   PicG,
+  Spider4n16,
+Spider9_2_1
 } from "../../../../images/index";
 
 import Row from "react-bootstrap/Row";
@@ -119,6 +121,23 @@ const SectionTwo = () => (
 
         <Row>
           <div className="box alt">
+          <Row className="">
+              <Col className="image fit">
+                <img
+                  src={Spider4n16}
+                  alt="Spider COB LED Growlights 1"
+                  className="cursorPointer"
+                />
+              </Col>
+              <Col className="image fit">
+                <img
+                  src={Spider9_2_1}
+                  alt="Spider COB LED Growlights 2"
+                  className="cursorPointer"
+                />
+              </Col>
+
+            </Row>
             <Row className="">
               <Col className="image fit">
                 <img
@@ -142,6 +161,7 @@ const SectionTwo = () => (
                 />
               </Col>
             </Row>
+
           </div>
         </Row>
 

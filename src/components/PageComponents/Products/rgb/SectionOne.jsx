@@ -19,6 +19,7 @@ import {
   ZeroFive,
   ZeroFour,
   SpiderSLP,
+  
 } from "../../../../images/index";
 import { SRLWrapper } from "simple-react-lightbox";
 
