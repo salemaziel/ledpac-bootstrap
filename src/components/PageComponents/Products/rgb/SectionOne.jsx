@@ -19,6 +19,7 @@ import {
   ZeroFive,
   ZeroFour,
   SpiderSLP,
+  
 } from "../../../../images/index";
 import { SRLWrapper } from "simple-react-lightbox";
 
@@ -31,16 +32,13 @@ return(
   <section id="main" className="wrapper sidebar right">
     <div className="inner">
       <header className="major">
-        <h2>Spider COB LED Growlights</h2>
+        <h2>SPIDER COB LED RBi GROWLIGHTS</h2>
       </header>
       {/* Content */}
       <div className="content">
-        <h3>LEDpac's High-Output Premium LED RGB</h3>
+        <h3>LEDpac's High-Output LED RBi GROWLIGHTS</h3>
         <p>
-          Premium LED RGB lighting solutions for both commercial and residential
-          applications such as: holiday lights, backlit countertops, built-in
-          cabinetry, cove lights, architectural features, signage, retail window
-          displays, building profiling, and any other custom application.
+          Premium COB LED RBi GROWLIGHTS solutions for both commercial and residential gardening.
         </p>
 
         <ProductCards2
@@ -64,14 +62,12 @@ return(
 
 <div className={rgbStyles.Leading}>
           <h3>Spider C.O.B. SLP Series</h3>
+          <h4>Product characteristics</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+Suitable for any plant. Ultra-long life design, up to 50000 hours, 17 times the life of traditional fluorescent lamp. The installation is simple and convenient.
+</p>
+<p>
+Safety for environmental protection, free of pollution and harmful substances.
           </p>
         </div>
         <div className="image fit">

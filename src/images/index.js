@@ -170,4 +170,7 @@ export const LampMail_5 = require('./solar/5.jpg');
 export const BostonUni = require('./boston-university-logo.png');
 export const SpectrumStripLight = require('./rgb/spectrum_grow_striplight.jpg');
 export const UVC = require('./uvc/UVC.jpg');
-
+export const Solarpng = require('./solar/solar.png');
+export const Spider9_2_1 = require('./rgb/spider9_2.jpg');
+export const Spider4n16 = require('./rgb/spider4_spider16_backcover.jpg');
+export const SpiderTestingVideo = require('./rgb/spider4_aging_testing.mp4');

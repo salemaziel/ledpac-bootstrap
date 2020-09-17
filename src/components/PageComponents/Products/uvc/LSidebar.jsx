@@ -9,7 +9,7 @@ import {
 } from "../../../../images/index";
 
 import UVCSterilizerSpecs from "../../../../assets/UVC_Sterilizer_Specs.pdf";
-import DefenderUVC300 from "../../../../assets/Defender_UVC_300W.pdf";
+
 import V4_UVDisinfect from '../../../../assets/v4.3_uv_disinfection_lamp_car_type_a1_specification.pdf'
 
 const LSidebar = () => (
@@ -29,7 +29,7 @@ const LSidebar = () => (
         <footer>
           <ul className="actions">
             <li>
-              <a href={V4_UVDisinfect} className="button">
+              <a href={V4_UVDisinfect} target="_blank" className="button">
                 Learn More
               </a>
             </li>
@@ -54,7 +54,7 @@ const LSidebar = () => (
         <footer>
           <ul className="actions">
             <li>
-              <a href={UVCSterilizerSpecs} className="button">
+              <a href={UVCSterilizerSpecs} className="button" target="_blank">
                 Learn More
               </a>
             </li>
