@@ -43,7 +43,7 @@ const SectionProducts = () => (
                     </Link>
                   </h3>
                   <p>
-                  <strong>NEW</strong> LEDpac UV-C  XLP Microbe inactavitor. A patented,close-surface handheld wand, eradicates Covid-19 in seconds at the push of a button.{" "}
+                  <strong>NEW</strong> LEDpac patented UV-C XLP Microbe inactivator with close-surface handheld wand technology. Eradicate Covid-19 in seconds at the push of a button {" "}
                   </p>
                   <ul className="actions">
                     <li>
@@ -74,7 +74,7 @@ const SectionProducts = () => (
                     <Link to="/products/solar-led">Solar Powered LED</Link>
                   </h3>
                   <p>
-                  New hi powered solar LED illumination breakthrough. Now a totally reliable with quick illumination powered by the sun, Lighting the darkness through the night using super-efficient White LEDs.{" "}
+                  <strong>NEW</strong> HiP solar LED illumination breakthrough with bright reliable adjustable illumination, powered by the sun. Lighting the darkness through the night using super-efficient white LEDs.{" "}
                   </p>
                   <ul className="actions">
                     <li>
@@ -103,7 +103,7 @@ const SectionProducts = () => (
                     <Link to="/products/rgb-led">Spider COB LED Growlights</Link>
                   </h3>
                   <p>
-                  New Spider COB LED Growlights  grow light systems allowing the best color spectrum closest to the sunlight and make plants grow faster night and day underground.{" "}
+                  <strong>NEW</strong> Spider RB LED Grow light systems, allowing the best color spectrum closest to the sun. Plants grow stronger faster night and day indoors.{" "}
                   </p>
                   <ul className="actions">
                     <li>
@@ -132,14 +132,14 @@ const SectionProducts = () => (
                   {" "}
                   <h3 className={productStyles.ProductTitle}>
                     {" "}
-                    <Link to="/products/chip-on-board-led">COB LED </Link>
+                    <Link to="/products/chip-on-board-led">NANOlite COB LED </Link>
                   </h3>{" "}
                  {/* <p>
                     Chip-on-Board LEDs, also known as COBs, are the next and
                     newest generation of LED lighting technology{" "}
                   </p>*/}
                   <p>
-                  Chip on board the newest innovation in linearal LED lighting, continuous bright consistant LED illumination throught entire product.{" "}
+                  <strong>NEW</strong> COB Innovation in linear LED lighting, NANOlite. Continuous, bright, reliable LED illumination through entire product. Pure white or warm white with continuous illumination LED technology.{" "}
                   </p>
                   <ul className="actions">
                     <li>
@@ -149,8 +149,49 @@ const SectionProducts = () => (
                     </li>
                   </ul>
                 </Col>
+                
+
               </Row>
             </div>
+
+            <br />
+
+<div className={productStyles.ProductBox}>
+  <Row className={productStyles.CategoryRow}>
+    <Col>
+      <span className="image fit">
+        <Link to="/products/chip-on-board-led">
+          {" "}
+          <img src={CobNewGen} alt="cob leds" />{" "}
+        </Link>
+      </span>
+    </Col>
+    <Col>
+      {" "}
+      <h3 className={productStyles.ProductTitle}>
+        {" "}
+        <Link to="/products/chip-on-board-led">UV-C LED Water Disinfectant </Link>
+      </h3>{" "}
+     {/* <p>
+        Chip-on-Board LEDs, also known as COBs, are the next and
+        newest generation of LED lighting technology{" "}
+      </p>*/}
+      <p>
+      <strong>COMING SOON</strong> Watch for the new HiP UV-C ultraviolet water disinfectant purification system. (Coming 2021) eradicating most viruses including Covid- 19! This compact system will be charged by the sun and or generated low voltage energy. Portable and smart disaffecting water in record breaking time.{" "}
+      </p>
+      <ul className="actions">
+        <li>
+          <Link to="/products/chip-on-board-led" className="button">
+            Learn More
+          </Link>
+        </li>
+      </ul>
+    </Col>
+    
+
+  </Row>
+</div>
+            
             </Fade>
 
           </div>

@@ -26,14 +26,16 @@ const SectionOne = () => (
           {/*<img src={Banner2} alt='' />*/}
 
           <ReactPlayer
-            url="https://vimeo.com/9214023"
+            /*url="https://vimeo.com/9214023"*/
+            url="https://player.vimeo.com/video/9214023?"
             width="100%"
-            playing="true"
-            controls="true"
+            height="28rem"
+            playing={true}
+            controls={true}
             loop="true"
             volume="0.2"
             muted="true"
-            /*style={{ marginTop: "-17%", verticalAlign: "top" }}*/
+            style={{ /*marginTop: "-17%", verticalAlign: "top"*/ position: 'relative' }}
           />
         </div>
 
