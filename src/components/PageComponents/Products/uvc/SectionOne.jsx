@@ -43,7 +43,7 @@ const SectionOne = () => (
         </h3>
         <p>
           Using the latest cutting edge technology LEDpac brings you a super
-          powerful HiP UV-C LED by Luminus the combined technology allowing
+          powerful HiP UV-C LED by <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600901029/ledpac/uvc/luminus-transparent_z1fcag.png" alt="Luminus LEDs" width={150} /> the combined technology allowing
           product to rapidly eradicate COVID-19 in seconds! Perfect for all
           button and key pad activation devices. Product wand is now being used
           by front line Doctors &amp; First Responders, available soon for
@@ -137,7 +137,7 @@ const SectionOne = () => (
           <h3>EUROFINS TESTING LEDpac UV-C PRODUCTS using HiP </h3>
           <p>
             LEDpac today now is in process with testing all our UV-C products,
-            coordinating with Luminous LED contracting to work with the level
+            coordinating with <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600901029/ledpac/uvc/luminus-transparent_z1fcag.png" alt="Luminus LEDs" width={150} /> contracting to work with the level
             four infectious disease laboratory Eurofins. Eurofin is capable of
             testing the power of our products and safely determine how fast we
             eradicate COVID- 19 various. Eurofins will test our UVC products
