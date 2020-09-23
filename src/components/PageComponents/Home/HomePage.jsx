@@ -14,7 +14,7 @@ const HomePage = () => (
         <Hero />
         <SectionOne />
         <SectionProducts />
-        <ClientsSection
+        {/*<ClientsSection
         bg="white"
         textColor="dark"
         size="md"
@@ -22,7 +22,7 @@ const HomePage = () => (
         bgImageOpacity={1}
         title="In Partnership With"
         subtitle=""
-      />
+        />*/}
 
         <SectionTwo />
         <SectionCTA />
