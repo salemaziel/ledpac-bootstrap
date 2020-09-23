@@ -43,7 +43,7 @@ const SectionOne = () => (
         </h3>
         <p>
           Using the latest cutting edge technology LEDpac brings you a super
-          powerful HiP UV-C LED by Luminous the combined technology allowing
+          powerful HiP UV-C LED by Luminus the combined technology allowing
           product to rapidly eradicate COVID-19 in seconds! Perfect for all
           button and key pad activation devices. Product wand is now being used
           by front line Doctors &amp; First Responders, available soon for
