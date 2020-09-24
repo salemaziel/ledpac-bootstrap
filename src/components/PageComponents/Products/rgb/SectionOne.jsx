@@ -44,7 +44,7 @@ return(
         <ProductCards2
       items={[
         {
-          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png",
+          image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600918845/ledpac/rgb/rgb-card_pgvi7c.png",
           title: "Spider C.O.B. RGB",
           subtitle: "MODEL: Spider SLP",
           body: "Features:",

@@ -37,7 +37,7 @@ function ContentCardsSection(props) {
               link: "/products/solar-led"
             },
             {
-              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png",
+              image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600918845/ledpac/rgb/rgb-card_pgvi7c.png",
               title: "Spider COB LED Growlights Lights",
               body:
                 "New Spider COB LED Growlights  grow light systems allowing the best color spectrum closest to the sunlight and make plants grow faster night and day underground.",

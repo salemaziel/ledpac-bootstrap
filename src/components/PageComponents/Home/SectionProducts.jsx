@@ -94,7 +94,7 @@ const SectionProducts = () => (
                 <Col>
                   <span className="image fit">
                     <Link to="/products/rgb-led">
-                      <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1599862455/ledpac/rgb/rgb-card_euhwjw.png" alt="Spider COB LED Growlights Lights" />
+                      <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600918845/ledpac/rgb/rgb-card_pgvi7c.png" alt="Spider COB LED Growlights Lights" />
                     </Link>
                   </span>
                 </Col>
