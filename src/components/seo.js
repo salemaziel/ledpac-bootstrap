@@ -68,7 +68,7 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-slick/0.14.5/react-slick.min.js" ></script>
+     
       </Helmet>
   );
 }

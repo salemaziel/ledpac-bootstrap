@@ -28,7 +28,6 @@
     "react-dom": "^16.12.0",
     "react-helmet": "6.1.0",
     "react-icons": "3.11.0",
-    "react-pdf": "5.0.0",
     "react-reveal": "^1.2.2",
     "react-simple-sidenav": "^2.0.0",
     "simple-react-lightbox": "3.3.4",
