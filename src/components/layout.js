@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./header";
-import Footer from './footer'
+import Footer from './Footer/footer'
 //import "./layout.scss";
 import '../css/main.css'
 import '../css/styles.css'

@@ -3,7 +3,6 @@ import React from "react";
 
 //import { Banner2 } from "../../../images/index";
 
-import ReactPlayer from "react-player/vimeo";
 
 //import Fade from "react-reveal/Fade";
 
@@ -16,7 +15,7 @@ const LSidebar = () => (
             at Indianapolis Airport
           </h3>
 
-          <ReactPlayer
+          {/*<ReactPlayer
             url="https://vimeo.com/9214023"
             width="100%"
             playing="false"
@@ -25,7 +24,7 @@ const LSidebar = () => (
             volume="0.2"
             muted="true"
             style={{ marginTop: "-17%", verticalAlign: "top" }}
-          />
+          />*/}
       </section>
 
       <hr />

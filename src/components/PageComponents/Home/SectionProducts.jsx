@@ -43,7 +43,7 @@ const SectionProducts = () => (
                     </Link>
                   </h3>
                   <p>
-                  <strong>NEW</strong> LEDpac patented UV-C XLP Microbe inactivator with close-surface handheld wand technology. Eradicate Covid-19 in seconds at the push of a button {" "}
+                  <strong>NEW</strong> LEDpac patented UV-C XLP Microbe inactivator with close-surface handheld wand technology. Eradicate Covid-19 in seconds at the push of a button. {" "}
                   </p>
                   <ul className="actions">
                     <li>

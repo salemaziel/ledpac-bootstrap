@@ -3,7 +3,8 @@ import { Link } from "gatsby";
 import LSidebar from "./LSidebar";
 
 import { Banner2 } from "../../../images/index";
-import ReactPlayer from "react-player/vimeo";
+import Vimeo from "@u-wave/react-vimeo";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -25,17 +26,15 @@ const SectionOne = () => (
         <div className="image fit">
           {/*<img src={Banner2} alt='' />*/}
 
-          <ReactPlayer
-            /*url="https://vimeo.com/9214023"*/
-            url="https://player.vimeo.com/video/9214023?"
+          <Vimeo
+            video="9214023"
+            autoplay
             width="100%"
-            height="28rem"
-            playing={true}
             controls={true}
-            loop="true"
-            volume="0.2"
-            muted="true"
-            style={{ /*marginTop: "-17%", verticalAlign: "top"*/ position: 'relative' }}
+            muted={true}
+            start={25}
+            loop={true}
+            responsive
           />
         </div>
 

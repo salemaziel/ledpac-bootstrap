@@ -23,7 +23,7 @@ const Footer = () => (
                 </li>
               </ul>
             </section>
-            <ul className="icons bulleted">
+            {/*<ul className="icons bulleted">
               <li className="icon solid fa-map-marker-alt">
                 <h3>Address</h3>
                 <p>
@@ -34,12 +34,12 @@ const Footer = () => (
                   Escondido, CA 92025
                 </p>
               </li>
-            </ul>
+</ul>*/}
             <ul className="icons bulleted">
-              <li className="icon solid fa-phone">
+              {/*<li className="icon solid fa-phone">
                 <h3>Phone</h3>
                 <p>(000) 000-0000</p>
-              </li>
+</li>*/}
               <li className="icon solid fa-envelope">
                 <h3>Email</h3>
                 <p>
