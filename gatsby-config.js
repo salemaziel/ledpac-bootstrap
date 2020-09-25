@@ -26,10 +26,28 @@ const config = require('./config/site');
     `gatsby-plugin-netlify`,
     `gatsby-plugin-sitemap`,
     {
+      resolve: 'gatsby-plugin-next-seo',
+      options: {
+        titleTemplate: 'LEDpac LLC | %s',
+        language: 'en',
+        openGraph: {
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://www.ledpac.com',
+          site_name: 'SiteName',
+        },
+        twitter: {
+          handle: '@handle',
+          site: '@site',
+          cardType: 'summary_large_image',
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://testing.ledpc.com',
-        sitemap: 'https://testing.ledpac.com/sitemap.xml',
+        host: 'https://www.ledpc.com',
+        sitemap: 'https://www.ledpac.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },

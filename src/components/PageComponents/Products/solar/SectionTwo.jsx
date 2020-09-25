@@ -26,16 +26,16 @@ const SectionTwo = () => (
           <Row className={solarStyles.ProductRow}>
             <Col>
               <h3 className={solarStyles.ProductTitle}>Solar Powered White LED Area Lights</h3>
-              <p>
+              {/*<p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
               </p>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              </p>
+              </p>*/}
             </Col>
             <Col>
               <span className="image fit">
-                <img src={SolarLamp3} alt />
+                <img src={SolarLamp3} alt="Bright solar powered lamp lighting the sidewalk" />
               </span>
             </Col>
           </Row>
@@ -46,7 +46,7 @@ const SectionTwo = () => (
         <Row className={solarStyles.ProductRow}>
           <Col>
             <span className="image fit">
-              <img src={SolarLamp2} alt />
+              <img src={SolarLamp2} alt="Solar powered lamp near San Diego Harbor" />
             </span>
           </Col>
 
@@ -101,7 +101,7 @@ const SectionTwo = () => (
         <Row className={solarStyles.ProductRow}>
           <Col>
             <span className="image fit">
-              <img src={SolarSpecs1} alt="" />
+              <img src={SolarSpecs1} alt="Specifications sheet for LEDpac solar powered lamps" />
             </span>
           </Col>
 
@@ -112,12 +112,12 @@ const SectionTwo = () => (
 
           <Col>
             <span className="image fit">
-              <img src={SolarLamp1} alt />
+              <img src={SolarLamp1} alt="Upclose display of 2nd generation solar powered lamp" />
             </span>
           </Col>
           <Col>
             <span className="image fit">
-              <img src={ProjectPics1_1} alt />
+              <img src={ProjectPics1_1} alt="2nd generation solar powered lamp on a crisp evening" />
             </span>
           </Col>
 

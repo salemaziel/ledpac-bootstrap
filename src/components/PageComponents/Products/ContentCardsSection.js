@@ -48,7 +48,7 @@ function ContentCardsSection(props) {
               title: "NANOlite C.O.B. LED Lights",
               body:
                 "Chip on board the newest innovation in linearal LED lighting, continuous bright consistant LED illumination throught entire product.",
-              link: "/products/chip-on-board-led"
+              link: "/products/nanolite-cob-led"
             },
           ]}
         ></ContentCards>

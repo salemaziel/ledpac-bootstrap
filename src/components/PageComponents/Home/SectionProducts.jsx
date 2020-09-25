@@ -122,9 +122,9 @@ const SectionProducts = () => (
               <Row className={productStyles.CategoryRow}>
                 <Col>
                   <span className="image fit">
-                    <Link to="/products/chip-on-board-led">
+                    <Link to="/products/nanolite-cob-led">
                       {" "}
-                      <img src={CobNewGen} alt="cob leds" />{" "}
+                      <img src={CobNewGen} alt="NANOlite cob leds" />{" "}
                     </Link>
                   </span>
                 </Col>
@@ -132,7 +132,7 @@ const SectionProducts = () => (
                   {" "}
                   <h3 className={productStyles.ProductTitle}>
                     {" "}
-                    <Link to="/products/chip-on-board-led">NANOlite COB LED </Link>
+                    <Link to="/products/nanolite-cob-led">NANOlite COB LED </Link>
                   </h3>{" "}
                  {/* <p>
                     Chip-on-Board LEDs, also known as COBs, are the next and
@@ -143,7 +143,7 @@ const SectionProducts = () => (
                   </p>
                   <ul className="actions">
                     <li>
-                      <Link to="/products/chip-on-board-led" className="button">
+                      <Link to="/products/nanolite-cob-led" className="button">
                         Learn More
                       </Link>
                     </li>

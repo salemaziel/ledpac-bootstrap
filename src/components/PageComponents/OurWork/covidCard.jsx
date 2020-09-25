@@ -13,7 +13,7 @@ const CovidCard = () => (
     <section className="NoMobile">
       <Card className={workStyles.StillCard}>
         <Link to="/our-work/covid-19">
-          <Card.Img src={GirlWithMaskBanner} alt="Card image" />
+          <Card.Img src={GirlWithMaskBanner} alt="Girl wearing a mask to protect against Covid 19" />
           <Card.ImgOverlay style={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
             <Card.Title
               style={{
@@ -58,7 +58,7 @@ const CovidCard = () => (
     <section className="NoDesktop">
       <Card className={workStyles.StillCard}>
         <Link to="/our-work/covid-19">
-          <Card.Img src={GirlWithMaskBanner} alt="Card image" />
+          <Card.Img src={GirlWithMaskBanner}  alt="Girl wearing a mask to protect against Covid 19"  />
           <Card.ImgOverlay style={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
             <Card.Title
               style={{

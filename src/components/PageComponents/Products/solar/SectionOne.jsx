@@ -22,8 +22,8 @@ const SectionOne = () => (
     <div className="content">
       <div className="image fit"><img src={ProjectPics1_1} alt="" /></div>
       <div className={solarStyles.Leading}>
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>The Latest in Solar Powered LED Innovation</h3>
+      <p>NEW HiP solar LED illumination breakthrough using super-efficient white LEDs for bright reliable adjustable illumination, powered by the sun.</p>
       </div>
 
  <SectionTwo />

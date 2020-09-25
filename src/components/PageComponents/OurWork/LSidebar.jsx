@@ -15,12 +15,12 @@ const LSidebar = () => (
       </div>
       <section>
       <h3>Nanolite COB LED</h3>
-      <Link to="/products/chip-on-board-led" className="image fit"><img src={CobNewGen} alt='' /></Link>
+      <Link to="/products/nanolite-cob-led" className="image fit"><img src={CobNewGen} alt='' /></Link>
 
         {/*<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>*/}
         <footer>
           <ul className="actions">
-            <li><Link to="/products/chip-on-board-led" className="button">Learn More</Link></li>
+            <li><Link to="/products/nanolite-cob-led" className="button">Learn More</Link></li>
           </ul>
         </footer>
       </section>
