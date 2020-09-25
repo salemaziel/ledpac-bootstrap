@@ -26,7 +26,7 @@ const LSidebar = () => (
         <footer>
           <ul className="actions">
             <li>
-              <a href={SolarPNGSpecs} target="_blank" className="button">
+              <a href={SolarPNGSpecs} target="_blank" rel="noopener noreferrer" className="button">
                 Learn More
               </a>
             </li>

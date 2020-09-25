@@ -35,12 +35,12 @@ function ProductCards(props) {
               <div className="justify-content-center" style={{margin: 'auto'}}>
               <ul className="actions">
                 <li>
-                <a href={item.link}class="button" target="_blank">Learn More</a>
+                <a href={item.link} className="button" rel="noopener noreferrer" target="_blank">Learn More</a>
                 </li>
               </ul>
               <ul className="actions">
                 <li>
-                <Link to="/contact" class="button" target="_blank">Contact</Link>
+                <Link to="/contact" className="button">Contact</Link>
                 </li>
               </ul>
               </div>

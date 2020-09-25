@@ -16,7 +16,7 @@ const LSidebar = () => (
         <p>12VAC format for RETROfit MR16 systems are also available, as well as 120V J-Box with  EZ top mounting clips. ETL listed with a 5 year warranty. Applications: 120VAC hardwire installations, all Linear and Flexible, RETROfit and RETROtrac LEDpac products.</p>
         <footer>
           <ul className="actions">
-            <li><a href={PowerDimSpecSheet} className="button" target="_blank">Learn More</a></li>
+            <li><a href={PowerDimSpecSheet} rel="noopener noreferrer" className="button" target="_blank">Learn More</a></li>
           </ul>
         </footer>
       </section>
@@ -27,7 +27,7 @@ const LSidebar = () => (
         <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
         <footer>
           <ul className="actions">
-            <li><Link to="#" className="button">Learn More</Link></li>
+            <li><Link to="#" rel="noopener noreferrer" className="button">Learn More</Link></li>
           </ul>
         </footer>
       </section>

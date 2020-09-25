@@ -42,7 +42,7 @@ const SectionOne = () => (
           Hand-held Industrial-Grade UV-C Microorganism Inactivation Wands{" "}
         </h3>
         <p>
-          Using the latest cutting edge technology LEDpac brings you a super
+          Using the latest cutting edge technology <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600990241/ledpac/Logo-dark-150x55_yuhcky.png" alt="LEDpac" width={100} /> brings you a super
           powerful HiP UV-C LED by <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600901029/ledpac/uvc/luminus-transparent_z1fcag.png" alt="Luminus LEDs" width={150} /> the combined technology allowing
           product to rapidly eradicate COVID-19 in seconds! Perfect for all
           button and key pad activation devices. Product wand is now being used
@@ -133,10 +133,11 @@ const SectionOne = () => (
             },
           ]}
         />
+        
         <div className={uvcStyles.Leading}>
           <h3>EUROFINS TESTING LEDpac UV-C PRODUCTS using HiP </h3>
           <p>
-            LEDpac today now is in process with testing all our UV-C products,
+          <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600990241/ledpac/Logo-dark-150x55_yuhcky.png" alt="LEDpac" width={100} /> today now is in process with testing all our UV-C products,
             coordinating with <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600901029/ledpac/uvc/luminus-transparent_z1fcag.png" alt="Luminus LEDs" width={150} /> contracting to work with the level
             four infectious disease laboratory Eurofins. Eurofin is capable of
             testing the power of our products and safely determine how fast we

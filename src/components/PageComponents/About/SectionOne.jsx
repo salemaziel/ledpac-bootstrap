@@ -77,7 +77,7 @@ const SectionOne = () => (
           <Col style={{ justifyContent: "center", display: "flex" }}>
             <ul className="actions">
               <li>
-                <Link to="/contact" class="button" target="_blank">
+                <Link to="/contact" class="button">
                   Contact Us For An Estimate Today
                 </Link>
               </li>

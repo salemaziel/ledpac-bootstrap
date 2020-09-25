@@ -30,7 +30,7 @@ const LSidebar = () => (
         <footer>
           <ul className="actions">
             <li>
-              <a href={V4_UVDisinfect} target="_blank" className="button">
+              <a href={V4_UVDisinfect} rel="noopener noreferrer" target="_blank" className="button">
                 Learn More
               </a>
             </li>

@@ -46,7 +46,7 @@ function ProductCards2(props) {
 
                     <ul className="actions">
                     <li>
-                      <a href={item.specs} className="button" target="_blank">
+                      <a href={item.specs} rel="noopener noreferrer" className="button" target="_blank">
                         See Spec Sheet
                       </a>
                     </li>
