@@ -160,10 +160,10 @@ const SectionProducts = () => (
   <Row className={productStyles.CategoryRow}>
     <Col>
       <span className="image fit">
-        {/*<Link to="/products/">
+        <Link to="/products/">
           {" "}
-          <img src="" alt="Water purification with UV LEDs" />{" "}
-                </Link>*/}
+          <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600990210/ledpac/Logo-dark_r5kknc.png" alt="Water purification with UV LEDs" />{" "}
+                </Link>
       </span>
     </Col>
     <Col>
