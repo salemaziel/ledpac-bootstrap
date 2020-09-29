@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 import { FaEnvelope, FaFacebook, FaLinkedin } from 'react-icons/fa'
 
+import {
+  LogoLight
+} from '../../images/index'
 
 import footerStyles from "./footer.module.css";
 
@@ -11,17 +14,20 @@ const Footer = () => (
         <div className={footerStyles.content}>
           <div className={footerStyles.inner}>
             <section className={footerStyles.about}>
-              <h3>Button to specific link</h3>
-              <p>
+              {/*<h3>Button to specific link</h3>*/}
+              {/*<p>
                A link to something specific that someone may be looking for on your website.
-              </p>
-              <ul className={footerStyles.actions}>
+              </p>*/}
+              {/*<ul className={footerStyles.actions}>
                 <li>
                   <a href="#" className={footerStyles.button}>
                     Link to thing
                   </a>
                 </li>
-              </ul>
+            </ul>*/}
+            <div className="image fit">
+              <img src={LogoLight} alt="LEDpac logo" className={footerStyles.FooterLogo} />
+            </div>
             </section>
             <div className={footerStyles.contact}>
             <ul className={footerStyles.iconBulleted}>

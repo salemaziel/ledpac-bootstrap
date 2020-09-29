@@ -177,7 +177,7 @@ const SectionProducts = () => (
         newest generation of LED lighting technology{" "}
       </p>*/}
       <p>
-      <strong>COMING SOON</strong> Watch for the new HiP UV-C ultraviolet water disinfectant purification system. (Coming 2021) eradicating most viruses including Covid- 19! This compact system will be charged by the sun and or generated low voltage energy. Portable and smart disaffecting water in record breaking time.{" "}
+      <strong>COMING SOON</strong> Watch for the new HiP UV-C ultraviolet water disinfectant purification system. (Coming 2021) eradicating most viruses including Covid- 19! This compact system will be charged by the sun and or generated low voltage energy. Portable and smart water disinfection in record-breaking time.{" "}
       </p>
       {/*<ul className="actions">
         <li>
