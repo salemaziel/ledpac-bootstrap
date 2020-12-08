@@ -480,7 +480,7 @@ body.is-mobile .Banner {
     background-image: linear-gradient(to top, rgba(0,0,0,0.2) 33%, rgba(0,0,0,0.4) 66%, rgba(0,0,0,0.6) 100%), url("../../../images/airport.jpg");
     background-position: center center;
     background-size: auto;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     position: relative;
     height: 100vh;
