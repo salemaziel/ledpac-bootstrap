@@ -14,6 +14,10 @@ import {
   Covid19ReuseMasks,
   Covid19UVMask,
   Covid19Stats_1,
+  GuardianStormBanner3,
+  Guardian1,
+  Guardian4,
+  Guardian6,
 } from "../../../../images/index";
 
 import covidStyles from "./covid19.module.css";
@@ -51,6 +55,79 @@ const SectionOne = () => (
             <Row className={covidStyles.PictureRow}>
               <Col className="image fit">
                 <Link to="/products/ultraviolet-led">
+                  <img src={GuardianStormBanner3} alt="airport" />
+                </Link>
+              </Col>
+            </Row>
+            <Row className={covidStyles.PictureRow}>
+              <Col className="image fit">
+                <Link to="/products/guardian-storm-light">
+                  <img
+                    src={Guardian1}
+                    alt="Guardian Storm Light hanging from cieling"
+                  />
+                </Link>
+              </Col>
+              <Col className="image fit">
+                <Link to="/products/guardian-storm-light">
+                  <img
+                    src={Guardian4}
+                    alt="Guardian Storm Light on flat surface"
+                  />
+                </Link>
+              </Col>
+              <Col className="image fit">
+                <Link to="/products/guardian-storm-light">
+                  <img src={Guardian6} alt="Guardian Storm Light upright" />
+                </Link>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <h3>Guardian Storm Air-Disinfecting LED Light Panel</h3>
+
+        <p>
+        Antiseptic and Anti-virus Air Cleaning LED panel light, Antiviral LED Panel . This Anti virus LED panel Four-layer filter structure can effectively eliminate harmful gases such as indoor harmful bacteria, virus and formaldehyde after decorating the house.  Now it can help us keep away from COVID-19. Once the approval process is complete, the  Global Lighting Project stands ready to put it in the hands of those on the front lines, including first responders and others working to keep the public safe.{" "}
+        </p>
+
+        <p>
+        New Nanometer material, antiseptic and anti-virus air cleaning LED panel light, reducing air particles,eliminating indoor TVOC concentration, Occupying little space. it’s safety, energy saving and long lifetime. Saves 60% power comparing conventional lights.
+</p>
+<h3>What is unique about this new product?</h3>
+<p>
+Guardian Storm Light depends on nanometer materials, such as nanosilver and titanium dioxide, to kill the virus and bacteria. UV Light is just used to activate the activity of nanosilver and titanium dioxide which can easily kill the virus and bacteria. This latest LED panel with air circulation works as a regular LED panel light during disinfection with the nanosilver and titanium dioxide!
+        </p>
+        {/*<p>Proper testing to prove its
+    efficacy, however, will be required. And the cost of this extensive
+    testing is growing every day in this new arena of virus protection.
+    </p>*/}
+        <br />
+        <div className={covidStyles.intro}>
+          {/*<Fade left big>*/}
+          <div className="box alt">
+            <Row className={covidStyles.PictureRow}>
+              <Col className="image fit">
+                <img src={Covid19UVMask} alt="covid mask, led light, and stethoscope" />
+              </Col>
+              <Col className="image fit">
+                <img src={Covid19ReuseMasks} alt="covid masks being disinfected with led light" />
+              </Col>
+              <Col className="image fit">
+                <img src={Covid19Masks} alt="disinfecting hanging covid masks with led light" />
+              </Col>
+            </Row>
+          </div>
+          {/*</Fade>*/}
+        </div>
+
+
+        <h3>Other Innovations To Fight Covid-19: UV LED Anti-Viral Wands</h3>
+
+        <div className="box alt">
+          <Container>
+            <Row className={covidStyles.PictureRow}>
+              <Col className="image fit">
+                <Link to="/products/ultraviolet-led">
                   <img
                     src={OneTwentyEight_1}
                     alt="airport"
@@ -80,7 +157,7 @@ const SectionOne = () => (
           </Container>
         </div>
 
-        <h3>What is unique about this new product?</h3>
+
 
         <p>
           The XLT UV-C Microbe Inactivator, which inactivates the RNA of a
@@ -111,23 +188,7 @@ const SectionOne = () => (
             testing is growing every day in this new arena of virus protection.
             </p>*/}
         <br />
-        <div className={covidStyles.intro}>
-          {/*<Fade left big>*/}
-          <div className="box alt">
-            <Row className={covidStyles.PictureRow}>
-              <Col className="image fit">
-                <img src={Covid19UVMask} alt="airport" />
-              </Col>
-              <Col className="image fit">
-                <img src={Covid19ReuseMasks} alt="airport" />
-              </Col>
-              <Col className="image fit">
-                <img src={Covid19Masks} alt="airport" />
-              </Col>
-            </Row>
-          </div>
-          {/*</Fade>*/}
-        </div>
+
         <h3>TOGETHER WE CAN KILL COVID-19</h3>
 
         <p>

@@ -2,6 +2,9 @@ import React from "react";
 import Section from "./Section";
 import ContentCards from "./ContentCards";
 
+import {
+  GuardianStorm1
+} from "../../../images/index"
 
 import cardStyles from './products.module.css'
 
@@ -49,6 +52,13 @@ function ContentCardsSection(props) {
               body:
                 "Chip on board the newest innovation in linearal LED lighting, continuous bright consistant LED illumination throught entire product.",
               link: "/products/nanolite-cob-led"
+            },
+            {
+              image: GuardianStorm1 ,
+              title: "Guardian Storm Air Purifying LED Light Panel",
+              body:
+                "An anti-septic, anti-viral, anti-bacterial LED light panel with a four-layer filter structure effectively eliminates indoor hazards such as harmful bacteria, viruses and formaldehyde.",
+              link: "/products/guardian-storm-light"
             },
           ]}
         ></ContentCards>

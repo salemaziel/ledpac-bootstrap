@@ -43,8 +43,8 @@ const SectionOne = () => (
         </h3>
         <p>
           Using the latest cutting edge technology <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600990241/ledpac/Logo-dark-150x55_yuhcky.png" alt="LEDpac" width={100} /> brings you a super
-          powerful HiP UV-C LED by <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600901029/ledpac/uvc/luminus-transparent_z1fcag.png" alt="Luminus LEDs" width={150} /> the combined technology allowing
-          product to rapidly eradicate COVID-19 in seconds! Perfect for all
+          powerful HiP UV-C LED allowing
+          the rapid eradication of coronavirus in seconds! Perfect for all
           button and key pad activation devices. Product wand is now being used
           by front line Doctors &amp; First Responders, available soon for
           schools and hotels.{" "}
@@ -137,12 +137,12 @@ const SectionOne = () => (
         <div className={uvcStyles.Leading}>
           <h3>EUROFINS TESTING LEDpac UV-C PRODUCTS using HiP </h3>
           <p>
-          <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600990241/ledpac/Logo-dark-150x55_yuhcky.png" alt="LEDpac" width={100} /> is now in process with testing all of our UVC products, coordinating with  <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600901029/ledpac/uvc/luminus-transparent_z1fcag.png" alt="Luminus LEDs" width={150} /> and contracting to work with the level four infectious disease laboratory Eurofins. Eurofins is capable of testing the power of our products to safely determine how fast we can eradicate COVID-19 virus. Eurofins will test our UVC products with COVID-19 using a created model methodically confirming LEDpac eradicates COVID-19 in seconds.
+          <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600990241/ledpac/Logo-dark-150x55_yuhcky.png" alt="LEDpac" width={100} /> is now in process with testing all of our UVC products and contracting to work with the infectious disease laboratory Eurofins. Eurofins is capable of testing the power of our products to safely determine how fast we can eradicate coronavirus. Eurofins will test our UVC products with coronavirus strains using a created model methodically confirming its success.
           </p>
           <p>
           Please stay tuned for the latest breaking news, documentation, and confirmation of our certification.
           </p>
-          <p>For more information contact info@ledpac.com</p>
+          <p>For more information contact <a href="mailto:info@ledpac.com" className="font-weight-bold"> info@ledpac.com </a></p>
         </div>
 
         {/*<SectionTwo />*/}
@@ -155,7 +155,7 @@ const SectionOne = () => (
         </div>
         <div className={uvcStyles.Leading}>
       <h3>The Electromagnetic Spectrum</h3>
-      <p>LEDpac Engineered Futuristic Design that's not just your Grandpa’s old UV light. This new super powerful UV-C LED is capable of eradicating COVID-19 in seconds, no job too big or too small. We have a unique Patent design allowing us to create a matrix of HiP Ultraviolet disinfectant LED power unlike ever before!</p>
+      <p>LEDpac Engineered Futuristic Design that's not just your Grandpa’s old UV light. This new super powerful UV-C LED is capable of eradicating coronavirus in seconds, no job too big or too small. We have a unique Patent design allowing us to create a matrix of HiP Ultraviolet disinfectant LED power unlike ever before!</p>
       <p>
       As a perfected HiP LED this product runs clean  from UV- C 275NM – 280NM, and emits the purest form of UV-C Light transmission seen on chart above.
       </p>

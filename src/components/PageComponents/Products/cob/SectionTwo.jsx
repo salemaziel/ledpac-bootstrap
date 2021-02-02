@@ -146,7 +146,7 @@ const SectionTwo = () => (
             </span>
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow} >
+        <Row className={cobStyles.ProductRow} style={{width: 'auto'}} >
           <Col>
           <ul className="actions">
                   <li>
