@@ -23,7 +23,7 @@ const SectionTwo = () => (
         <p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
       </header>
       <div className="posts">
-        <Fade left big cascade>
+        <Fade bottom cascade>
         <section className="post">
         
           <Link to="/about" rel="preload" className="image"><img src={Banner1} alt="Motion sensor LEDs" /></Link>

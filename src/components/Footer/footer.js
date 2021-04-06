@@ -25,8 +25,10 @@ const Footer = () => (
                   </a>
                 </li>
             </ul>*/}
+            <div className={footerStyles.logoContainer}>
             <div className="image fit">
               <img src={LogoLight} alt="LEDpac logo" className={footerStyles.FooterLogo} />
+            </div>
             </div>
             </section>
             <div className={footerStyles.contact}>

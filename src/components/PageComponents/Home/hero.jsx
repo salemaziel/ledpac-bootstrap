@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import homeStyles from "./home.module.css";
+import ScrollDown from "../../scrollDown"
 
 const Hero = () => (
 
@@ -24,6 +25,7 @@ const Hero = () => (
               </li>
             </ul>
           </div>
+          <ScrollDown />
 
         </div>
       </section>

@@ -26,6 +26,13 @@ function ContentCardsSection(props) {
         <ContentCards
           items={[
             {
+              image: GuardianStorm1 ,
+              title: "Guardian Storm Air Purifying LED Light Panel",
+              body:
+                "An anti-septic, anti-viral, anti-bacterial LED light panel with a four-layer filter structure effectively eliminates indoor hazards like harmful bacteria, viruses and formaldehyde.",
+              link: "/products/guardian-storm-light"
+            },
+            {
               image: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600366553/ledpac/uvc/UVC_hrz8w9.jpg",
               title: "UV-C LED Disinfecting Lights",
               body:
@@ -53,13 +60,7 @@ function ContentCardsSection(props) {
                 "Chip on board the newest innovation in linearal LED lighting, continuous bright consistant LED illumination throught entire product.",
               link: "/products/nanolite-cob-led"
             },
-            {
-              image: GuardianStorm1 ,
-              title: "Guardian Storm Air Purifying LED Light Panel",
-              body:
-                "An anti-septic, anti-viral, anti-bacterial LED light panel with a four-layer filter structure effectively eliminates indoor hazards such as harmful bacteria, viruses and formaldehyde.",
-              link: "/products/guardian-storm-light"
-            },
+
           ]}
         ></ContentCards>
         {/*</Fade>*/}

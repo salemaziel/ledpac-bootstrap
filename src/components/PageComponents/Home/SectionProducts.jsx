@@ -24,7 +24,7 @@ const SectionProducts = () => (
         <div className="box alt">
           <div className="row gtr-uniform gtr-50">
             {/*<div className={productStyles.Cob}>*/}
-            <Fade left big cascade>
+            <Fade bottom cascade>
             <div className={productStyles.ProductBox}>
                 <Row className={productStyles.CategoryRow}>
                   <Col>

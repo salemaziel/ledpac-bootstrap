@@ -168,10 +168,11 @@
     width: 70em;
   }
   
-  .about {
+  .logoContainer {
     padding-left: 0;
-    width: 50%;
+    width: 33%;
     text-align: start;
+    margin: auto 0;
   }
   
   .about p {
@@ -367,6 +368,10 @@
   
     .about p{
       width: 80%;
+    }
+
+    .logoContainer {
+      margin: auto;
     }
   
     ul.actions {

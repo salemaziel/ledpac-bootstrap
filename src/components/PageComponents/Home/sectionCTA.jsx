@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 const SectionCTA = () => (
   <section id="two" className={homeStyles.cta}>
-    <Fade left cascade>
+    <Fade bottom>
     <div className={homeStyles.inner}>
       <Col>
         <header>
