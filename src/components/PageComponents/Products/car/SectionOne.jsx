@@ -8,18 +8,7 @@ import CarPurifier from '../../../../images/mobile-air-purifier-disinfectant/car
 import CarPurifier3 from '../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg'
 
 import Col from 'react-bootstrap/Col'
-import {
-//  CobNewGen,
-//  CobConnector,
-//  CobLedStrip,
-//  CobLedStrip2,
-//  CobLedStrip3,
-//  CobLedStrip4,
-//  CobLedStrip5,
-  CobLighting,
-//  CobSpecs,
-//  CobSpecs2,
-} from "../../../../images/index";
+
 
 import cobStyles from "./car.module.css";
 
