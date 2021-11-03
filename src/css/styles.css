@@ -314,7 +314,9 @@ nav ul li {
   cursor: pointer!important;
 }
 
-
+.bg-black {
+  background-color: black;
+}
 
 
 @media screen and (min-width: 2400px) {

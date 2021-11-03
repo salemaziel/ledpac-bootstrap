@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./header";
-import Footer from './Footer/footer'
+import Footer2 from './Footer2/footer2'
 //import "./layout.scss";
 import '../css/main.css'
 import '../css/styles.css'
@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
         {children}
-      <Footer />
+      <Footer2 />
     </>
   );
 };

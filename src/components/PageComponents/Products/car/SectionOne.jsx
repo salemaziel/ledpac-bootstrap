@@ -6,7 +6,6 @@ import SectionTwo from "./SectionTwo";
 
 import CarPurifier from '../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-000-square.jpg'
 import CarPurifier3 from '../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg'
-
 import Col from 'react-bootstrap/Col'
 
 
@@ -30,7 +29,7 @@ const SectionOne = () => (
         </Col>
         </div>
         <div className={cobStyles.Leading}>
-          <h3>Leading Through Innovation</h3>
+          <h3 className={cobStyles.ProductTitle}>A Breath of Fresh Air</h3>
          {/* <p>
             In the rapidly advancing world of SSL technology, LEDpac leads the
             way with superior quality LED solutions. Whether it's retrofit, new

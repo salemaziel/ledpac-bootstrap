@@ -30,7 +30,7 @@ function ContentCardsSection(props) {
           items={[
             {
               image: CarPurifier ,
-              title: "Mobile UVC LED Air Purifier &amp; Disinfector",
+              title: "Mobile UVC LED Air Purifier and Disinfector",
               body:
                 "UVC LED Air Purifier and Disinfector for on the go. Using a Type C USB port for charging, this device is perfect for your car, bedroom, or office.",
               link: "/products/uvc-led-air-purifying-disinfector/"

@@ -20,6 +20,18 @@ import {
   Guardian6,
 } from "../../../../images/index";
 
+import CarPurifier from '../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-000-square.jpg'
+import CarPurifier3 from '../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg'
+import Car1 from '../../../../images/mobile-air-purifier-disinfectant/car-0001.jpg'
+import Car2 from '../../../../images/mobile-air-purifier-disinfectant/car-0002.jpg'
+import Car3 from '../../../../images/mobile-air-purifier-disinfectant/car-0003.jpg'
+import Car4 from '../../../../images/mobile-air-purifier-disinfectant/car-0004.jpg'
+//import Car5 from '../../../../images/mobile-air-purifier-disinfectant/car-0005.jpg'
+import Car6 from '../../../../images/mobile-air-purifier-disinfectant/car-0006.jpg'
+import Car7 from '../../../../images/mobile-air-purifier-disinfectant/car-0007.jpg'
+import Car8 from '../../../../images/mobile-air-purifier-disinfectant/car-0008.jpg'
+import Car9 from '../../../../images/mobile-air-purifier-disinfectant/car-0009.jpg'
+
 import covidStyles from "./covid19.module.css";
 import { Link } from "gatsby";
 //import Fade from "react-reveal/Fade";
@@ -50,12 +62,70 @@ const SectionOne = () => (
           Until Now. LEDpac can eradicate Covid-19 in seconds with patented UV-C
           LED technology.
         </p>
+        <h3 className="mb-4 pb-2">Introducing LEDpac's New Patented Mobile UVC LED Air Sterilizer</h3>
+        <br />
+        <Container className="mb-5">
+          <Row>
+            <Col>
+              <div className="image fit">
+                <img src={Car1} alt="" />
+              </div>
+            
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <div className="image fit">
+                <img src={Car9} alt="" />
+              </div>
+            
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+            
+                <img src={CarPurifier} alt="" className="w-100 h-100" />
+            
+            </Col>
+            <Col>
+                <img src={CarPurifier3} alt="" className="w-100 h-100"/>
+            
+            </Col>
+          </Row>
+          </Container>
+          <Container className="mb-3 pb-3">
+            <Row>
+              <Col>
+              <h3 className="">Title About Car Sterilizer</h3>
+              <p>
+              Summary of product similar to guardian light summary below. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              </Col>
+            </Row>
+            <Row className="justify-content-center text-center">
+              <Col>
+              <div className="mb-5 py-5">
+            <Link to="/products/uvc-led-air-purifying-disinfector/" className="button">Learn More About LEDpac's New Mobile Air Disinfector</Link>
+            </div>
+
+              </Col>
+            </Row>
+            </Container>
+            <hr />
+            <br />
+            
         <div className="box alt">
-          <Container>
+          <Container >
+            <Row className="mb-3" >
+              <Col>
+              <h3>Guardian Storm Air-Disinfecting LED Light Panel</h3>
+              </Col>
+
+              </Row>
             <Row className={covidStyles.PictureRow}>
               <Col className="image fit">
-                <Link to="/products/ultraviolet-led">
-                  <img src={GuardianStormBanner3} alt="airport" />
+                <Link to="/products/guardian-storm-light">
+                  <img src={GuardianStormBanner3} alt="guardian storm LED light" />
                 </Link>
               </Col>
             </Row>
@@ -84,7 +154,7 @@ const SectionOne = () => (
             </Row>
           </Container>
         </div>
-        <h3>Guardian Storm Air-Disinfecting LED Light Panel</h3>
+        
 
         <p>
         Antiseptic and Anti-virus Air Cleaning LED panel light, Antiviral LED Panel . This Anti virus LED panel Four-layer filter structure can effectively eliminate harmful gases such as indoor harmful bacteria, virus and formaldehyde after decorating the house.  Now it can help us keep away from COVID-19. Once the approval process is complete, the  Global Lighting Project stands ready to put it in the hands of those on the front lines, including first responders and others working to keep the public safe.{" "}
