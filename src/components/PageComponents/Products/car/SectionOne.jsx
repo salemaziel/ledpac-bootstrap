@@ -16,7 +16,6 @@ const SectionOne = () => (
     <div className="inner">
       <header className="major">
         <h2>UVC LED Air Purifier &amp; Disinfector</h2>
-        {/*<p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
       </header>
       {/* Content */}
       <div className="content">

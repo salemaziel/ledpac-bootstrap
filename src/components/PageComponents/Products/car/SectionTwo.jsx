@@ -1,18 +1,10 @@
 import React from "react";
 
-import {
-  CobConnector,
-  CobLedStrip,
-  CobSpecs,
-  CobSpecs2,
-} from "../../../../images/index";
 
 import Car1 from '../../../../images/mobile-air-purifier-disinfectant/car-0001.jpg'
 import Car2 from '../../../../images/mobile-air-purifier-disinfectant/car-0002.jpg'
 import Car3 from '../../../../images/mobile-air-purifier-disinfectant/car-0003.jpg'
 import Car4 from '../../../../images/mobile-air-purifier-disinfectant/car-0004.jpg'
-//import Car5 from '../../../../images/mobile-air-purifier-disinfectant/car-0005.jpg'
-import Car6 from '../../../../images/mobile-air-purifier-disinfectant/car-0006.jpg'
 import Car7 from '../../../../images/mobile-air-purifier-disinfectant/car-0007.jpg'
 import Car8 from '../../../../images/mobile-air-purifier-disinfectant/car-0008.jpg'
 import Car9 from '../../../../images/mobile-air-purifier-disinfectant/car-0009.jpg'
@@ -20,6 +12,9 @@ import Car10 from '../../../../images/mobile-air-purifier-disinfectant/car-00010
 import Car11 from '../../../../images/mobile-air-purifier-disinfectant/car-00011.jpg'
 import Car12 from '../../../../images/mobile-air-purifier-disinfectant/car-00012.jpg'
 import Car13 from '../../../../images/mobile-air-purifier-disinfectant/car-00013.jpg'
+
+import DataTable from '../../../../images/LEDpac_data_percentages-images/0001.jpg'
+
 
 
 
@@ -114,6 +109,11 @@ const SectionTwo = () => (
         <Row className={cobStyles.ProductRow}>
           <Col>
             <img src={Car9} className="img-fluid" />
+          </Col>
+        </Row>
+        <Row className={cobStyles.ProductRow}>
+          <Col>
+            <img src={DataTable} className="img-fluid" />
           </Col>
         </Row>
         <Row className={cobStyles.ProductRow}>

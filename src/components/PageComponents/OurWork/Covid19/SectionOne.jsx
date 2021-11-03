@@ -81,7 +81,7 @@ const SectionOne = () => (
           </Row>
         </Container>
         <Container className="py-3">
-          <Row>
+          {/*<Row>
             <Col>
               <h3 className="">Title About Car Sterilizer</h3>
               <p>
@@ -95,7 +95,7 @@ const SectionOne = () => (
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </Col>
-          </Row>
+          </Row>*/}
           <Row className="justify-content-center text-center">
             <Col xs={12} md={6}>
               <div className="mb-5 py-5 w-100">
