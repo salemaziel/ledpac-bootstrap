@@ -5,32 +5,22 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import {
-  Covid19Banner,
   OneTwentyEight_1,
   Fifty_1,
   Sixtyfour_1,
   Covid19Masks,
-  UVCSpectrum,
   Covid19ReuseMasks,
   Covid19UVMask,
-  Covid19Stats_1,
   GuardianStormBanner3,
   Guardian1,
   Guardian4,
   Guardian6,
 } from "../../../../images/index";
 
-import CarPurifier from '../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-000-square.jpg'
-import CarPurifier3 from '../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg'
-import Car1 from '../../../../images/mobile-air-purifier-disinfectant/car-0001.jpg'
-import Car2 from '../../../../images/mobile-air-purifier-disinfectant/car-0002.jpg'
-import Car3 from '../../../../images/mobile-air-purifier-disinfectant/car-0003.jpg'
-import Car4 from '../../../../images/mobile-air-purifier-disinfectant/car-0004.jpg'
-//import Car5 from '../../../../images/mobile-air-purifier-disinfectant/car-0005.jpg'
-import Car6 from '../../../../images/mobile-air-purifier-disinfectant/car-0006.jpg'
-import Car7 from '../../../../images/mobile-air-purifier-disinfectant/car-0007.jpg'
-import Car8 from '../../../../images/mobile-air-purifier-disinfectant/car-0008.jpg'
-import Car9 from '../../../../images/mobile-air-purifier-disinfectant/car-0009.jpg'
+import CarPurifier from "../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-000-square.jpg";
+import CarPurifier3 from "../../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg";
+import Car1 from "../../../../images/mobile-air-purifier-disinfectant/car-0001.jpg";
+import Car9 from "../../../../images/mobile-air-purifier-disinfectant/car-0009.jpg";
 
 import covidStyles from "./covid19.module.css";
 import { Link } from "gatsby";
@@ -62,7 +52,9 @@ const SectionOne = () => (
           Until Now. LEDpac can eradicate Covid-19 in seconds with patented UV-C
           LED technology.
         </p>
-        <h3 className="mb-4 pb-2">Introducing LEDpac's New Patented Mobile UVC LED Air Sterilizer</h3>
+        <h3 className="mb-4 pb-2">
+          Introducing LEDpac's New Patented Mobile UVC LED Air Sterilizer
+        </h3>
         <br />
         <Container className="mb-5">
           <Row>
@@ -70,7 +62,6 @@ const SectionOne = () => (
               <div className="image fit">
                 <img src={Car1} alt="" />
               </div>
-            
             </Col>
           </Row>
           <Row>
@@ -78,54 +69,67 @@ const SectionOne = () => (
               <div className="image fit">
                 <img src={Car9} alt="" />
               </div>
-            
             </Col>
           </Row>
           <Row>
             <Col>
-            
-                <img src={CarPurifier} alt="" className="w-100 h-100" />
-            
+              <img src={CarPurifier} alt="" className="w-100 h-100" />
             </Col>
             <Col>
-                <img src={CarPurifier3} alt="" className="w-100 h-100"/>
-            
+              <img src={CarPurifier3} alt="" className="w-100 h-100" />
             </Col>
           </Row>
-          </Container>
-          <Container className="mb-3 pb-3">
-            <Row>
-              <Col>
+        </Container>
+        <Container className="py-3">
+          <Row>
+            <Col>
               <h3 className="">Title About Car Sterilizer</h3>
               <p>
-              Summary of product similar to guardian light summary below. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Summary of product similar to guardian light summary below.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              </Col>
-            </Row>
-            <Row className="justify-content-center text-center">
-              <Col>
-              <div className="mb-5 py-5">
-            <Link to="/products/uvc-led-air-purifying-disinfector/" className="button">Learn More About LEDpac's New Mobile Air Disinfector</Link>
-            </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center text-center">
+            <Col xs={12} md={6}>
+              <div className="mb-5 py-5 w-100">
+                <Link
+                  to="/products/uvc-led-air-purifying-disinfector/"
+                  className="button w-100 "
+                  style={{ whiteSpace: `nowrap` }}
+                >
+                  Learn How It Works
+                </Link>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <hr />
+        <br />
 
-              </Col>
-            </Row>
-            </Container>
-            <hr />
-            <br />
-            
         <div className="box alt">
-          <Container >
-            <Row className="mb-3" >
+          <Container>
+            <Row className="mb-3">
               <Col>
-              <h3>Guardian Storm Air-Disinfecting LED Light Panel</h3>
+                <h3>
+                  OTHER INNOVATIONS TO FIGHT COVID-19: GUARDIAN STORM
+                  AIR-DISINFECTING LED LIGHT PANELS
+                </h3>
               </Col>
-
-              </Row>
+            </Row>
             <Row className={covidStyles.PictureRow}>
               <Col className="image fit">
                 <Link to="/products/guardian-storm-light">
-                  <img src={GuardianStormBanner3} alt="guardian storm LED light" />
+                  <img
+                    src={GuardianStormBanner3}
+                    alt="guardian storm LED light"
+                  />
                 </Link>
               </Col>
             </Row>
@@ -154,18 +158,32 @@ const SectionOne = () => (
             </Row>
           </Container>
         </div>
-        
 
         <p>
-        Antiseptic and Anti-virus Air Cleaning LED panel light, Antiviral LED Panel . This Anti virus LED panel Four-layer filter structure can effectively eliminate harmful gases such as indoor harmful bacteria, virus and formaldehyde after decorating the house.  Now it can help us keep away from COVID-19. Once the approval process is complete, the  Global Lighting Project stands ready to put it in the hands of those on the front lines, including first responders and others working to keep the public safe.{" "}
+          Antiseptic and Anti-virus Air Cleaning LED panel light, Antiviral LED
+          Panel . This Anti virus LED panel Four-layer filter structure can
+          effectively eliminate harmful gases such as indoor harmful bacteria,
+          virus and formaldehyde after decorating the house. Now it can help us
+          keep away from COVID-19. Once the approval process is complete, the
+          Global Lighting Project stands ready to put it in the hands of those
+          on the front lines, including first responders and others working to
+          keep the public safe.{" "}
         </p>
 
         <p>
-        New Nanometer material, antiseptic and anti-virus air cleaning LED panel light, reducing air particles,eliminating indoor TVOC concentration, Occupying little space. it’s safety, energy saving and long lifetime. Saves 60% power comparing conventional lights.
-</p>
-<h3>What is unique about this new product?</h3>
-<p>
-Guardian Storm Light depends on nanometer materials, such as nanosilver and titanium dioxide, to kill the virus and bacteria. UV Light is just used to activate the activity of nanosilver and titanium dioxide which can easily kill the virus and bacteria. This latest LED panel with air circulation works as a regular LED panel light during disinfection with the nanosilver and titanium dioxide!
+          New Nanometer material, antiseptic and anti-virus air cleaning LED
+          panel light, reducing air particles,eliminating indoor TVOC
+          concentration, Occupying little space. it’s safety, energy saving and
+          long lifetime. Saves 60% power comparing conventional lights.
+        </p>
+        <h3>What is unique about this new product?</h3>
+        <p>
+          Guardian Storm Light depends on nanometer materials, such as
+          nanosilver and titanium dioxide, to kill the virus and bacteria. UV
+          Light is just used to activate the activity of nanosilver and titanium
+          dioxide which can easily kill the virus and bacteria. This latest LED
+          panel with air circulation works as a regular LED panel light during
+          disinfection with the nanosilver and titanium dioxide!
         </p>
         {/*<p>Proper testing to prove its
     efficacy, however, will be required. And the cost of this extensive
@@ -177,21 +195,31 @@ Guardian Storm Light depends on nanometer materials, such as nanosilver and tita
           <div className="box alt">
             <Row className={covidStyles.PictureRow}>
               <Col className="image fit">
-                <img src={Covid19UVMask} alt="covid mask, led light, and stethoscope" />
+                <img
+                  src={Covid19UVMask}
+                  alt="covid mask, led light, and stethoscope"
+                />
               </Col>
               <Col className="image fit">
-                <img src={Covid19ReuseMasks} alt="covid masks being disinfected with led light" />
+                <img
+                  src={Covid19ReuseMasks}
+                  alt="covid masks being disinfected with led light"
+                />
               </Col>
               <Col className="image fit">
-                <img src={Covid19Masks} alt="disinfecting hanging covid masks with led light" />
+                <img
+                  src={Covid19Masks}
+                  alt="disinfecting hanging covid masks with led light"
+                />
               </Col>
             </Row>
           </div>
           {/*</Fade>*/}
         </div>
 
-
-        <h3>Other Innovations To Fight Covid-19: UV LED Anti-Viral Wands</h3>
+        <h3>
+          Other Innovations To Fight Covid-19 part 2: UV LED Anti-Viral Wands
+        </h3>
 
         <div className="box alt">
           <Container>
@@ -227,8 +255,6 @@ Guardian Storm Light depends on nanometer materials, such as nanosilver and tita
           </Container>
         </div>
 
-
-
         <p>
           The XLT UV-C Microbe Inactivator, which inactivates the RNA of a
           virus, is the secret weapon of LEDpac’s design and will make quick
@@ -257,8 +283,10 @@ Guardian Storm Light depends on nanometer materials, such as nanosilver and tita
             efficacy, however, will be required. And the cost of this extensive
             testing is growing every day in this new arena of virus protection.
             </p>*/}
-        <br />
 
+        <br />
+<div className="box alt">
+  <Row className="justify-content-center text-center">
         <h3>TOGETHER WE CAN KILL COVID-19</h3>
 
         <p>
@@ -271,55 +299,28 @@ Guardian Storm Light depends on nanometer materials, such as nanosilver and tita
         </p>
 
         <h2 style={{ textAlign: "center" }}>WE’RE READY TO HELP. ARE YOU?</h2>
-        <Row>
-          <Col>
-            <div className={covidStyles.covidCTA}>
-              <ul className="actions NoDesktop">
-                <li>
+          <Col xs={12} md={8} className="mt-5">
                   <a
                     href="https://globallightingproject.org/campaigns/covid-19/"
-                    className="button NoDesktop"
-                    style={{
-                      whiteSpace: "normal",
-                      lineHeight: "1rem",
-                      padding: "1rem",
-                      height: "4rem",
-                    }}
+                    className="button NoDesktop h-auto px-5 py-2" style={{whiteSpace: `normal`, lineHeight: `initial`}}
                   >
-                    Learn More About The Global Lighting Project
+                    Learn About<br /> The Global Lighting Project
                   </a>
-                </li>
-              </ul>
-              <ul className="actions NoMobile">
-                <li>
+
                   <a
                     href="https://globallightingproject.org/campaigns/covid-19/"
-                    className="button NoMobile"
-                    style={{ maxWidth: "fit-content" }}
+                    className="button NoMobile h-auto px-5 py-3" style={{whiteSpace: `normal`, lineHeight: `initial`}}
+                    
                   >
-                    Learn More About The Global Lighting Project
+                    Learn About The Global Lighting Project
                   </a>
-                </li>
-              </ul>
+
               {/*<Button style={{width: '70%'}}>
               <a href="#" style={{whiteSpace: 'normal'}}>2Learn More ABout the global lighting project</a>
             </Button>*/}
-            </div>
           </Col>
         </Row>
-        {/* <p>
-          In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in
-          odio vulputate luctus. Suspendisse euismod lorem eget lacinia
-          fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam.
-          Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.
-        </p>
-       } <ul>
-          <li>Faucibus orci lobortis ac adipiscing integer.</li>
-          <li>Col accumsan arcu mi aliquet placerat.</li>
-          <li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-          <li>Blandit massa non blandit tempor interdum.</li>
-          <li>Lacinia mattis arcu nascetur lobortis.</li>
-        </ul>*/}
+</div>
       </div>
       {/*</Fade>*/}
 

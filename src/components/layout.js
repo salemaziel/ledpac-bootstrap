@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./header";
+import Header2 from "./header2";
 import Footer2 from './Footer2/footer2'
 //import "./layout.scss";
 import '../css/main.css'
@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header2 siteTitle={data.site.siteMetadata.title} />
         {children}
       <Footer2 />
     </>
