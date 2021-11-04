@@ -32,7 +32,7 @@
     "react-icons": "4.1.0",
     "react-reveal": "^1.2.2",
     "react-simple-sidenav": "^2.0.0",
-    "simple-react-lightbox": "3.5.5",
+    "simple-react-lightbox": "^3.6.9-0",
     "typeface-open-sans": "1.1.13"
   },
   "devDependencies": {

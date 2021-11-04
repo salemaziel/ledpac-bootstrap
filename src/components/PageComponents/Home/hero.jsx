@@ -9,8 +9,9 @@ const Hero = () => (
         <div className={homeStyles.content}>
           <div className={homeStyles.inner}>
             <header>
-              <h2 className={homeStyles.Covid}>LEDpac is committed to eradicating COVID-19.</h2>
+              <h2 className={homeStyles.Covid}>{/*The Future of LED Lighting*/}LEDPAC IS COMMITTED TO ERADICATING COVID-19.</h2>
               <p>
+              {/*Cutting Edge LED solutions for Industrial, Commercial, Residential, and Medical markets.*/}
               Designing and manufacturing patented disinfectant ultraviolet LED systems.
               </p>
             </header>

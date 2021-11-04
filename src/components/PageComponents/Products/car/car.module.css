@@ -7,87 +7,96 @@
 
 .Leading {
     margin: 1rem auto;
-    padding: 3rem 0 0;
+    padding: 3rem 0;
 }
 
 .ProductBox {
     padding: 0 0 1rem 0;
     display: flex;
+    margin: auto auto 2rem auto;
 }
 
-.CategoryRow {
+.ProductRow {
     display: flex;
+    margin: auto auto 2rem auto;
+    width: 100%;
+
+}
+
+.TopPic {
     margin: auto;
-}
-
-.CategoryRow div h3 a:hover {
-    text-decoration: underline;
-    -moz-transition: 0.2s ease-in-out, color 0.2s ease-in-out;
-    -webkit-transition: 0.2s ease-in-out, color 0.2s ease-in-out;
-    -ms-transition:  0.2s ease-in-out, color 0.2s ease-in-out;
-    transition: 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-.Content {
-    width: 75%;
-    margin: auto;
-}
-
-
-.CardContainer{ 
     padding: 0;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+
 }
 
 @media screen and (min-width: 2400px) {
-    .CategoryRow {
+    .ProductRow {
         display: flex;
+        margin: auto;
     }
 
 }
 
 @media screen and (max-width: 1680px) {
-    .CategoryRow {
+    .ProductRow {
         display: flex;
+        margin: auto;
+
     }
 }
 
 
 @media screen and (max-width: 1280px) {
-    .CategoryRow {
+    .ProductRow {
         display: flex;
+        margin: auto;
+
     }
 }
 @media screen and (max-width: 980px) {
-    .CategoryRow {
+    .ProductRow {
         display: flex;
-    }
-    .Content {
-        width: 100%;
         margin: auto;
+
     }
 }
 
 
 @media screen and (max-width: 767px) {
-    .CategoryRow {
+    .ProductRow {
         display: inline;
+        margin: auto;
+
     }
 }
 
 
 @media screen and (max-width: 480px) {
-    .CategoryRow {
-        display: inline;
+    .Leading {
+        margin: 1rem auto;
+        padding: 2rem 0;
     }
-    .CardContainer{ 
-        margin: auto;
+
+    .ProductBox {
+        padding: 0 0 1rem 0;
+        display: flex;
+        margin: auto auto 2rem auto;
+    }
+
+    .ProductRow {
+        display: inline;
+        margin: auto auto 2rem auto;
+
     }
 }
 
 
 @media screen and (max-width: 360px) {
-    .CategoryRow {
+    .ProductRow {
         display: inline;
+        margin: auto;
+
     }
 }

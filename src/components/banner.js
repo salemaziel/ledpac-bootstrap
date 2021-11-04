@@ -7,10 +7,7 @@ import bannerStyle from './banner.module.css'
 
 const Banner = () => (
     <section className={bannerStyle.BannerSection}>
-            <Row />
-                <Col>
-                    
-                </Col>
+
 
     </section>
 )

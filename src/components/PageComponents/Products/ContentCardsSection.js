@@ -6,9 +6,12 @@ import {
   GuardianStorm1
 } from "../../../images/index"
 
+import CarPurifier from '../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg'
+
+
 import cardStyles from './products.module.css'
 
-import Fade from 'react-reveal/Fade'
+//import Fade from 'react-reveal/Fade'
 
 
 function ContentCardsSection(props) {
@@ -25,6 +28,13 @@ function ContentCardsSection(props) {
         {/*<Fade left big>*/}
         <ContentCards
           items={[
+            {
+              image: CarPurifier ,
+              title: "Mobile UVC LED Air Purifier and Disinfector",
+              body:
+                "UVC LED Air Purifier and Disinfector for on the go. Using a Type C USB port for charging, this device is perfect for your car, bedroom, or office.",
+              link: "/products/uvc-led-air-purifying-disinfector/"
+            },
             {
               image: GuardianStorm1 ,
               title: "Guardian Storm Air Purifying LED Light Panel",
