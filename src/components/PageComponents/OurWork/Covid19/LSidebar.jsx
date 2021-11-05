@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 
-import { Banner2, BostonUni, Coronavirus } from '../../../../images/index'
-import BostonReport from '../../../../assets/Boston-UV-C-wand-testing-report.pdf'
+import { BostonUni, Coronavirus } from '../../../../images/index'
+//import BostonReport from '../../../../assets/Boston-UV-C-wand-testing-report.pdf'
 import UVCWandsReportsBoston from '../../../../assets/UV-C_wand_reports_merged_Boston.pdf'
 
 import UVCWandsReportsJapan from '../../../../assets/UV-C_wand_reports_merged_Japan-1.pdf'

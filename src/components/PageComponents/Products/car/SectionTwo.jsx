@@ -113,11 +113,6 @@ const SectionTwo = () => (
         </Row>
         <Row className={cobStyles.ProductRow}>
           <Col>
-            <img src={DataTable} className="img-fluid" />
-          </Col>
-        </Row>
-        <Row className={cobStyles.ProductRow}>
-          <Col>
             <img src={Car7} className="img-fluid" />
           </Col>
         </Row>
@@ -163,6 +158,11 @@ const SectionTwo = () => (
         <Row className={cobStyles.ProductRow}>
           <Col>
             <img src={Car4} className="img-fluid" />
+          </Col>
+        </Row>
+        <Row className={cobStyles.ProductRow}>
+          <Col>
+            <img src={DataTable} className="img-fluid" />
           </Col>
         </Row>
         {/*<Row className={cobStyles.ProductRow}>
