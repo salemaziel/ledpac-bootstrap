@@ -15,9 +15,7 @@ const LSidebar = () => (
 
       <section>
         <div className="image fit"><img src={Car4} alt='' /></div>
-        <h3></h3>
-        <p></p>
-        <p></p>
+
         <footer>
           <ul className="actions">
             <li><a href={CarSpecSheet} rel="noopener noreferrer" className="button" target="_blank">View Spec Sheet</a></li>
@@ -26,10 +24,15 @@ const LSidebar = () => (
       </section>
       <hr />
       <section>
-        <div className="image fit"><img src={DataTable} alt='LEDpac UVC Covid Research Data table' /></div>
-        <div className="image fit"><img src={DataTable2} alt='LEDpac UVC Covid Research Data table 2' /></div>
-        <h3></h3>
-        <p></p>
+        <div className="d-flex flex-column">
+        <div className="image fit">
+          <img src={DataTable} alt='LEDpac UVC Covid Research Data table' />
+          </div>
+        <div className="image fit">
+          <img src={DataTable2} alt='LEDpac UVC Covid Research Data table 2' />
+          </div>
+        </div>
+
         <footer>
           <ul className="actions">
             <li><a           
