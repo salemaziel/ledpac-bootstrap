@@ -2,11 +2,11 @@ import React from "react";
 
 import {
   CobNewGen,
-  RGBGrow3_1,
   ProjectPics1_1,
-  TwentyFive_BlackBG,
   GuardianStorm1
 } from "../../../images/index";
+
+import CarPurifier from '../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg'
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -29,6 +29,43 @@ const SectionProducts = () => (
                 <Row className={productStyles.CategoryRow}>
                   <Col>
                     <span className="image fit">
+                      <Link to="/products/uvc-led-air-purifying-disinfector/">
+                        {" "}
+                        <img src={CarPurifier} alt="guardian storm light LEDs" />
+                      </Link>
+                    </span>
+                  </Col>
+                  <Col>
+                    {" "}
+                    <h3 className={productStyles.ProductTitle}>
+                      {" "}
+                      <Link to="/products/uvc-led-air-purifying-disinfector/">
+                      Mobile UVC LED Air Purifier &amp; Disinfector{" "}
+                      </Link>
+                    </h3>{" "}
+                    <p>
+                      <strong>NEW</strong> UVC LED Air Purifier and Disinfector you can take anywhere. Using a Type C USB port for charging, this device is perfect for your car, bedroom, or office.{" "}
+                    </p>
+                    <ul className="actions">
+                      <li>
+                        <Link
+                          to="/products/uvc-led-air-purifying-disinfector/"
+                          className="button"
+                        >
+                          Learn More
+                        </Link>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
+              </div>
+
+              <br />
+
+            <div className={productStyles.ProductBox}>
+                <Row className={productStyles.CategoryRow}>
+                  <Col>
+                    <span className="image fit">
                       <Link to="/products/guardian-storm-light">
                         {" "}
                         <img src={GuardianStorm1} alt="guardian storm light LEDs" />
@@ -43,10 +80,6 @@ const SectionProducts = () => (
                       Guardian Storm Light Antiviral LED Panel{" "}
                       </Link>
                     </h3>{" "}
-                    {/* <p>
-                    Chip-on-Board LEDs, also known as COBs, are the next and
-                    newest generation of LED lighting technology{" "}
-                  </p>*/}
                     <p>
                       <strong>NEW</strong> This Anti virus LED panel Four-layer filter structure can effectively eliminate harmful gases such as indoor harmful bacteria, virus and formaldehyde.
                       This latest LED panel with air circulation works as a regular LED panel light during disinfection with the nanosilver and titanium dioxide!{" "}

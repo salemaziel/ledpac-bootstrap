@@ -5,10 +5,10 @@
   display: flex;
   cursor: default;
   list-style: none;
-  margin-left: -1em;
   padding-left: 0;
   padding-left: 3em;
   text-align: right;
+  margin: 0 0 0 -1em;
 }
 
 .mywrapper {
