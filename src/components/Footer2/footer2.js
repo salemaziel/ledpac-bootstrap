@@ -18,12 +18,12 @@ const Footer2 = (props) => {
       <img className="img-fluid" src={LogoLight} alt width="150px" />
     </Link>
     <ul className="d-flex flex-wrap justify-content-center align-items-center list-unstyled mb-4">
-      <li><Link to="#" className="link-secondary mr-4 text-white" >About</Link></li>
-      <li><Link to="#" className="link-secondary mr-4 text-white" >Company</Link></li>
-      <li><Link to="#" className="link-secondary mr-4 text-white" >Services</Link></li>
-      <li><Link to="#" className="link-secondary text-white" >Testimonials</Link></li>
+      <li><Link to="/about" className="link-secondary mr-4 text-white" >About</Link></li>
+      <li><Link to="/products" className="link-secondary mr-4 text-white" >Products</Link></li>
+      <li><Link to="/our-work" className="link-secondary mr-4 text-white" >Our Work</Link></li>
+      <li><Link to="/contact" className="link-secondary text-white" >Contact</Link></li>
     </ul>
-    <div>
+    {/*<div>
       <a className="d-inline-block mr-4" href="#">
         <FaFacebook size="1.5rem" color="white"  />
       </a>
@@ -39,7 +39,7 @@ const Footer2 = (props) => {
       <a className="d-inline-block" href="#">
         <FaInstagram size="1.5rem" color="white"  />
       </a>
-    </div>
+    </div>*/}
   </div>
   <div className="mb-5" />
   <div className="container">

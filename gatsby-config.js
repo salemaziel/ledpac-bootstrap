@@ -44,6 +44,15 @@ const config = require('./config/site');
       },
     },
     {
+      resolve: `gatsby-plugin-mailgo`,
+      options: {
+        mailgoConfig: {
+          dark: true,
+          showFooter: false,
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.ledpc.com',
