@@ -44,7 +44,7 @@ const SectionOne = () => (
         <p>
           The world has been turned upside down by the COVID-19 pandemic,
           changing the way people live and do business. The virus is highly
-          contagious and currently there is no cure.{" "}
+          contagious, and nothing, not even vaccines, have been able fully prevent the infection from spreading.{" "}
         </p>
         <p>
           Until Now. LEDpac can eradicate Covid-19 in seconds with patented UV-C
