@@ -1,30 +1,22 @@
 import React from "react";
 import { Link } from "gatsby";
-import LSidebar from "./LSidebar";
 
-import { Banner2 } from "../../../images/index";
 import Vimeo from "@u-wave/react-vimeo";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-//import Fade from "react-reveal/Fade";
 
 const SectionOne = () => (
   <section id="main" className="wrapper sidebar right">
     <Container>
-      {/*<div className="inner">*/}
       <header className="major">
-        {/*<Fade left cascade>*/}
         <h2>About LEDpac</h2>
-        {/*</Fade>*/}
       </header>
       {/* Content */}
       <div className="content">
-        {/*<Fade left big>*/}
         <div className="image fit">
-          {/*<img src={Banner2} alt='' />*/}
 
           <Vimeo
             video="9214023"
@@ -72,7 +64,6 @@ const SectionOne = () => (
           UL2108 guidelines, LEDpac offers a range of UL listed products and
           electronic systems using only the finest LEDs available.
         </p>
-        {/*</Fade>*/}
         <Row>
           <Col style={{ justifyContent: "center", display: "flex" }}>
             <ul className="actions">
@@ -86,8 +77,6 @@ const SectionOne = () => (
         </Row>
       </div>
 
-      {/*<LSidebar />*/}
-      {/*</div>*/}
     </Container>
   </section>
 );

@@ -6,8 +6,6 @@ import SectionCTA from './sectionCTA'
 import SectionTwo from './sectionTwo'
 import SectionProducts from './SectionProducts'
 
-//import ClientsSection from './ClientsSection'
-
 
 const HomePage = () => (
     <>

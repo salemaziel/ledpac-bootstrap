@@ -17,7 +17,7 @@ import {
 //  CobSpecs2,
 } from "../../../../images/index";
 
-import guardianStyles from "./guardian.module.css";
+import { TopPic, Leading, } from "./guardian.module.css";
 
 const SectionOne = () => (
   <section id="main" className="wrapper sidebar right">
@@ -28,8 +28,8 @@ const SectionOne = () => (
       </header>
       {/* Content */}
       <div className="content">
-        <img src={GuardianStorm3} alt="C.O.B. Light Display" className={guardianStyles.TopPic} />
-        <div className={guardianStyles.Leading}>
+        <img src={GuardianStorm3} alt="C.O.B. Light Display" className={TopPic} />
+        <div className={Leading}>
           <h3>Antiseptic and Anti-Virus Air Cleaning LED Light Panel</h3>
           <p>
           Guardian Storm Light is an Antiseptic and Anti-virus Air Cleaning LED panel light, Antiviral LED Panel . This Anti virus LED panel Four-layer filter structure can effectively eliminate harmful gases such as indoor harmful bacteria, virus and formaldehyde as well as decorate the house.</p>

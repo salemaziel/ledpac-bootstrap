@@ -5,13 +5,13 @@ import {
   GirlWithMaskBanner,
 } from "../../../images/index";
 
-import workStyles from "./ourwork.module.css";
+import { StillCard, CovidText } from "./ourwork.module.css";
 import { Link } from "gatsby";
 
 const CovidCard = () => (
   <>
     <section className="NoMobile">
-      <Card className={workStyles.StillCard}>
+      <Card className={StillCard}>
         <Link to="/our-work/covid-19">
           <Card.Img src={GirlWithMaskBanner} alt="Girl wearing a mask to protect against Covid 19" />
           <Card.ImgOverlay style={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
@@ -26,7 +26,7 @@ const CovidCard = () => (
             </Card.Title>
             <Card.Body>
               <Card.Text>
-                <p className={workStyles.CovidText}>
+                <p className={CovidText}>
                   LEDpac, LLC has partnered with The Global Lighting Project, a
                   501 C3 organization, to offer one of its patented products
                   containing Ultraviolet LED diodes that promise to quickly
@@ -56,7 +56,7 @@ const CovidCard = () => (
       </Card>
     </section>
     <section className="NoDesktop">
-      <Card className={workStyles.StillCard}>
+      <Card className={StillCard}>
         <Link to="/our-work/covid-19">
           <Card.Img src={GirlWithMaskBanner}  alt="Girl wearing a mask to protect against Covid 19"  />
           <Card.ImgOverlay style={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
@@ -71,7 +71,7 @@ const CovidCard = () => (
             </Card.Title>
             <Card.Body>
               {/*<Card.Text>
-                <p className={workStyles.CovidText}>
+                <p className={CovidText}>
                   LEDpac, LLC has partnered with The Global Lighting Project, a
                   501 C3 organization, to offer one of its patented products
                   containing Ultraviolet LED diodes that promise to quickly
@@ -102,7 +102,7 @@ const CovidCard = () => (
       <div style={{
         justifyContent: 'center'
       }}> 
-        <p className={workStyles.CovidText}>
+        <p className={CovidText}>
           LEDpac, LLC has partnered with <a href="https://globallightingproject.org" style={{textDecoration: 'underline'}}>The Global Lighting Project</a>, a 501 C3
           organization, to offer one of its patented products containing
           Ultraviolet LED diodes that promise to quickly disinfect surfaces

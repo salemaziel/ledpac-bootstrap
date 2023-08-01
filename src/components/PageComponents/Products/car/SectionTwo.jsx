@@ -24,17 +24,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "gatsby";
 
-import cobStyles from "./car.module.css";
+import { ProductBox, ProductRow, ProductTitle } from "./car.module.css";
 
 const SectionTwo = () => (
   <section>
     <div className="box alt">
       <div className="row gtr-uniform gtr-50">
-        {/*<div className={cobtyles.Cob}>*/}
-        <div className={cobStyles.ProductBox}>
+        <div className={ProductBox}>
           <Row className="w-100 mx-auto my-auto">
             <Col>
-              {/*<h3 className={cobStyles.ProductTitle}>A Breath of Fresh Air</h3>*/}
               <p>
                 UVC LED Air Purifier and Disinfector you can take anywhere.
                 Using a Type C USB port for charging, this device is perfect for
@@ -46,38 +44,8 @@ const SectionTwo = () => (
       </div>
 
       <div className="row gtr-uniform gtr-50">
-       {/* <Row className={cobStyles.ProductRow}>
-          <Col>
-            <span className="image fit">
-              <img src={CobLedStrip4} alt />
-            </span>
-          </Col>
 
-          <Col style={{ textAlign: "left" }}>
-            <p>
-              <strong> Advantage:</strong>
-              <ul>
-                <li>
-                  Higher efficiency rate and lower failure rates. (reduce 25% of
-                  heat){" "}
-                </li>
-                <li>High-intensity, particularly at close distances </li>
-                <li>High-uniformity, even at close working distances </li>
-                <li>
-                  Design simplicity, only 1 circuit and 2 contacts are required{" "}
-                </li>
-                <li>
-                  Superior thermal Performance, increased lifetime, stability
-                  and reliability
-                </li>
-              </ul>
-              Patented UV-C LED Design UV-C wave frequency 260-280nm, Covering
-              the most powerful band for sterilization. Destroys virus DNA and
-              RNA.
-            </p>
-                  </Col>
-        </Row>*/}
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={CarPurifier6} alt />
@@ -101,82 +69,78 @@ const SectionTwo = () => (
           </Col>
         </Row>
         <br />
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car1} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car9} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car7} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car8} className="img-fluid" />
           </Col>
         </Row>
         
 
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car13} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car12} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car3} className="img-fluid" />
           </Col>
         </Row>
 
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car2} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car10} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car11} className="img-fluid" />
           </Col>
         </Row>
 
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={Car4} className="img-fluid" />
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <img src={DataTable} className="img-fluid" />
           </Col>
         </Row>
-        {/*<Row className={cobStyles.ProductRow}>
-          <Col>
-            <img src={Car6} className="img-fluid" />
-          </Col>
-      </Row>*/}
 
 
 
 
 
 
-        <Row className={cobStyles.ProductRow} style={{ width: "auto" }}>
+
+        <Row className={ProductRow} style={{ width: "auto" }}>
           <Col>
             <ul className="actions">
               <li>

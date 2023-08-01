@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
-import homeStyles from "./PageComponents/Home/home.module.css";
+import { inner, actions, cta } from "./PageComponents/Home/home.module.css";
 
 import Col from "react-bootstrap/Col";
-//import Fade from 'react-reveal/Fade';
 
 
 const CTA = () => (
-  <section id="two" className={homeStyles.cta}>
+  <section id="two" className={cta}>
         {/*<Fade left cascade>*/}
 
-    <div className={homeStyles.inner}>
+    <div className={inner}>
       <Col>
         <header>
           <h2>Need an estimate on LED lighting?</h2>
@@ -24,7 +23,7 @@ const CTA = () => (
       <br />
       <br />
       <Col>
-        <ul className={homeStyles.actions}>
+        <ul className={actions}>
           <li>
             <Link to="/contact" className="button big">
               Get An Estimate

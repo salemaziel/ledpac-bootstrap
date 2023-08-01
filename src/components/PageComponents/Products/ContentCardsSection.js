@@ -9,7 +9,7 @@ import {
 import CarPurifier from '../../../images/mobile-air-purifier-disinfectant/car-disinfectant-pdf.jpg-003.jpg'
 
 
-import cardStyles from './products.module.css'
+import { CardContainer } from './products.module.css'
 
 //import Fade from 'react-reveal/Fade'
 
@@ -23,7 +23,7 @@ function ContentCardsSection(props) {
       bgImage={props.bgImage}
       bgImageOpacity={props.bgImageOpacity}
     >
-      <div className={cardStyles.CardContainer}>
+      <div className={CardContainer}>
         <div style={{margin: 'auto', padding: '0'}}>
         {/*<Fade left big>*/}
         <ContentCards

@@ -16,17 +16,16 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {Link} from 'gatsby'
 
-import cobStyles from "./cob.module.css";
+import { ProductBox, ProductRow, ProductTitle } from "./cob.module.css";
 
 const SectionTwo = () => (
   <section>
     <div className="box alt">
       <div className="row gtr-uniform gtr-50">
-        {/*<div className={cobtyles.Cob}>*/}
-        <div className={cobStyles.ProductBox}>
-          <Row className={cobStyles.ProductRow}>
+        <div className={ProductBox}>
+          <Row className={ProductRow}>
             <Col>
-              <h3 className={cobStyles.ProductTitle}>COB LED</h3>
+              <h3 className={ProductTitle}>COB LED</h3>
               <p>
                 Chip-on-Board LEDs, also known as COBs, are the next and newest
                 generation of LED lighting technology{" "}
@@ -47,7 +46,7 @@ const SectionTwo = () => (
       </div>
 
       <div className="row gtr-uniform gtr-50">
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={CobLedStrip4} alt />
@@ -75,7 +74,7 @@ const SectionTwo = () => (
             </p>
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={CobLedStrip5} alt />
@@ -97,7 +96,7 @@ const SectionTwo = () => (
         <br />
         {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
 
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={CobConnector} alt />
@@ -115,7 +114,7 @@ const SectionTwo = () => (
             </p>
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={CobLedStrip} alt />
@@ -133,7 +132,7 @@ const SectionTwo = () => (
           </Col>
         </Row>
 
-        <Row className={cobStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={CobSpecs2} alt />
@@ -146,7 +145,7 @@ const SectionTwo = () => (
             </span>
           </Col>
         </Row>
-        <Row className={cobStyles.ProductRow} style={{width: 'auto'}} >
+        <Row className={ProductRow} style={{width: 'auto'}} >
           <Col>
           <ul className="actions">
                   <li>

@@ -9,7 +9,7 @@ import CarPurifier3 from '../../../../images/mobile-air-purifier-disinfectant/ca
 import Col from 'react-bootstrap/Col'
 
 
-import cobStyles from "./car.module.css";
+import { Leading, ProductTitle, TopPic } from "./car.module.css";
 
 const SectionOne = () => (
   <section id="main" className="wrapper sidebar right">
@@ -21,23 +21,15 @@ const SectionOne = () => (
       <div className="content">
         <div className="d-flex flex-column flex-md-row">
         <Col>
-        <img src={CarPurifier} alt="Mobile UVC LED Air Purifier &amp; Disinfector" className={cobStyles.TopPic} />
+        <img src={CarPurifier} alt="Mobile UVC LED Air Purifier &amp; Disinfector" className={TopPic} />
         </Col>
         <Col>
-        <img src={CarPurifier3} alt="Mobile UVC LED Air Purifier &amp; Disinfector" className={cobStyles.TopPic} />
+        <img src={CarPurifier3} alt="Mobile UVC LED Air Purifier &amp; Disinfector" className={TopPic} />
         </Col>
         </div>
-        <div className={cobStyles.Leading}>
-          <h3 className={cobStyles.ProductTitle}>A Breath of Fresh Air</h3>
-         {/* <p>
-            In the rapidly advancing world of SSL technology, LEDpac leads the
-            way with superior quality LED solutions. Whether it's retrofit, new
-            construction, residential, commercial, or industrial, interior or
-            exterior, big or small, LEDpac's suite of SSL solutions is
-            consistently the discriminating choice of homeowners, business
-            owners, contractors, lighting designers and architects – and has
-            been for 10 years.
-          </p>*/}
+        <div className={Leading}>
+          <h3 className={ProductTitle}>A Breath of Fresh Air</h3>
+
         </div>
 
         <SectionTwo />

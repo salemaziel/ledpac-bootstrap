@@ -21,14 +21,14 @@ Spider9_2_1
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import rgbStyles from "./rgb.module.css";
+import { ProductBox, ProductRow, ProductTitle, } from "./rgb.module.css";
 import { Link } from "gatsby";
 
 const SectionTwo = () => (
   <section>
     <div className="box alt">
       <div className="row gtr-uniform gtr-50">
-        <Row className={rgbStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img
@@ -56,15 +56,13 @@ const SectionTwo = () => (
             </p>
           </Col>
           <br />
-          {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
         </Row>
 
         <div className="row gtr-uniform gtr-50">
-          {/*<div className={cobtyles.Cob}>*/}
-          <div className={rgbStyles.ProductBox}>
-            <Row className={rgbStyles.ProductRow}>
+          <div className={ProductBox}>
+            <Row className={ProductRow}>
               <Col>
-                <h3 className={rgbStyles.ProductTitle}>
+                <h3 className={ProductTitle}>
                   {" "}
                   Plant lamp knowledge:
                 </h3>
@@ -80,13 +78,6 @@ const SectionTwo = () => (
                   phenomenon.{" "}
                 </p>
 
-                {/*<ul className="actions">
-              <li>
-                <Link to="#" className="button">
-                  Learn More
-                </Link>
-              </li>
-</ul>*/}
               </Col>
               <Col>
                 <span className="image fit">
@@ -113,8 +104,7 @@ const SectionTwo = () => (
                 sure the leaves are happy and pointing skywards toward the
                 light.
               </p>{" "}
-              {/*If while acclimating, the leaves show any signs of curling or overall stress, please raise the light until the problem is solved.
-                </p>*/}
+
             </Col>
           </Row>
         </div>
@@ -165,26 +155,7 @@ const SectionTwo = () => (
           </div>
         </Row>
 
-        {/*<Row className={rgbStyles.ProductRow}>
-        <Col>
-        <h3 className={rgbStyles.ProductTitle}>Spider COB LED Growlights</h3>
-              <p>
-                LEDpac's high-output premium LED RGB lighting solutions for both
-                commercial and residential applications such as: holiday lights,
-                backlit countertops, built-in cabinetry, cove lights,
-                architectural features, signage, retail window displays,
-                building profiling, and any other custom application..
-              </p>
-          </Col>
-
-
-          <Col>
-            <span className="image fit">
-              <img src={RGBGrowRack} alt="RGB Light Grow Rack" />
-            </span>
-          </Col>
-        </Row>*/}
-        <Row className={rgbStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <ul className="actions">
               <li>

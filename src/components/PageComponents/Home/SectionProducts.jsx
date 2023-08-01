@@ -13,20 +13,19 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "gatsby";
 
-import productStyles from "../Products/products.module.css";
+import { Content, ProductBox, CategoryRow, ProductTitle } from "../Products/products.module.css";
 
 import Fade from "react-reveal/Fade";
 
 const SectionProducts = () => (
   <section>
     <Container>
-      <div className={productStyles.Content}>
+      <div className={Content}>
         <div className="box alt">
           <div className="row gtr-uniform gtr-50">
-            {/*<div className={productStyles.Cob}>*/}
             <Fade bottom cascade>
-            <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+            <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     <span className="image fit">
                       <Link to="/products/uvc-led-air-purifying-disinfector/">
@@ -37,7 +36,7 @@ const SectionProducts = () => (
                   </Col>
                   <Col>
                     {" "}
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       {" "}
                       <Link to="/products/uvc-led-air-purifying-disinfector/">
                       Mobile UVC LED Air Purifier &amp; Disinfector{" "}
@@ -62,8 +61,8 @@ const SectionProducts = () => (
 
               <br />
 
-            <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+            <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     <span className="image fit">
                       <Link to="/products/guardian-storm-light">
@@ -74,7 +73,7 @@ const SectionProducts = () => (
                   </Col>
                   <Col>
                     {" "}
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       {" "}
                       <Link to="/products/guardian-storm-light">
                       Guardian Storm Light Antiviral LED Panel{" "}
@@ -101,8 +100,8 @@ const SectionProducts = () => (
               <br />
 
 
-              <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+              <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     {" "}
                     <span className="image fit">
@@ -115,7 +114,7 @@ const SectionProducts = () => (
                     </span>
                   </Col>
                   <Col>
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       <Link to="/products/ultraviolet-led">
                         UltraViolet (UV) LED
                       </Link>
@@ -138,8 +137,8 @@ const SectionProducts = () => (
 
               <br />
 
-              <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+              <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     {" "}
                     <span className="image fit">
@@ -153,7 +152,7 @@ const SectionProducts = () => (
                   </Col>
                   <Col>
                     {" "}
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       <Link to="/products/solar-led">Solar Powered LED</Link>
                     </h3>
                     <p>
@@ -175,8 +174,8 @@ const SectionProducts = () => (
 
               <br />
 
-              <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+              <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     <span className="image fit">
                       <Link to="/products/rgb-led">
@@ -188,7 +187,7 @@ const SectionProducts = () => (
                     </span>
                   </Col>
                   <Col>
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       <Link to="/products/rgb-led">
                         Spider COB LED Growlights
                       </Link>
@@ -211,8 +210,8 @@ const SectionProducts = () => (
 
               <br />
 
-              <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+              <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     <span className="image fit">
                       <Link to="/products/nanolite-cob-led">
@@ -223,16 +222,13 @@ const SectionProducts = () => (
                   </Col>
                   <Col>
                     {" "}
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       {" "}
                       <Link to="/products/nanolite-cob-led">
                         NANOlite COB LED{" "}
                       </Link>
                     </h3>{" "}
-                    {/* <p>
-                    Chip-on-Board LEDs, also known as COBs, are the next and
-                    newest generation of LED lighting technology{" "}
-                  </p>*/}
+
                     <p>
                       <strong>NEW</strong> COB Innovation in linear LED
                       lighting, NANOlite. Continuous, bright, reliable LED
@@ -255,8 +251,8 @@ const SectionProducts = () => (
 
               <br />
 
-              <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+              <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     <span className="image fit">
                       <Link to="/products/">
@@ -270,14 +266,11 @@ const SectionProducts = () => (
                   </Col>
                   <Col>
                     {" "}
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       {" "}
                       <Link to="/products/">UV-C LED Water Disinfectant </Link>
                     </h3>{" "}
-                    {/* <p>
-        Chip-on-Board LEDs, also known as COBs, are the next and
-        newest generation of LED lighting technology{" "}
-      </p>*/}
+
                     <p>
                       <strong>COMING SOON</strong> Watch for the new HiP UV-C
                       ultraviolet water disinfectant purification system.
@@ -286,21 +279,15 @@ const SectionProducts = () => (
                       generated low voltage energy. Portable and smart water
                       disinfection in record-breaking time.{" "}
                     </p>
-                    {/*<ul className="actions">
-        <li>
-          <Link to="/products/" className="button">
-            Learn More
-          </Link>
-        </li>
-    </ul>*/}
+
                   </Col>
                 </Row>
               </div>
 
               <br />
 
-              <div className={productStyles.ProductBox}>
-                <Row className={productStyles.CategoryRow}>
+              <div className={ProductBox}>
+                <Row className={CategoryRow}>
                   <Col>
                     <span className="image fit">
                       <Link to="/products/">
@@ -314,7 +301,7 @@ const SectionProducts = () => (
                   </Col>
                   <Col>
                     {" "}
-                    <h3 className={productStyles.ProductTitle}>
+                    <h3 className={ProductTitle}>
                       {" "}
                       <Link to="/products/">222NM Far UVC Lights </Link>
                     </h3>{" "}
@@ -323,13 +310,6 @@ const SectionProducts = () => (
                       <strong>COMING SOON</strong> Watch for the new 222NM Far UV-C
                       LED Light system. (Coming 2021)
                     </p>
-                    {/*<ul className="actions">
-        <li>
-          <Link to="/products/" className="button">
-            Learn More
-          </Link>
-        </li>
-    </ul>*/}
                   </Col>
                 </Row>
               </div>

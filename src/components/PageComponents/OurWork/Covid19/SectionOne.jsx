@@ -22,26 +22,18 @@ import CarPurifier3 from "../../../../images/mobile-air-purifier-disinfectant/ca
 import Car1 from "../../../../images/mobile-air-purifier-disinfectant/car-0001.jpg";
 import Car9 from "../../../../images/mobile-air-purifier-disinfectant/car-0009.jpg";
 
-import covidStyles from "./covid19.module.css";
+import { PictureRow, intro } from "./covid19.module.css";
 import { Link } from "gatsby";
-//import Fade from "react-reveal/Fade";
 
 const SectionOne = () => (
   <section id="main" className="wrapper sidebar right">
     <div className="inner">
       <header
-        className="major" /* className={covidStyles.covidHeader}*/ /*style={{padding: '4rem', width: '100%', backgroundSize: 'cover', backgroundPosition: '50% 30%', backgroundRepeat: 'no-repeat', backgroundImage: `url(${Covid19Stats_1})` }}*/
+        className="major"
       >
-        {/*<Fade left big>*/}
         <h2>Covid 19</h2>
         <p>UltraViolet LED Disinfectant Solutions</p>
-        {/* </Fade>*/}
       </header>
-      {/* Content */}
-
-      {/*<div className="image fit"><img src={Covid19Stats_1} alt='' /></div>*/}
-
-      {/*<Fade left big>*/}
       <div className="content">
         <p>
           The world has been turned upside down by the COVID-19 pandemic,
@@ -81,21 +73,6 @@ const SectionOne = () => (
           </Row>
         </Container>
         <Container className="py-3">
-          {/*<Row>
-            <Col>
-              <h3 className="">Title About Car Sterilizer</h3>
-              <p>
-                Summary of product similar to guardian light summary below.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </Col>
-          </Row>*/}
           <Row className="justify-content-center text-center">
             <Col xs={12} md={6}>
               <div className="mb-5 py-5 w-100">
@@ -123,7 +100,7 @@ const SectionOne = () => (
                 </h3>
               </Col>
             </Row>
-            <Row className={covidStyles.PictureRow}>
+            <Row className={PictureRow}>
               <Col className="image fit">
                 <Link to="/products/guardian-storm-light">
                   <img
@@ -133,7 +110,7 @@ const SectionOne = () => (
                 </Link>
               </Col>
             </Row>
-            <Row className={covidStyles.PictureRow}>
+            <Row className={PictureRow}>
               <Col className="image fit">
                 <Link to="/products/guardian-storm-light">
                   <img
@@ -185,15 +162,10 @@ const SectionOne = () => (
           panel with air circulation works as a regular LED panel light during
           disinfection with the nanosilver and titanium dioxide!
         </p>
-        {/*<p>Proper testing to prove its
-    efficacy, however, will be required. And the cost of this extensive
-    testing is growing every day in this new arena of virus protection.
-    </p>*/}
         <br />
-        <div className={covidStyles.intro}>
-          {/*<Fade left big>*/}
+        <div className={intro}>
           <div className="box alt">
-            <Row className={covidStyles.PictureRow}>
+            <Row className={PictureRow}>
               <Col className="image fit">
                 <img
                   src={Covid19UVMask}
@@ -214,7 +186,6 @@ const SectionOne = () => (
               </Col>
             </Row>
           </div>
-          {/*</Fade>*/}
         </div>
 
         <h3>
@@ -223,7 +194,7 @@ const SectionOne = () => (
 
         <div className="box alt">
           <Container>
-            <Row className={covidStyles.PictureRow}>
+            <Row className={PictureRow}>
               <Col className="image fit">
                 <Link to="/products/ultraviolet-led">
                   <img
@@ -279,10 +250,6 @@ const SectionOne = () => (
           The XLT UV-C close surface MiW system can destroy Covid-19 in less
           than 2 seconds.
         </p>
-        {/*<p>Proper testing to prove its
-            efficacy, however, will be required. And the cost of this extensive
-            testing is growing every day in this new arena of virus protection.
-            </p>*/}
 
         <br />
 <div className="box alt">
@@ -315,14 +282,10 @@ const SectionOne = () => (
                     Learn About The Global Lighting Project
                   </a>
 
-              {/*<Button style={{width: '70%'}}>
-              <a href="#" style={{whiteSpace: 'normal'}}>2Learn More ABout the global lighting project</a>
-            </Button>*/}
           </Col>
         </Row>
 </div>
       </div>
-      {/*</Fade>*/}
 
       <LSidebar />
     </div>

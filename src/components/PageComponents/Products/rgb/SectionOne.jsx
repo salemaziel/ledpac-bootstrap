@@ -24,7 +24,7 @@ import {
 import { SRLWrapper } from "simple-react-lightbox";
 
 
-import rgbStyles from "./rgb.module.css";
+import { Leading, TopPic } from "./rgb.module.css";
 
 const SectionOne = () => {
 return(
@@ -60,7 +60,7 @@ return(
         },
       ]} />
 
-<div className={rgbStyles.Leading}>
+<div className={Leading}>
           <h3>Spider C.O.B. SLP Series</h3>
           <h4>Product characteristics</h4>
           <p>
@@ -71,7 +71,7 @@ Safety for environmental protection, free of pollution and harmful substances.
           </p>
         </div>
         <div className="image fit">
-          <img src={ZeroThree} alt="" /*className={rgbStyles.TopPic}*/ />
+          <img src={ZeroThree} alt="" /*className={TopPic}*/ />
     </div>
 
 

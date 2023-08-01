@@ -17,19 +17,18 @@ import {
 //  CobSpecs2,
 } from "../../../../images/index";
 
-import cobStyles from "./cob.module.css";
+import { TopPic, Leading } from "./cob.module.css";
 
 const SectionOne = () => (
   <section id="main" className="wrapper sidebar right">
     <div className="inner">
       <header className="major">
         <h2>COB LEDs</h2>
-        {/*<p>Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.</p>*/}
       </header>
       {/* Content */}
       <div className="content">
-        <img src={CobLighting} alt="C.O.B. Light Display" className={cobStyles.TopPic} />
-        <div className={cobStyles.Leading}>
+        <img src={CobLighting} alt="C.O.B. Light Display" className={TopPic} />
+        <div className={Leading}>
           <h3>Leading Through Innovation</h3>
           <p>
             In the rapidly advancing world of SSL technology, LEDpac leads the

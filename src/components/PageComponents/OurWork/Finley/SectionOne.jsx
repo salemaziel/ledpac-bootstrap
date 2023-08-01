@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "gatsby";
+
 import LSidebar from "./LSidebar";
 
 import SectionTwo from "./SectionTwo";

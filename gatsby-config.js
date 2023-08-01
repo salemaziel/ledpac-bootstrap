@@ -61,12 +61,6 @@ const config = require('./config/site');
       }
     },
     {
-      resolve: "gatsby-plugin-netlify-cache",
-      options: {
-        cachePublic: true
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `LEDpac LED Lighting Solutions`,

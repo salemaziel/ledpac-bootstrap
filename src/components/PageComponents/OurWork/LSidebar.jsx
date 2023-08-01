@@ -17,7 +17,6 @@ const LSidebar = () => (
       <h3>Nanolite COB LED</h3>
       <Link to="/products/nanolite-cob-led" className="image fit"><img src={CobNewGen} alt='' /></Link>
 
-        {/*<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>*/}
         <footer>
           <ul className="actions">
             <li><Link to="/products/nanolite-cob-led" className="button">Learn More</Link></li>
@@ -28,7 +27,7 @@ const LSidebar = () => (
       <section>
       <h3>Spider COB LED Growlights</h3>
         <Link to="/products/rgb-led" className="image fit"><img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600918845/ledpac/rgb/rgb-card_pgvi7c.png" alt='' /></Link>
-        {/*<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>*/}
+
         <footer>
           <ul className="actions">
             <li><Link to="/products/rgb-led" className="button">Learn More</Link></li>
@@ -40,7 +39,7 @@ const LSidebar = () => (
       <h3>Solar Powered LED</h3>
 
         <Link to="/products/solar-led" className="image fit"><img src={ProjectPics1_1} alt='' /></Link>
-        {/*<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>*/}
+
         <footer>
           <ul className="actions">
             <li><Link to="/products/solar-led" className="button">Learn More</Link></li>
@@ -52,7 +51,7 @@ const LSidebar = () => (
       <h3>UltraViolet LED</h3>
 
         <Link to="/products/ultraviolet-led" className="image fit"><img src={UVDisinfectLamp1} alt='' /></Link>
-        {/*<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>*/}
+
         <footer>
           <ul className="actions">
             <li><Link to="/products/ultraviolet-led" className="button">Learn More</Link></li>

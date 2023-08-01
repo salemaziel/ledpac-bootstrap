@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import headerStyles from "./header.module.css";
+import { Header } from "./header.module.css";
 import SideNav, { MenuIcon } from "react-simple-sidenav";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -24,7 +24,7 @@ class Header2 extends React.Component {
   render() {
     return (
       <>
-       <header className={headerStyles.Header}>
+       <header className={Header}>
        <Navbar variant="dark" expand="lg" className="">
             <Navbar.Brand>
               <Link to="/">

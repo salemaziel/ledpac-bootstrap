@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
+//import CardDeck from "react-bootstrap/CardDeck";
 import { Link } from "gatsby";
 
 import { CostcoAfter_1, Finley8 } from "../../../images/index";
 
 const WorkCards1 = () => (
-  <CardDeck>
+  <div>
     <Card className="bg-dark text-white">
       <Link to="/our-work/costco-jewelry">
         <Card.Img src={CostcoAfter_1} alt="Card image" />
@@ -39,7 +39,7 @@ const WorkCards1 = () => (
         </Card.ImgOverlay>
       </Link>
     </Card>
-  </CardDeck>
+  </div>
 );
 
 export default WorkCards1;

@@ -1,9 +1,7 @@
 import React from 'react'
-//import { Link } from 'gatsby'
 import LSidebar from './LSidebar'
 import ContactForm from './contactForm'
 
-//import { Banner2, Airport1 } from '../../../images/index'
 
 
 const SectionOne = () => (

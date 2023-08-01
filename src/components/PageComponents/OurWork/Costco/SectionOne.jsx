@@ -52,15 +52,6 @@ const SectionOne = () => (
 
         <br />
         <SectionTwo />
-        {/*<h3>Amplified Depth</h3>
-        <p>
-        In the original design, the single downlight creates a flat, uninteresting light on the top of the case. Glare from the glass makes viewing product through the glass more difficult. There is a single shadow and little depth to the lighting. Additionally, when a customer bends over to look into the case, they have the chance of blocking the lighting from above. The LEDpac LED case lighting kit is from the inside front edge of the case, making it impossible to block the lighting from overhead, and giving a general wash of lighting to the whole case. The lighting also creates a series of shadows which increase the depth and interest of the lighting, providing shadow and contrast in various ways on products which are displayed. In addition, the existing overhead lighting illuminates the perimeter metal banding of the case, thus reducing contrast, while the internal LED case lighting leaves the perimeter metal in darkness, increasing the contrast of the brighter product to the darker surrounding case.
-        </p>
-        <h3>Improved Color of Light
-</h3>
-        <p>
-        LEDpac chose a specific LED color blend which has a unique quality of light. The increased color temperature of the light source provides a cooler light which is more flattering to the typical diamond. Warmer light tends to make the typical diamond or other gem stone more yellow and less clear in appearance. The cooler light makes the product more white which is psychologically more "clear." The current trend toward white metals tends to be complimented more by the cooler light sources. Unlike the halogen lamps in the original display, the LEDs emit no UV energy, thus decreasing the fading of products and display backgrounds.
-        </p>*/}
 
         <h3>Greater Light Levels</h3>
         <p>
@@ -147,13 +138,6 @@ const SectionOne = () => (
           I would recommend this lighting product to Costco for further
           application in other stores.
         </p>
-        <ul>
-          <li>Faucibus orci lobortis ac adipiscing integer.</li>
-          <li>Col accumsan arcu mi aliquet placerat.</li>
-          <li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-          <li>Blandit massa non blandit tempor interdum.</li>
-          <li>Lacinia mattis arcu nascetur lobortis.</li>
-        </ul>
       </div>
       <LSidebar />
     </div>

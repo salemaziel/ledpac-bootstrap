@@ -2,7 +2,7 @@ import React from 'react'
 
 import {
     LogoLight
-  } from '../../images/index'
+  } from '../images/index'
 
   import { FaEnvelope, FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa'
 
@@ -23,23 +23,6 @@ const Footer2 = (props) => {
       <li><Link to="/our-work" className="link-secondary mr-4 text-white" >Our Work</Link></li>
       <li><Link to="/contact" className="link-secondary text-white" >Contact</Link></li>
     </ul>
-    {/*<div>
-      <a className="d-inline-block mr-4" href="#">
-        <FaFacebook size="1.5rem" color="white"  />
-      </a>
-      <a className="d-inline-block mr-4" href="#">
-        <FaLinkedin size="1.5rem" color="white" />
-      </a>
-      <a className="d-inline-block mr-4" href="#">
-       <FaEnvelope size="1.5rem" color="white"  />
-      </a>
-      <a className="d-inline-block mr-4" href="#">
-        <FaTwitter size="1.5rem" color="white"  />
-      </a>
-      <a className="d-inline-block" href="#">
-        <FaInstagram size="1.5rem" color="white"  />
-      </a>
-    </div>*/}
   </div>
   <div className="mb-5" />
   <div className="container">

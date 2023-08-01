@@ -1,25 +1,25 @@
 import React from "react";
 import { Link } from "gatsby";
-import homeStyles from "./home.module.css";
+import { Banner, content, inner, actions, LearnButton, Covid } from "./home.module.css";
 import ScrollDown from "../../scrollDown"
 
 const Hero = () => (
 
-      <section id="banner" className={homeStyles.Banner}>
-        <div className={homeStyles.content}>
-          <div className={homeStyles.inner}>
+      <section id="banner" className={Banner}>
+        <div className={content}>
+          <div className={inner}>
             <header>
-              <h2 className={homeStyles.Covid}>{/*The Future of LED Lighting*/}LEDPAC IS COMMITTED TO ERADICATING COVID-19.</h2>
+              <h2 className={Covid}>{/*The Future of LED Lighting*/}LEDPAC IS COMMITTED TO ERADICATING COVID-19.</h2>
               <p>
               {/*Cutting Edge LED solutions for Industrial, Commercial, Residential, and Medical markets.*/}
               Designing and manufacturing patented disinfectant ultraviolet LED systems.
               </p>
             </header>
-            <ul className={homeStyles.actions}>
+            <ul className={actions}>
               <li>
                 <Link
                   to="/our-work/covid-19"
-                  className={homeStyles.LearnButton}
+                  className={LearnButton}
                 >
                   Learn More
                 </Link>

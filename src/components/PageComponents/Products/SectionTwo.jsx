@@ -10,16 +10,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "gatsby";
 
-import productStyles from "./products.module.css";
+import { CategoryRow, ProductBox, ProductTitle, } from "./products.module.css";
 
 const SectionTwo = () => (
   <section>
     <div className="box alt">
       <div className="row gtr-uniform gtr-50">
-        {/*<div className={productStyles.Cob}>*/}
 
-        <div className={productStyles.ProductBox}>
-          <Row className={productStyles.CategoryRow}>
+        <div className={ProductBox}>
+          <Row className={CategoryRow}>
             <Col>
               {" "}
               <span className="image fit">
@@ -31,7 +30,7 @@ const SectionTwo = () => (
               </span>
             </Col>
             <Col>
-              <h3 className={productStyles.ProductTitle}>
+              <h3 className={ProductTitle}>
                 <Link to="/products/ultraviolet-led" >
                 UltraViolet (UV) LED
                 </Link>
@@ -55,8 +54,8 @@ const SectionTwo = () => (
 
       <br />
 
-        <div className={productStyles.ProductBox}>
-          <Row className={productStyles.CategoryRow}>
+        <div className={ProductBox}>
+          <Row className={CategoryRow}>
             <Col>
               {" "}
               <span className="image fit">
@@ -67,7 +66,7 @@ const SectionTwo = () => (
             </Col>
             <Col>
               {" "}
-              <h3 className={productStyles.ProductTitle}>
+              <h3 className={ProductTitle}>
               <Link to="/products/solar-led" >
               Solar Powered LED</Link></h3>
               <p>
@@ -90,8 +89,8 @@ const SectionTwo = () => (
 
         <br />
 
-        <div className={productStyles.ProductBox}>
-          <Row className={productStyles.CategoryRow}>
+        <div className={ProductBox}>
+          <Row className={CategoryRow}>
             <Col>
               <span className="image fit">
               <Link to="/products/rgb-led">
@@ -100,7 +99,7 @@ const SectionTwo = () => (
               </span>
             </Col>
             <Col>
-              <h3 className={productStyles.ProductTitle}><Link to="/products/rgb-led">Spider COB LED Growlights</Link></h3>
+              <h3 className={ProductTitle}><Link to="/products/rgb-led">Spider COB LED Growlights</Link></h3>
               <p>
                 RGB Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
@@ -120,8 +119,8 @@ const SectionTwo = () => (
 
 
 
-        <div className={productStyles.ProductBox}>
-          <Row className={productStyles.CategoryRow}>
+        <div className={ProductBox}>
+          <Row className={CategoryRow}>
             <Col>
               <span className="image fit">
                 <Link to="/products/nanolite-cob-led">
@@ -133,7 +132,7 @@ const SectionTwo = () => (
             <Col>
              
                 {" "}
-                <h3 className={productStyles.ProductTitle}> <Link to="/products/nanolite-cob-led">COB LED </Link></h3>{" "}
+                <h3 className={ProductTitle}> <Link to="/products/nanolite-cob-led">COB LED </Link></h3>{" "}
              
               <p>
                 Chip-on-Board LEDs, also known as COBs, are the next and newest
@@ -149,110 +148,6 @@ const SectionTwo = () => (
             </Col>
           </Row>
         </div>
-
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>* /}
-        {/*</div>** /}
-        <br />
-        <hr />
-        <br />
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-6">
-          <h3 className={productStyles.ProductTitle}>Spider COB LED Growlights</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>* /}
-        {/*</div>** /}
-
-        <br />
-        <hr />
-        <br />
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-12">
-          <h3 className={productStyles.ProductTitle}>Solar Powered LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>*/}
-        {/*</div>**/}
-
-        {/*<div className={productStyles.Cob}>* /}
-        <div className="col-12">
-          <h3 className={productStyles.ProductTitle}>UltraViolet (UV) LED</h3>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        {/*<div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport5} alt /></span></div>
-      <div className="col-4"><span className="image fit"><img src={Airport3} alt /></span></div>*/}
-        {/*</div>** /}
-
-        <div className="col-12">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport3} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport3} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport2} alt />
-          </span>
-        </div>
-        <div className="col-4">
-          <span className="image fit">
-            <img src={Airport5} alt />
-          </span>
-        </div>*/}
       </div>
     </div>
   </section>

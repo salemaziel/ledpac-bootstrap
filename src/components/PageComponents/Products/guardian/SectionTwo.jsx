@@ -34,17 +34,16 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {Link} from 'gatsby'
 
-import guardianStyles from "./guardian.module.css";
+import { ProductBox, ProductRow, ProductTitle } from "./guardian.module.css";
 
 const SectionTwo = () => (
   <section>
     <div className="box alt">
       <div className="row gtr-uniform gtr-50">
-        {/*<div className={cobtyles.Cob}>*/}
-        <div className={guardianStyles.ProductBox}>
-          <Row className={guardianStyles.ProductRow}>
+        <div className={ProductBox}>
+          <Row className={ProductRow}>
             <Col>
-              <h3 className={guardianStyles.ProductTitle}>Nano Material and UV LED Light</h3>
+              <h3 className={ProductTitle}>Nano Material and UV LED Light</h3>
               <p>
             New Nanometer material, antiseptic and anti-virus air cleaning LED panel light, reducing air particles, eliminating indoor TVOC concentration, occupying little space. LM more than 100lm/W,CRI more than 80,stable quality, long lifetime and no UV IR emission. 
             </p>
@@ -59,7 +58,7 @@ const SectionTwo = () => (
       </div>
 
       <div className="row gtr-uniform gtr-50">
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={GuardianIllustration3} alt />
@@ -74,29 +73,14 @@ const SectionTwo = () => (
             <h3> Safe, energy saving and long lifetime.</h3>
             <p>
             It saves 60% power compared to conventional lighting, making it a great choice for industrial &amp; commercial lighting solutions.
-              {/*<strong> Advantage:</strong>
-              <ul>
-                <li>
-                  Higher efficiency rate and lower failure rates. (reduce 25% of
-                  heat){" "}
-                </li>
-                <li>High-intensity, particularly at close distances </li>
-                <li>High-uniformity, even at close working distances </li>
-                <li>
-                  Design simplicity, only 1 circuit and 2 contacts are required{" "}
-                </li>
-                <li>
-                  Superior thermal Performance, increased lifetime, stability
-                  and reliability
-                </li>
-                  </ul>*/}
+
             </p>
           </Col>
         </Row>
 
 
 
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={GuardianStorm9} alt />
@@ -124,7 +108,7 @@ const SectionTwo = () => (
             </p>
           </Col>
         </Row>
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={Guardian4} alt />
@@ -140,7 +124,7 @@ const SectionTwo = () => (
         </Row>
 
         <br />
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={GuardianStorm8} alt />
@@ -149,9 +133,7 @@ const SectionTwo = () => (
           </Col>
         </Row>
 
-        {/* <div className="col-12"><span className="image fit"><img src={Airport4} alt /></span></div>*/}
-
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={GuardianStorm5} alt />
@@ -159,7 +141,7 @@ const SectionTwo = () => (
           </Col>
 
         </Row>
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={GuardianStorm7} alt />
@@ -170,7 +152,7 @@ const SectionTwo = () => (
 
 
 
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <span className="image fit">
               <img src={GuardianStormBanner2} alt />
@@ -178,7 +160,7 @@ const SectionTwo = () => (
           </Col>
         </Row>
 
-        <Row className={guardianStyles.ProductRow}>
+        <Row className={ProductRow}>
           <Col>
             <ul className="actions">
               <li>
