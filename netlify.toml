@@ -2,10 +2,11 @@
 command = "gatsby build"
 publish = "public/"
 
+[build.environment]
+  NODE_VERSION = "14.5.0"
+
 
 [[plugins]]
 package = "netlify-plugin-image-optim"
 
-[[plugins]]
-package = "netlify-plugin-gatsby-cache"
 
